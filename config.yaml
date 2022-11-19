@@ -1,5 +1,4 @@
 baseURL: https://mbeckrich.github.io/genes
-  # for live: https://mbeckrich.github.io/beths-genes
 publishdir: public
 theme: beth
 title: Beth's Genealogy Site
@@ -12,7 +11,6 @@ enableRobotsTXT: true
 paginate: 5
 params:
   author: Beth
-  homepageImage: images/lake.jpeg
   style: css/style.css
   mainSections:
     - posts

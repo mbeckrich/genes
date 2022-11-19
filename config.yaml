@@ -1,5 +1,4 @@
-baseURL:
-  /
+baseURL: https://mbeckrich.github.io/genes
   # for live: https://mbeckrich.github.io/beths-genes
 publishdir: public
 theme: beth

@@ -1,0 +1,11 @@
+extends:
+  - stylelint-config-html
+  - stylelint-config-standard
+  - stylelint-config-idiomatic-order
+ignore-files:
+  - node_modules/**/*
+plugins:
+  - stylelint-order
+rules:
+  string-quotes: double
+  selector-attribute-quotes: always

@@ -1,0 +1,7 @@
+.family-container {
+  background-color: #fbfbfb;
+}
+
+.family-container p {
+  max-width: 65ch;
+}

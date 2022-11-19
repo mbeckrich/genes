@@ -1,0 +1,18 @@
+.site-header {
+  margin: 0 0 var(--space-m) var(--space-xl);
+  font-size: var(--step-3);
+}
+
+.site-header a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 2px;
+  transition: text-decoration 0.2s ease;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--links);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 2px;
+  }
+}

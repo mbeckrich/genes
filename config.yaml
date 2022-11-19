@@ -1,0 +1,92 @@
+baseURL:
+  /
+  # for live: https://mbeckrich.github.io/beths-genes
+publishdir: public
+theme: beth
+title: Beth's Genealogy Site
+languageCode: en-US
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+canonifyURLs: true
+enableEmoji: true
+enableRobotsTXT: true
+paginate: 5
+params:
+  author: Beth
+  homepageImage: images/lake.jpeg
+  style: css/style.css
+  mainSections:
+    - posts
+permalinks:
+  posts: /posts/:slug/
+  tags: /tags/:title/
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+markup:
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 3
+  goldmark:
+    extensions:
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: false
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: true
+    style: dracula
+    tabWidth: 4
+taxonomies:
+  kind: kind
+  tag: tags
+  series: series
+  people: people
+menu:
+  main:
+    - identifier: home
+      name: Home
+      title: home
+      url: /
+      weight: 1
+    - identifier: people-and-families
+      name: People & Families
+      title: people-and-families section
+      url: /family
+      weight: 10
+    - identifier: photos-and-documents
+      name: Photos & Documents
+      title: photos-and-documents section
+      url: /photos
+      weight: 20
+    - identifier: reference-lists
+      name: Reference Lists
+      title: reference-lists section
+      url: /reference-lists
+      weight: 30
+    - identifier: blog
+      name: Blog
+      title: blog section
+      url: /blog
+      weight: 40
+    - identifier: about
+      name: About
+      title: about section
+      url: /about
+      weight: 50

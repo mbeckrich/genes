@@ -1,0 +1,5 @@
+{{ range .Site.Menus.main }}
+<a class="links" href="{{ .URL }}">
+  <span>{{ .Name }}</span>
+</a>
+{{ .Post }} {{ end }}

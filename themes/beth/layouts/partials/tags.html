@@ -1,0 +1,7 @@
+<ul>
+  {{ range (.GetTerms "tags") }}
+  <li class="hashtags">
+    <a class="tags" href="{{ .Permalink }}">#{{ .LinkTitle}}</a>
+    {{ end }}
+  </li>
+</ul>

@@ -1,0 +1,97 @@
+body {
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-areas:
+    "header"
+    "nav-bar"
+    "main";
+  grid-template-rows: repeat(auto-fit, minmax(fit-content, 1fr));
+  place-items: center;
+}
+
+.site-header {
+  grid-area: header;
+  justify-self: left;
+}
+
+.site-nav {
+  display: grid;
+  grid-area: nav-bar;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  /* if she wants boxes to fit the font size
+  grid-auto-flow: column;
+  another option:
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  */
+}
+
+.main {
+  display: grid;
+  grid-area: main;
+  grid-template-areas:
+    "featured pic"
+    "feed feed";
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  place-items: center;
+}
+
+.featured-project {
+  max-width: 40ch;
+}
+
+.posts-feed {
+  display: grid;
+  padding-top: var(--space-l);
+  grid-area: feed;
+  grid-template-areas:
+    "title . ."
+    "posts posts posts";
+}
+
+.posts-feed-title {
+  min-width: 100%;
+  grid-area: title;
+  grid-row: 1;
+}
+
+.posts {
+  grid-row: 2;
+}
+
+.bundles {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "info info"
+    "content content";
+  place-items: center;
+}
+
+.bundles h1 {
+  grid-area: title;
+}
+
+.bundle-info {
+  grid-area: info;
+}
+
+.bundles-list-posts {
+  grid-area: content;
+}
+
+.reference-lists {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "content content";
+  place-items: center;
+}
+
+.reference-lists h1 {
+  grid-area: title;
+}
+
+.reference-lists-posts {
+  grid-area: content;
+}

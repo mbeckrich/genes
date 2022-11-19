@@ -1,0 +1,4 @@
+<!-- {{ range $key, $taxonomy := .Site.Taxonomies.tags }} {{ range
+$taxonomy.Pages }}
+<a href="{{ .Permalink}}">{{ .LinkTitle }}</a>
+{{ .Render "summary" }} {{ end }} {{ end }} -->

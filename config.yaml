@@ -1,5 +1,4 @@
 baseURL: https://mbeckrich.github.io/genes
-publishdir: public
 theme: beth
 title: Beth's Genealogy Site
 languageCode: en-US

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Family Bundles on Beth&#39;s Genealogy Site</title>
+    <link>https://mbeckrich.github.io/genes/family/</link>
+    <description>Recent content in Family Bundles on Beth&#39;s Genealogy Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://mbeckrich.github.io/genes/family/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dirt farmers</title>
+      <link>https://mbeckrich.github.io/genes/family/bundle-1/dirt-farmers/</link>
+      <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mbeckrich.github.io/genes/family/bundle-1/dirt-farmers/</guid>
+      <description>Some Laura Ingalls Wilder type shit.</description>
+    </item>
+    
+  </channel>
+</rss>

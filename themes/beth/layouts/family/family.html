@@ -1,7 +1,9 @@
 {{define "main" }}
 <section class="bundles">
-  <h1>{{ .Title }}</h1>
-  <article class="bundle-info">{{ .Content }}</article>
+  <article class="bundle-info">
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+  </article>
   {{ partial "family/ancestry.html" . }}
 </section>
 {{end}}

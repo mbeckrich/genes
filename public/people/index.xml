@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>People on Beth&#39;s Genealogy Site</title>
-    <link>https://mbeckrich.github.io/genes/people/</link>
+    <link>/people/</link>
     <description>Recent content in People on Beth&#39;s Genealogy Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://mbeckrich.github.io/genes/people/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>02-002</title>
-      <link>https://mbeckrich.github.io/genes/people/02-002/</link>
+      <link>/people/02-002/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://mbeckrich.github.io/genes/people/02-002/</guid>
+      <guid>/people/02-002/</guid>
       <description></description>
     </item>
     
     <item>
       <title>02-003</title>
-      <link>https://mbeckrich.github.io/genes/people/02-003/</link>
+      <link>/people/02-003/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://mbeckrich.github.io/genes/people/02-003/</guid>
+      <guid>/people/02-003/</guid>
       <description></description>
     </item>
     
     <item>
       <title>02-i</title>
-      <link>https://mbeckrich.github.io/genes/people/02-i/</link>
+      <link>/people/02-i/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://mbeckrich.github.io/genes/people/02-i/</guid>
+      <guid>/people/02-i/</guid>
       <description></description>
     </item>
     

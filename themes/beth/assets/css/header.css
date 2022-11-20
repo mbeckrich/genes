@@ -1,5 +1,5 @@
 .site-header {
-  margin: 0 0 var(--space-m) var(--space-xl);
+  margin: 0 0 var(--space-s) var(--space-l);
   font-size: var(--step-3);
 }
 

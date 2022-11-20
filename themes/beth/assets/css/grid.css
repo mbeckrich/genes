@@ -5,8 +5,6 @@ body {
     "header"
     "nav-bar"
     "main";
-  grid-template-rows: repeat(auto-fit, minmax(fit-content, 1fr));
-  place-items: center;
 }
 
 .site-header {
@@ -18,41 +16,28 @@ body {
   display: grid;
   grid-area: nav-bar;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-
-  /* if she wants boxes to fit the font size
-  grid-auto-flow: column;
-  another option:
-  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
-  */
 }
 
 .main {
   display: grid;
   grid-area: main;
   grid-template-areas:
-    "featured pic"
-    "feed feed";
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  place-items: center;
+    "featured featured"
+    "bottom bottom";
 }
 
 .featured-project {
-  max-width: 40ch;
+  grid-area: featured;
 }
 
 .posts-feed {
   display: grid;
-  padding-top: var(--space-l);
-  grid-area: feed;
+  justify-content: space-between;
+  gap: var(--space-s);
+  grid-area: bottom;
   grid-template-areas:
     "title . ."
     "posts posts posts";
-}
-
-.posts-feed-title {
-  min-width: 100%;
-  grid-area: title;
-  grid-row: 1;
 }
 
 .posts {
@@ -65,33 +50,13 @@ body {
     "title title"
     "info info"
     "content content";
-  place-items: center;
-}
-
-.bundles h1 {
-  grid-area: title;
 }
 
 .bundle-info {
-  grid-area: info;
+  grid-row: 1;
 }
 
 .bundles-list-posts {
-  grid-area: content;
-}
-
-.reference-lists {
-  display: grid;
-  grid-template-areas:
-    "title title"
-    "content content";
-  place-items: center;
-}
-
-.reference-lists h1 {
-  grid-area: title;
-}
-
-.reference-lists-posts {
-  grid-area: content;
+  grid-column: 2;
+  grid-row: 1;
 }

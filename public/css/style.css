@@ -60,6 +60,7 @@
 
 body {
   margin: var(--space-s-l) 0;
+  background-color: var(--white);
   color: var(--brown-dark);
 }
 
@@ -68,19 +69,17 @@ a {
   transition: color .3s, -webkit-text-decoration .2s, text-decoration .2s;
 }
 
-.main {
-  width: 100%;
-  height: 100%;
-  background-color: var(--brown-lightest);
+.featured-project {
+  min-width: 100%;
+  padding: var(--space-l);
+  background-color: var(--brown-light);
 }
 
-.main .featured-project {
-  width: 100%;
-  height: 94%;
-  padding: var(--space-s-m);
+.featured-project-summary {
+  max-width: 40ch;
+  padding: var(--space-m);
   background-color: var(--white);
   border-radius: 6px;
-  margin: 1rem 0 0 10rem;
 }
 
 .featured-project ul, .bundles ul {
@@ -111,7 +110,6 @@ a {
 }
 
 h1 {
-  margin-bottom: var(--space-xs);
   font-size: var(--step-1);
 }
 
@@ -166,10 +164,8 @@ h2:hover {
 }
 
 .bundles-feed, .posts-feed {
-  width: 100%;
-  max-width: 100%;
-  background-color: var(--white);
-  padding-left: 10rem;
+  max-width: 1440px;
+  padding: 0 var(--space-l);
 }
 
 :is(.bundles-feed, .posts-feed) .post-date {
@@ -218,25 +214,43 @@ h2:hover {
 
 .bundles {
   width: 100%;
-  background-color: #fbfbfb;
+  max-width: 1440px;
+  padding: var(--space-l);
 }
 
-.bundles .bundle-info, .bundles .bundles-list-posts {
+.bundles .bundle-info {
+  max-width: 40ch;
+  padding-right: var(--space-m);
+}
+
+.bundles .bundles-feed {
   max-width: 64ch;
 }
 
 .single-posts {
   width: 100%;
-  padding-left: var(--space-xl-2xl);
-  background-color: #fbfbfb;
+  padding: var(--space-l);
+  background-color: var(--white);
+}
+
+.single-posts h1 {
+  color: var(--links);
+  text-underline-offset: 2px;
+  -webkit-text-decoration: underline rgba(0, 0, 0, 0);
+  text-decoration: underline rgba(0, 0, 0, 0);
+  transition: -webkit-text-decoration .2s, text-decoration .2s;
+}
+
+.single-posts h1:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--links);
+  text-decoration-color: var(--links);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
 }
 
 .single-posts > * {
-  max-width: 64ch;
-}
-
-.single-posts > p {
-  margin-top: var(--space-l);
+  max-width: 60ch;
 }
 
 .single-posts > ol {
@@ -252,9 +266,6 @@ body {
                        "nav-bar"
                        "main";
   grid-auto-rows: min-content;
-  grid-template-rows: repeat(auto-fit, minmax(fit-content, 1fr) );
-  align-items: center;
-  justify-items: center;
   display: grid;
 }
 
@@ -271,29 +282,22 @@ body {
 
 .main {
   grid-area: main;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-template-areas: "featured pic"
-                       "feed feed";
-  align-items: center;
-  justify-items: center;
+  grid-template-areas: "featured featured"
+                       "bottom bottom";
   display: grid;
 }
 
 .featured-project {
-  max-width: 40ch;
+  grid-area: featured;
 }
 
 .posts-feed {
-  padding-top: var(--space-l);
-  grid-area: feed;
+  justify-content: space-between;
+  gap: var(--space-s);
+  grid-area: bottom;
   grid-template-areas: "title . ."
                        "posts posts posts";
   display: grid;
-}
-
-.posts-feed-title {
-  min-width: 100%;
-  grid-area: 1 / title;
 }
 
 .posts {
@@ -304,41 +308,19 @@ body {
   grid-template-areas: "title title"
                        "info info"
                        "content content";
-  align-items: center;
-  justify-items: center;
   display: grid;
-}
-
-.bundles h1 {
-  grid-area: title;
 }
 
 .bundle-info {
-  grid-area: info;
+  grid-row: 1;
 }
 
 .bundles-list-posts {
-  grid-area: content;
-}
-
-.reference-lists {
-  grid-template-areas: "title title"
-                       "content content";
-  align-items: center;
-  justify-items: center;
-  display: grid;
-}
-
-.reference-lists h1 {
-  grid-area: title;
-}
-
-.reference-lists-posts {
-  grid-area: content;
+  grid-area: 1 / 2;
 }
 
 .site-header {
-  margin: 0 0 var(--space-m) var(--space-xl);
+  margin: 0 0 var(--space-s) var(--space-l);
   font-size: var(--step-3);
 }
 
@@ -395,6 +377,7 @@ html {
 }
 
 html, body {
+  width: 100%;
   height: 100%;
 }
 

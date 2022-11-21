@@ -1,19 +1,19 @@
 ---
 title: Beth Spindler's Ahnentafel
 summary: |
-  Generation 1
+  Generation 0
   1. Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.
 ---
 
 {{< regex >}}
 
-## Generation 1
+Generation 0
 
 1.  Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on
     1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA. She is the
     daughter of Spindler, Douglas Alan and Scherzer, Jolie Lynn.
 
-## Generation 2
+Generation 1
 
 2.  Spindler, Douglas Alan. Douglas Alan was born on 1954-03-21 in
     Akron, Summit, Ohio, USA. He is the son of Spindler, James Sheldon
@@ -38,7 +38,7 @@ summary: |
     iii. Spindler-Fox, Troy Stephen. Troy Stephen was born on 1991-03-08
     in Pittsburgh, Allegheny, Pennsylvania, USA.
 
-Generation 3
+Generation 2
 
 4.  Spindler, James Sheldon. James Sheldon was born on 1925-03-24 in
     Becker, Sherburne, Minnesota, USA. He died on 2016-08-22 in Akron,
@@ -98,7 +98,7 @@ Generation 3
     iii. Scherzer, Jolie Lynn [3]. Jolie Lynn was born on 1957-01-18 in
     Cresskill, Bergen, New Jersey, USA.
 
-Generation 4
+Generation 3
 
 8.  Spindler, Harry Odber. Harry Odber was born on 1895-01-08 in
     Winsted, Wright, Minnesota, USA. He died on 1972-03-30 in Grand
@@ -240,7 +240,7 @@ Generation 4
     New York, USA. He died on 1982-01-19 in East Brunswick,
     Middlesex, New Jersey, USA.
 
-Generation 5
+Generation 4
 
 16. Spindler, Frank Herman. Frank Herman was born on 1861-11-03 in
     Orihula, Winnebago, Wisconsin, USA. He died on 1932-02-04 in Mille
@@ -523,7 +523,7 @@ Generation 5
     on 1899-12-02 in Dniepropetrovsk, Dnipropetrovs'k, Ukraine. She
     died on 1999-08-17 in Cresskill, Bergen, New Jersey, USA.
 
-Generation 6
+Generation 5
 
 32. Spindler, Johann Gottlieb. Johann Gottlieb was born about 1829-02-00
     in Germany. He died about 1905-11-00 in Kanabec County, Minnesota,

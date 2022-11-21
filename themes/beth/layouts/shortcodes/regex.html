@@ -1,6 +1,13 @@
 {{ $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .Inner}}
 <ul>
-  {{ range $index, $name := $regex }} {{ $counter := 0}}
-  <li>{{$name}} [0-{{add $index 1}}]</li>
+{{ $counter := 0}}
+  {{ range $index, $name := $regex }}
+  <li>
+    {{$name}}
+	[0{{ math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2))}}-{{if lt $index 9}}00{{add $index 1}}]
+	{{else}}
+	0{{add $index 1}}]
+	{{end}}
+  </li>
   {{end}}
 </ul>

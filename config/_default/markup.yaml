@@ -1,0 +1,25 @@
+tableOfContents:
+endLevel: 4
+ordered: false
+startLevel: 3
+goldmark:
+extensions:
+  footnote: true
+  linkify: true
+  strikethrough: true
+  table: true
+  taskList: true
+  typographer: false
+renderer:
+  unsafe: true
+highlight:
+codeFences: true
+guessSyntax: false
+hl_Lines: ""
+lineAnchors: ""
+lineNoStart: 1
+lineNos: true
+lineNumbersInTable: false
+noClasses: true
+style: dracula
+tabWidth: 4

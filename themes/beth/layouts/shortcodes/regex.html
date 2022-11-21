@@ -1,0 +1,6 @@
+{{ $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .Inner}}
+<ul>
+  {{ range $index, $name := $regex }} {{ $counter := 0}}
+  <li>{{$name}} [0-{{add $index 1}}]</li>
+  {{end}}
+</ul>

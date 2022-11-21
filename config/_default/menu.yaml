@@ -1,0 +1,31 @@
+main:
+- identifier: home
+  name: Home
+  title: home
+  url: /
+  weight: 1
+- identifier: people-and-families
+  name: People & Families
+  title: people-and-families section
+  url: /family
+  weight: 10
+- identifier: photos-and-documents
+  name: Photos & Documents
+  title: photos-and-documents section
+  url: /photos
+  weight: 20
+- identifier: reference-lists
+  name: Reference Lists
+  title: reference-lists section
+  url: /reference-lists
+  weight: 30
+- identifier: blog
+  name: Blog
+  title: blog section
+  url: /blog
+  weight: 40
+- identifier: about
+  name: About
+  title: about section
+  url: /about
+  weight: 50

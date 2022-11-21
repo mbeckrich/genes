@@ -1,0 +1,25 @@
+baseURL: /
+theme: beth
+title: Beth's Genealogy Site
+languageCode: en-US
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+canonifyURLs: true
+enableEmoji: true
+enableRobotsTXT: true
+paginate: 5
+permalinks:
+  posts: /posts/:slug/
+  tags: /tags/:title/
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+taxonomies:
+  kind: kind
+  tag: tags
+  series: series
+  people: people

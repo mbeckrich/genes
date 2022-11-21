@@ -5,6 +5,8 @@ summary: |
   1. Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.
 ---
 
+{{< regex >}}
+
 ## Generation 1
 
 1.  Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on

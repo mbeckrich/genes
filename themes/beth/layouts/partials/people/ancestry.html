@@ -1,5 +1,5 @@
 <section class="bundles-feed">
-  {{ range first 3 (where .Site.RegularPages "Section" "family") }}
+  {{ range first 3 (where .Site.RegularPages "Section" "people") }}
   <article class="posts">
     <a href="{{ .Permalink }}">
       <h2>
@@ -8,7 +8,7 @@
         </span>
         {{ .Title }}
       </h2></a
-    >{{ partial "family/tags.html" . }}
+    >{{ partial "people/tags.html" . }}
     <p>
       {{ .Summary}}
       <a class="read-more-arrow" href="{{ .RelPermalink }}">

@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/family/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/family-test/</loc>
     <lastmod>2012-12-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,6 +9,9 @@
     <lastmod>2012-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/people/</loc>
     <lastmod>2012-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -29,10 +29,10 @@
     <loc>/people/02-i/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/family/bundle-1/dirt-farmers/</loc>
+    <loc>/people/bundle-1/dirt-farmers/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/family/</loc>
+    <loc>/people/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/people/</loc>
@@ -45,11 +45,11 @@
   </url><url>
     <loc>/reference-lists/ahnentafel/beth-ahnentafel/</loc>
   </url><url>
+    <loc>/tags/family/</loc>
+  </url><url>
     <loc>/tags/featured/</loc>
   </url><url>
     <loc>/featured/</loc>
-  </url><url>
-    <loc>/kind/</loc>
   </url><url>
     <loc>/featured/project-no-1/</loc>
   </url><url>

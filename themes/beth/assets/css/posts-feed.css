@@ -1,0 +1,37 @@
+.posts-feed {
+  max-width: 1440px;
+  padding: 0 var(--space-l);
+}
+
+.posts-feed .posts {
+  max-width: 32ch;
+  font-style: italic;
+}
+
+.posts-feed .post-date {
+  font-size: 1rem;
+}
+
+.posts-feed .read-more-arrow {
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  border-radius: 4px;
+  color: var(--links);
+  transition: background-color 0.3s ease, color 0.2s ease;
+  vertical-align: top;
+
+  &:hover {
+    background-color: var(--links);
+    color: var(--brown);
+  }
+}
+
+.posts-feed .chevron {
+  padding: 0;
+  margin: 0;
+
+  &:hover svg {
+    stroke-width: 4;
+  }
+}

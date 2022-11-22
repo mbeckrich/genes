@@ -103,7 +103,7 @@ h1 {
   font-size: var(--step-1);
 }
 
-.read-more-arrow {
+.featured-project .read-more-arrow {
   display: flex;
   width: fit-content;
   padding: 10px 20px;
@@ -126,7 +126,7 @@ h1 {
   }
 }
 
-.chevron {
+.featured-project .chevron {
   width: 20px;
   height: auto;
   padding: 0;
@@ -148,8 +148,7 @@ h2 {
   }
 }
 
-.bundles-feed,
-.posts-feed {
+.bundles-feed{
   max-width: 1440px;
   padding: 0 var(--space-l);
 
@@ -163,7 +162,6 @@ h2 {
   }
 
   & .read-more-arrow {
-    display: inline-block;
     padding: 0;
     border-radius: 4px;
     margin: 0;

@@ -19,7 +19,6 @@ outputs:
     - HTML
     - RSS
 taxonomies:
-  kind: kind
   tag: tags
   series: series
-  people: people
+  person: people

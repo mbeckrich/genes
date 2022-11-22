@@ -22,8 +22,8 @@ body {
   display: grid;
   grid-area: main;
   grid-template-areas:
-    "featured featured"
-    "bottom bottom";
+    "featured"
+    "bottom";
 }
 
 .featured-project {
@@ -36,8 +36,8 @@ body {
   gap: var(--space-s);
   grid-area: bottom;
   grid-template-areas:
-    "title . ."
-    "posts posts posts";
+    "title"
+    "posts";
 }
 
 .posts {

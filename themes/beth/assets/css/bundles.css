@@ -1,0 +1,51 @@
+.bundles-feed {
+  max-width: 1440px;
+  padding: 0 var(--space-l);
+}
+
+.bundles-feed .post-date {
+  font-size: 1rem;
+}
+
+.bundles-feed .posts {
+  max-width: 32ch;
+  font-style: italic;
+}
+
+.bundles-feed .read-more-arrow {
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  border-radius: 4px;
+  color: var(--links);
+  transition: background-color 0.3s ease, color 0.2s ease;
+  vertical-align: top;
+
+  &:hover {
+    background-color: var(--links);
+    color: var(--brown);
+  }
+}
+
+.bundles-feed .chevron {
+  margin: 0;
+
+  &:hover svg {
+    stroke-width: 4;
+  }
+}
+
+.bundles {
+  width: 100%;
+  max-width: 1440px;
+  padding: var(--space-l);
+
+  & .bundle-info {
+    max-width: 40ch;
+    padding-right: var(--space-m);
+  }
+
+  & .bundles-feed {
+    max-width: 64ch;
+  }
+}

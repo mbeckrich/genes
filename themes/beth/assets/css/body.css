@@ -148,65 +148,11 @@ h2 {
   }
 }
 
-.bundles-feed{
-  max-width: 1440px;
-  padding: 0 var(--space-l);
-
-  & .post-date {
-    font-size: 1rem;
-  }
-
-  & .posts {
-    max-width: 32ch;
-    font-style: italic;
-  }
-
-  & .read-more-arrow {
-    padding: 0;
-    border-radius: 4px;
-    margin: 0;
-    box-shadow: none;
-    color: var(--links);
-    font-weight: 600;
-    outline: 0;
-    transition: background-color 0.3s ease, color 0.2s ease;
-    vertical-align: middle;
-
-    &:hover {
-      background-color: var(--links);
-      color: var(--brown);
-    }
-
-    & .chevron {
-      margin: 0;
-    }
-
-    &:hover svg {
-      stroke-width: 4;
-    }
-  }
-}
-
 .reference-lists {
   width: 100%;
   background-color: #fbfbfb;
 
   & .reference-lists-posts {
-    max-width: 64ch;
-  }
-}
-
-.bundles {
-  width: 100%;
-  max-width: 1440px;
-  padding: var(--space-l);
-
-  & .bundle-info {
-    max-width: 40ch;
-    padding-right: var(--space-m);
-  }
-
-  & .bundles-feed {
     max-width: 64ch;
   }
 }

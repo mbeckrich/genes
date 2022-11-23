@@ -1,8 +1,0 @@
-{{ define "main" }} {{ $pages := .RegularPages.ByPublishDate.Reverse }} {{
-$paginator := .Paginate $pages }} {{ range $paginator.Pages }} {{ $summary :=
-trim (.Summary | plainify | htmlUnescape) "\n\r" | default .Title }}
-
-<h2>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</h2>
-{{ $summary }} {{ end }} {{ end }}

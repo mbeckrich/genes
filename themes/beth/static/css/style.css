@@ -163,66 +163,12 @@ h2:hover {
   text-decoration-thickness: 3px;
 }
 
-.bundles-feed {
-  max-width: 1440px;
-  padding: 0 var(--space-l);
-}
-
-.bundles-feed .post-date {
-  font-size: 1rem;
-}
-
-.bundles-feed .posts {
-  max-width: 32ch;
-  font-style: italic;
-}
-
-.bundles-feed .read-more-arrow {
-  box-shadow: none;
-  color: var(--links);
-  vertical-align: middle;
-  border-radius: 4px;
-  outline: 0;
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  transition: background-color .3s, color .2s;
-}
-
-.bundles-feed .read-more-arrow:hover {
-  background-color: var(--links);
-  color: var(--brown);
-}
-
-.bundles-feed .read-more-arrow .chevron {
-  margin: 0;
-}
-
-.bundles-feed .read-more-arrow:hover svg {
-  stroke-width: 4px;
-}
-
 .reference-lists {
   width: 100%;
   background-color: #fbfbfb;
 }
 
 .reference-lists .reference-lists-posts {
-  max-width: 64ch;
-}
-
-.bundles {
-  width: 100%;
-  max-width: 1440px;
-  padding: var(--space-l);
-}
-
-.bundles .bundle-info {
-  max-width: 40ch;
-  padding-right: var(--space-m);
-}
-
-.bundles .bundles-feed {
   max-width: 64ch;
 }
 
@@ -442,6 +388,58 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .posts-feed .chevron:hover svg {
   stroke-width: 4px;
+}
+
+.bundles-feed {
+  max-width: 1440px;
+  padding: 0 var(--space-l);
+}
+
+.bundles-feed .post-date {
+  font-size: 1rem;
+}
+
+.bundles-feed .posts {
+  max-width: 32ch;
+  font-style: italic;
+}
+
+.bundles-feed .read-more-arrow {
+  width: 20px;
+  height: auto;
+  color: var(--links);
+  vertical-align: top;
+  border-radius: 4px;
+  transition: background-color .3s, color .2s;
+  display: inline-block;
+}
+
+.bundles-feed .read-more-arrow:hover {
+  background-color: var(--links);
+  color: var(--brown);
+}
+
+.bundles-feed .chevron {
+  margin: 0;
+}
+
+.bundles-feed .chevron:hover svg {
+  stroke-width: 4px;
+}
+
+.bundles {
+  width: 100%;
+  max-width: 1440px;
+  padding: var(--space-l);
+}
+
+.bundles .bundle-info {
+  max-width: 40ch;
+  padding-right: var(--space-m);
+}
+
+.bundles .bundles-feed {
+  max-width: 64ch;
 }
 
 /*# sourceMappingURL=./themes/beth/static/css/style.css.map */

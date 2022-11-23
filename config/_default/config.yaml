@@ -11,14 +11,9 @@ paginate: 5
 permalinks:
   posts: /posts/:slug/
   tags: /tags/:title/
-outputs:
-  home:
-    - HTML
-    - RSS
-  section:
-    - HTML
-    - RSS
+  family: /family/:title/
+  individuals: /individuals/:title/
 taxonomies:
   tag: tags
   series: series
-  person: people
+  individual: individuals

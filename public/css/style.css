@@ -216,9 +216,9 @@ body {
 }
 
 .site-nav {
+  flex-wrap: wrap;
   grid-area: 2 / 1 / 2 / -1;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  display: grid;
+  display: flex;
 }
 
 .main {
@@ -258,18 +258,16 @@ body {
 }
 
 .single-posts {
-  flex-wrap: wrap;
-  grid-column: 1 / 12;
-  justify-content: space-between;
-  display: flex;
+  grid-column: 1 / -1;
+  display: grid;
 }
 
 .single-posts h1 {
-  width: 100%;
+  grid-row: 1 / 1;
 }
 
 .single-posts .bio, .single-posts .posts {
-  width: 49%;
+  grid-row: 2 / 2;
 }
 
 .site-header {
@@ -292,11 +290,8 @@ body {
 }
 
 .site-nav {
-  width: 100%;
-  height: auto;
-  font-size: var(--step--1);
+  min-width: 100%;
   text-align: center;
-  align-items: center;
 }
 
 .site-nav :first-child {
@@ -309,22 +304,15 @@ body {
   border-bottom-right-radius: 2px;
 }
 
-.links {
-  height: 60px;
-  padding: 0 var(--space-m);
-  border: 2px solid var(--brown-dark);
+.site-nav .links {
   background-color: var(--brown);
-  box-shadow: 0 0 1px .2px var(--brown-dark);
+  box-shadow: 0 0 .2px 2px var(--brown-dark);
   color: var(--brown-light);
-  letter-spacing: .06em;
-  align-items: center;
-  text-decoration: none;
-  text-decoration-thickness: 0;
-  list-style-type: none;
-  display: grid;
+  flex: auto;
+  padding: 8px;
 }
 
-.links:hover {
+.site-nav .links:hover {
   background-color: var(--brown-light);
   color: var(--brown-dark);
 }

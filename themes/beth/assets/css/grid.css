@@ -1,4 +1,87 @@
 body {
+  max-width: var(--grid-max-width);
+  padding-inline: var(--grid-gutter);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(var(--row-columns), 1fr);
+}
+
+.site-header {
+  grid-column: 1 / -1;
+  grid-row: 1 / 1;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+  grid-row: 2 / 2;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(var(--row-columns), 1fr);
+  grid-column: 1 / -1;
+  grid-row: 3 / 3;
+  gap: var(--grid-gutter);
+}
+
+.featured-project {
+  grid-column: 1 / -1;
+  grid-row: 1 / 1;
+}
+
+.posts-feed {
+  display: grid;
+  justify-content: space-between;
+  gap: calc(var(--grid-gutter) * 0.33);
+  grid-column: 1 / -1;
+  grid-row: 2 / 2;
+}
+
+.posts {
+  grid-row: 2 / 2;
+}
+
+.bundles {
+  display: grid;
+  grid-template-columns: repeat(var(--row-columns), 1fr);
+  grid-column: 1 / -1;
+  grid-row: 1 / 1;
+}
+
+.bundle-info {
+  grid-row: 1 / 1;
+  grid-column: 1 / 6;
+}
+
+.bundles-feed {
+  grid-column: 7 / 12;
+  grid-row: 1 / 1;
+}
+
+.single-posts {
+  display: grid;
+  grid-column: 1 / -1;
+}
+
+.single-posts h1 {
+  grid-row: 1 / 1;
+}
+
+.single-posts .bio {
+  grid-row: 2 / 2;
+}
+
+.single-posts .posts {
+  grid-row: 2 / 2;
+}
+
+/* body {
   display: grid;
   grid-auto-rows: min-content;
   grid-template-areas:
@@ -60,3 +143,24 @@ body {
   grid-column: 2;
   grid-row: 1;
 }
+
+.single-posts {
+  display: grid;
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(var(--row-columns), 1fr);
+}
+
+.single-posts h1 {
+  grid-row: 1 / 1;
+  grid-column: 1 / 5;
+}
+
+.single-posts .headshot {
+  grid-row: 1 / 1;
+  grid-column: 5 / 7;
+}
+
+.single-posts .posts {
+  grid-row: auto;
+  grid-column: 1 / 8;
+} */

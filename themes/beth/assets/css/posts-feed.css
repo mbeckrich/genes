@@ -22,9 +22,11 @@
   vertical-align: top;
 
   &:hover {
-    background-color: var(--links);
-    color: var(--brown);
-  }
+  background-color: var(--links);
+  color: var(--brown);
+  box-shadow: inset 2px 2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 12%) c h),
+  inset -2px -2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 10%) c h);
+}
 }
 
 .posts-feed .chevron {

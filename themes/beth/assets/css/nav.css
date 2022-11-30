@@ -1,24 +1,16 @@
 .site-nav {
   min-width: 100%;
+  border-radius: 2px;
   text-align: center;
-
-  & :first-child {
-    border-bottom-left-radius: 2px;
-    border-top-left-radius: 8px;
-  }
-
-  & :last-child {
-    border-bottom-right-radius: 2px;
-    border-top-right-radius: 8px;
-  }
 }
 
 .site-nav .links {
   flex: 1 1 auto;
-  padding: 8px;
+  padding: var(--space-3xs-2xs);
   background-color: var(--brown);
   box-shadow: 0 0 0.2px 2px var(--brown-dark);
   color: var(--brown-light);
+  font-size: var(--step-0);
 
   &:hover {
     background-color: var(--brown-light);

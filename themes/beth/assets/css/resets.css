@@ -6,12 +6,6 @@
   margin: 0;
 }
 
-html {
-  --font-size: var(--ms-2);
-
-  font-size: var(--final-font-size);
-}
-
 html,
 body {
   width: 100%;

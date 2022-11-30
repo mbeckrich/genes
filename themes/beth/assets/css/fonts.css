@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Public Sans VF";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("../fonts/PublicSans-VariableFont_wght.ttf") format("truetype-variations");
+}
+
+@font-face {
+  font-family: "Public Sans VF";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("../fonts/PublicSans-Italic-VariableFont_wght.ttf") format("truetype-variations");
+}
+
+em {
+  font-style: italic;
+}

@@ -1,32 +1,64 @@
 .posts-feed {
-  max-width: 1440px;
   padding: 0 var(--space-l);
+}
+
+.posts-feed h1 {
+  margin-bottom: calc(var(--grid-gutter) * -1);
+  letter-spacing: 0.02em;
 }
 
 .posts-feed .posts {
   max-width: 32ch;
-  font-style: italic;
+}
+
+.posts-feed h2 {
+  color: var(--brown);
+}
+
+.posts-feed a {
+  & .post-title {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  &:hover .post-title {
+    text-decoration: underline;
+    text-decoration-color: var(--links);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+  }
 }
 
 .posts-feed .post-date {
-  font-size: 1rem;
+  margin-left: var(--space-3xs-2xs);
+  font-style: italic;
+  font-variation-settings: "wght" 375;
+}
+
+.posts-feed p {
+  display: inline;
+  font-style: italic;
 }
 
 .posts-feed .read-more-arrow {
   display: inline-block;
   width: 20px;
-  height: auto;
+  padding: 1px;
   border-radius: 4px;
   color: var(--links);
-  transition: background-color 0.3s ease, color 0.2s ease;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   vertical-align: top;
 
   &:hover {
-  background-color: var(--links);
-  color: var(--brown);
-  box-shadow: inset 2px 2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 12%) c h),
-  inset -2px -2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 10%) c h);
-}
+    background-color: var(--links);
+    box-shadow:
+      inset 2px 2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h),
+      inset -2px -2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 18%) c h);
+    color: var(--brown);
+  }
 }
 
 .posts-feed .chevron {

@@ -3,7 +3,7 @@
 }
 
 .posts-feed h1 {
-  margin-bottom: calc(var(--grid-gutter) * -1);
+  margin-bottom: calc(var(--space-m) * -1);
   letter-spacing: 0.02em;
 }
 
@@ -12,6 +12,7 @@
 }
 
 .posts-feed h2 {
+  margin-bottom: var(--space-3xs);
   color: var(--brown);
 }
 
@@ -34,8 +35,9 @@
 
 .posts-feed .post-date {
   margin-left: var(--space-3xs-2xs);
+  font-size: 1rem;
   font-style: italic;
-  font-variation-settings: "wght" 375;
+  font-variation-settings: "wght" 300;
 }
 
 .posts-feed p {
@@ -50,7 +52,7 @@
   border-radius: 4px;
   color: var(--links);
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-  vertical-align: top;
+  vertical-align: text-top;
 
   &:hover {
     background-color: var(--links);
@@ -65,7 +67,7 @@
   padding: 0;
   margin: 0;
 
-  &:hover svg {
+  &:hover {
     stroke-width: 4;
   }
 }

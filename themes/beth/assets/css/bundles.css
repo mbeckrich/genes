@@ -1,23 +1,33 @@
 .bundles-feed .post-date {
+  margin-left: var(--space-2xs);
   font-size: 1rem;
+  font-style: italic;
+  font-variation-settings: "wght" 300;
 }
 
 .bundles-feed .posts {
   max-width: 32ch;
   font-style: italic;
+
+  &:not(:last-child) {
+    margin-bottom: var(--space-l);
+  }
 }
 
 .bundles-feed .read-more-arrow {
   display: inline-block;
   width: 20px;
-  height: auto;
+  padding: 1px;
   border-radius: 4px;
   color: var(--links);
-  transition: background-color 0.3s ease, color 0.2s ease;
-  vertical-align: top;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  vertical-align: text-top;
 
   &:hover {
     background-color: var(--links);
+    box-shadow:
+      inset 2px 2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h),
+      inset -2px -2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 18%) c h);
     color: var(--brown);
   }
 }
@@ -25,15 +35,16 @@
 .bundles-feed .chevron {
   margin: 0;
 
-  &:hover svg {
+  &:hover {
     stroke-width: 4;
   }
 }
 
 .bundles {
+  padding: 0 var(--space-l);
+
   & .bundle-info {
     max-width: 40ch;
-    padding-right: var(--space-m);
   }
 
   & .bundles-feed {

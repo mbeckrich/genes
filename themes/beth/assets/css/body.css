@@ -51,10 +51,11 @@
 }
 
 body {
-  margin: var(--space-m) 0;
+  margin: var(--space-l) 0;
   background-color: var(--white);
   color: var(--brown-dark);
   font-family: "Public Sans VF", system-ui, -apple-system, sans-serif, "segoe UI";
+  font-variant-numeric: tabular-nums;
 }
 
 a {
@@ -71,13 +72,28 @@ a {
 .featured-project-summary {
   max-width: 40ch;
   padding: var(--space-m);
-  border-radius: 6px;
-  margin: var(--grid-gutter);
+  border-radius: 4px;
+  margin: var(--space-m);
   background-color: var(--white);
   box-shadow: inset 0 0 2px 0.4px var(--brown);
 }
 
-.featured-project ul,
+.featured-project-summary h2 a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--links);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+  }
+}
+
+.featured-project-summary > ul,
 .bundles ul {
   display: flex;
   padding: 0;
@@ -108,9 +124,9 @@ a {
 .featured-project .read-more-arrow {
   display: flex;
   width: fit-content;
-  padding: 10px 20px;
+  padding: var(--space-2xs) var(--space-xs);
   border-radius: 4px;
-  margin: 5% auto;
+  margin: var(--space-2xs) auto 0;
   box-shadow: 0 0 0 2px oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h);
   color: var(--links);
   font-variant: all-small-caps;
@@ -124,6 +140,7 @@ a {
       inset 2px 2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h),
       inset -2px -2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 18%) c h);
     color: var(--brown);
+    font-weight: 800;
   }
 
   &:hover svg {
@@ -135,23 +152,8 @@ a {
   width: 20px;
   height: auto;
   padding: 0;
-  margin-left: var(--space-3xs-2xs);
+  margin-left: var(--space-2xs);
 }
-
-/* h2 {
-  width: fit-content;
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-underline-offset: 2px;
-  transition: text-decoration 0.2s ease;
-
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--links);
-    text-decoration-thickness: 3px;
-    text-underline-offset: 2px;
-  }
-} */
 
 .reference-lists {
   width: 100%;
@@ -159,20 +161,4 @@ a {
   & .reference-lists-posts {
     max-width: 60ch;
   }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-  color: var(--brown);
-}
-
-h1,
-h2,
-h3 {
-  font-size: var(--step-0);
 }

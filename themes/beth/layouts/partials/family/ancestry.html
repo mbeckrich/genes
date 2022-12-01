@@ -4,10 +4,9 @@
 
       <h2>
         <a href="{{ .Permalink }}">
-        <span class="post-date"
-          >{{ .Date | time.Format ":date_short" }} -
+        {{ .Title }} <span class="post-date"
+          >{{ .Date | time.Format ":date_short" }}
         </span>
-        {{ .Title }}
       </a
     ></h2>{{ partial "family/tags.html" . }}
     <p>{{ .Summary }}

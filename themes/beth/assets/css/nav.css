@@ -1,16 +1,19 @@
 .site-nav {
-  min-width: 100%;
-  border-radius: 2px;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0.2px var(--brown-dark);
   text-align: center;
 }
 
-.site-nav .links {
+.links {
   flex: 1 1 auto;
-  padding: var(--space-3xs-2xs);
+  padding: var(--space-3xs);
+  margin: 2px;
   background-color: var(--brown);
-  box-shadow: 0 0 0.2px 2px var(--brown-dark);
   color: var(--brown-light);
   font-size: var(--step-0);
+  font-weight: 600;
+  outline: 2px solid var(--brown-dark);
 
   &:hover {
     background-color: var(--brown-light);

@@ -77,9 +77,10 @@ em {
 }
 
 body {
-  margin: var(--space-m) 0;
+  margin: var(--space-l) 0;
   background-color: var(--white);
   color: var(--brown-dark);
+  font-variant-numeric: tabular-nums;
   font-family: Public Sans VF, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, segoe UI;
 }
 
@@ -96,13 +97,29 @@ a {
 .featured-project-summary {
   max-width: 40ch;
   padding: var(--space-m);
-  margin: var(--grid-gutter);
+  margin: var(--space-m);
   background-color: var(--white);
   box-shadow: inset 0 0 2px .4px var(--brown);
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
-.featured-project ul, .bundles ul {
+.featured-project-summary h2 a {
+  text-underline-offset: 4px;
+  -webkit-text-decoration: underline rgba(0, 0, 0, 0);
+  text-decoration: underline rgba(0, 0, 0, 0);
+  text-decoration-thickness: 4px;
+  transition: all .5s cubic-bezier(.645, .045, .355, 1);
+}
+
+.featured-project-summary h2 a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--links);
+  text-decoration-color: var(--links);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 4px;
+}
+
+.featured-project-summary > ul, .bundles ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -134,12 +151,12 @@ a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  padding: var(--space-2xs) var(--space-xs);
+  margin: var(--space-2xs) auto 0;
   color: var(--links);
   font-variant: all-small-caps;
   outline: 2px solid var(--links);
   border-radius: 4px;
-  margin: 5% auto;
-  padding: 10px 20px;
   font-weight: 600;
   transition: background-color .3s cubic-bezier(.645, .045, .355, 1), color .2s cubic-bezier(.645, .045, .355, 1);
   display: flex;
@@ -151,6 +168,7 @@ a {
 .featured-project .read-more-arrow:hover {
   background-color: var(--links);
   color: var(--brown);
+  font-weight: 800;
   box-shadow: inset 2px 2px 4px #577368, inset -2px -2px 4px #5d796e;
   box-shadow: inset 2px 2px 4px color(display-p3 .364602 .447253 .411593), inset -2px -2px 4px color(display-p3 .386837 .47014 .434109);
   box-shadow: inset 2px 2px 4px lab(45.9573% -12.1896 2.3428), inset -2px -2px 4px lab(48.2773% -12.1829 2.34238);
@@ -163,7 +181,7 @@ a {
 .featured-project .chevron {
   width: 20px;
   height: auto;
-  margin-left: var(--space-3xs-2xs);
+  margin-left: var(--space-2xs);
   padding: 0;
 }
 
@@ -173,14 +191,6 @@ a {
 
 .reference-lists .reference-lists-posts {
   max-width: 60ch;
-}
-
-h1, h2, h3, h4, h5, h6, a {
-  color: var(--brown);
-}
-
-h1, h2, h3 {
-  font-size: var(--step-0);
 }
 
 body, .u-container {
@@ -267,6 +277,7 @@ body, .u-container {
   color: var(--brown);
   font-size: var(--step-2);
   letter-spacing: .02em;
+  margin: 0;
 }
 
 .site-header a {
@@ -286,21 +297,24 @@ body, .u-container {
 }
 
 .site-nav {
-  min-width: 100%;
+  box-shadow: 0 0 2px .2px var(--brown-dark);
   text-align: center;
-  border-radius: 2px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
-.site-nav .links {
-  padding: var(--space-3xs-2xs);
+.links {
+  padding: var(--space-3xs);
   background-color: var(--brown);
-  box-shadow: 0 0 .2px 2px var(--brown-dark);
   color: var(--brown-light);
   font-size: var(--step-0);
+  outline: 2px solid var(--brown-dark);
   flex: auto;
+  margin: 2px;
+  font-weight: 600;
 }
 
-.site-nav .links:hover {
+.links:hover {
   background-color: var(--brown-light);
   color: var(--brown-dark);
 }
@@ -338,7 +352,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .posts-feed h1 {
-  margin-bottom: calc(var(--grid-gutter) * -1);
+  margin-bottom: calc(var(--space-m) * -1);
   letter-spacing: .02em;
 }
 
@@ -347,6 +361,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .posts-feed h2 {
+  margin-bottom: var(--space-3xs);
   color: var(--brown);
 }
 
@@ -368,7 +383,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .posts-feed .post-date {
   margin-left: var(--space-3xs-2xs);
-  font-variation-settings: "wght" 375;
+  font-variation-settings: "wght" 300;
+  font-size: 1rem;
   font-style: italic;
 }
 
@@ -380,7 +396,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .posts-feed .read-more-arrow {
   width: 20px;
   color: var(--links);
-  vertical-align: top;
+  vertical-align: text-top;
   border-radius: 4px;
   padding: 1px;
   transition: all .5s cubic-bezier(.645, .045, .355, 1);
@@ -400,12 +416,15 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-.posts-feed .chevron:hover svg {
+.posts-feed .chevron:hover {
   stroke-width: 4px;
 }
 
 .bundles-feed .post-date {
+  margin-left: var(--space-2xs);
+  font-variation-settings: "wght" 300;
   font-size: 1rem;
+  font-style: italic;
 }
 
 .bundles-feed .posts {
@@ -413,32 +432,42 @@ p, h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+.bundles-feed .posts:not(:last-child) {
+  margin-bottom: var(--space-l);
+}
+
 .bundles-feed .read-more-arrow {
   width: 20px;
-  height: auto;
   color: var(--links);
-  vertical-align: top;
+  vertical-align: text-top;
   border-radius: 4px;
-  transition: background-color .3s, color .2s;
+  padding: 1px;
+  transition: all .5s cubic-bezier(.645, .045, .355, 1);
   display: inline-block;
 }
 
 .bundles-feed .read-more-arrow:hover {
   background-color: var(--links);
   color: var(--brown);
+  box-shadow: inset 2px 2px 4px #577368, inset -2px -2px 4px #5d796e;
+  box-shadow: inset 2px 2px 4px color(display-p3 .364602 .447253 .411593), inset -2px -2px 4px color(display-p3 .386837 .47014 .434109);
+  box-shadow: inset 2px 2px 4px lab(45.9573% -12.1896 2.3428), inset -2px -2px 4px lab(48.2773% -12.1829 2.34238);
 }
 
 .bundles-feed .chevron {
   margin: 0;
 }
 
-.bundles-feed .chevron:hover svg {
+.bundles-feed .chevron:hover {
   stroke-width: 4px;
+}
+
+.bundles {
+  padding: 0 var(--space-l);
 }
 
 .bundles .bundle-info {
   max-width: 40ch;
-  padding-right: var(--space-m);
 }
 
 .bundles .bundles-feed {
@@ -446,7 +475,29 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  margin-bottom: var(--space-s);
   font-size: var(--step-2);
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: var(--brown);
+}
+
+h2, h3 {
+  margin-bottom: var(--space-2xs);
+  font-size: var(--step-1);
+}
+
+sup a {
+  color: var(--links);
+}
+
+sup:before {
+  content: "[";
+}
+
+sup:after {
+  content: "]";
 }
 
 .single-posts {

@@ -1,7 +1,7 @@
 .site-header h1 {
   margin: 0;
   color: var(--brown);
-  font-size: var(--step-2);
+  font-size: var(--step-4);
   letter-spacing: 0.02em;
 }
 

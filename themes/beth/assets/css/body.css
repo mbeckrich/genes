@@ -7,54 +7,18 @@
   --links: oklch(73% 0.036 169.71);
 
   /* --links: oklch(65% 0.036 317.71); purple */
-
-  /* @link https://utopia.fyi/type/calculator?c=320,21,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
-
-  --step--2: clamp(0.43rem, calc(0.41rem + 0.08vw), 0.48rem);
-  --step--1: clamp(0.7rem, calc(0.67rem + 0.13vw), 0.77rem);
-  --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
-  --step-1: clamp(1.82rem, calc(1.75rem + 0.35vw), 2.02rem);
-  --step-2: clamp(2.95rem, calc(2.83rem + 0.57vw), 3.27rem);
-  --step-3: clamp(4.76rem, calc(4.58rem + 0.92vw), 5.3rem);
-  --step-4: clamp(7.71rem, calc(7.41rem + 1.49vw), 8.57rem);
-  --step-5: clamp(12.48rem, calc(12rem + 2.41vw), 13.86rem);
-
-  /* @link https://utopia.fyi/space/calculator?c=320,21,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
-
-  --space-3xs: clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem);
-  --space-2xs: clamp(0.56rem, calc(0.54rem + 0.11vw), 0.63rem);
-  --space-xs: clamp(0.88rem, calc(0.85rem + 0.11vw), 0.94rem);
-  --space-s: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
-  --space-m: clamp(1.69rem, calc(1.62rem + 0.33vw), 1.88rem);
-  --space-l: clamp(2.25rem, calc(2.16rem + 0.43vw), 2.5rem);
-  --space-xl: clamp(3.38rem, calc(3.25rem + 0.65vw), 3.75rem);
-  --space-2xl: clamp(4.5rem, calc(4.33rem + 0.87vw), 5rem);
-  --space-3xl: clamp(6.75rem, calc(6.49rem + 1.3vw), 7.5rem);
-
-  /* One-up pairs */
-  --space-3xs-2xs: clamp(0.31rem, calc(0.2rem + 0.54vw), 0.63rem);
-  --space-2xs-xs: clamp(0.56rem, calc(0.43rem + 0.65vw), 0.94rem);
-  --space-xs-s: clamp(0.88rem, calc(0.75rem + 0.65vw), 1.25rem);
-  --space-s-m: clamp(1.13rem, calc(0.87rem + 1.3vw), 1.88rem);
-  --space-m-l: clamp(1.69rem, calc(1.41rem + 1.41vw), 2.5rem);
-  --space-l-xl: clamp(2.25rem, calc(1.73rem + 2.6vw), 3.75rem);
-  --space-xl-2xl: clamp(3.38rem, calc(2.81rem + 2.82vw), 5rem);
-  --space-2xl-3xl: clamp(4.5rem, calc(3.47rem + 5.21vw), 7.5rem);
-
-  /* Custom pairs */
-  --space-s-l: clamp(1.13rem, calc(0.65rem + 2.39vw), 2.5rem);
-
-  /* Grid */
-  --grid-max-width: 77.5rem;
-  --grid-gutter: var(--space-s-l, clamp(1.13rem, calc(0.65rem + 2.39vw), 2.5rem));
-  --row-columns: 12;
 }
 
 body {
-  margin: var(--space-l) 0;
+  margin: var(--space-xl) 0;
   background-color: var(--white);
   color: var(--brown-dark);
-  font-family: "Public Sans VF", system-ui, -apple-system, sans-serif, "segoe UI";
+  font-family:
+    "Public Sans VF",
+    system-ui,
+    -apple-system,
+    sans-serif,
+    "segoe UI";
   font-variant-numeric: tabular-nums;
 }
 
@@ -66,7 +30,7 @@ a {
 .featured-project {
   border-radius: 4px;
   background-color: var(--brown-light);
-  box-shadow: 0 0 2px 0.4px var(--brown);
+  box-shadow: 0 0 2px 0.4px var(--brown-dark);
 }
 
 .featured-project-summary {
@@ -75,7 +39,7 @@ a {
   border-radius: 4px;
   margin: var(--space-m);
   background-color: var(--white);
-  box-shadow: inset 0 0 2px 0.4px var(--brown);
+  box-shadow: inset 0 0 2px 0.4px var(--brown-dark);
 }
 
 .featured-project-summary h2 a {
@@ -124,23 +88,26 @@ a {
 .featured-project .read-more-arrow {
   display: flex;
   width: fit-content;
-  padding: var(--space-2xs) var(--space-xs);
+  padding: var(--space-2xs);
   border-radius: 4px;
   margin: var(--space-2xs) auto 0;
-  box-shadow: 0 0 0 2px oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h);
+  box-shadow: 0 0 3px 0.4px oklch(from oklch(73% 0.036 169.71) calc(l - 40%) c h);
   color: var(--links);
   font-variant: all-small-caps;
-  font-weight: 600;
+  font-weight: 500;
   outline: 2px solid var(--links);
-  transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.3s ease;
 
   &:hover {
     background-color: var(--links);
     box-shadow:
-      inset 2px 2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h),
-      inset -2px -2px 4px oklch(from oklch(73% 0.036 169.71) calc(l - 18%) c h);
+      inset 0 0 2px 1px
+      oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h),
+      inset 0 0 4px 1px
+      oklch(from oklch(73% 0.036 169.71) calc(l - 12%) c h),
+      inset 0 0 8px 1px
+      oklch(from oklch(73% 0.036 169.71) calc(l - 4%) c h);
     color: var(--brown);
-    font-weight: 800;
   }
 
   &:hover svg {

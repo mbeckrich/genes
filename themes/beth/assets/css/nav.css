@@ -1,22 +1,31 @@
 .site-nav {
   overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 0 0 2px 0.2px var(--brown-dark);
+  border: 2px solid var(--brown-dark);
+  border-radius: var(--space-3xs);
+  background-color: var(--brown-dark);
+  box-shadow: 0 0 2px 0.2px oklch(from oklch(30% 0.036 69.71) calc(l + 10%) c h);
   text-align: center;
 }
 
 .links {
   flex: 1 1 auto;
-  padding: var(--space-3xs);
-  margin: 2px;
+  padding: var(--space-2xs);
+  outline: 2px solid var(--brown-dark);
   background-color: var(--brown);
   color: var(--brown-light);
   font-size: var(--step-0);
-  font-weight: 600;
-  outline: 2px solid var(--brown-dark);
+  font-weight: 500;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
   &:hover {
     background-color: var(--brown-light);
+    box-shadow:
+      inset 0 0 2px 1px
+      oklch(from oklch(78% 0.036 69.71) calc(l - 12%) c h),
+      inset 0 0 4px 1px
+      oklch(from oklch(78% 0.036 69.71) calc(l - 8%) c h),
+      inset 0 0 8px 1px
+      oklch(from oklch(78% 0.036 69.71) calc(l - 4%) c h);
     color: var(--brown-dark);
   }
 }

@@ -1,6 +1,6 @@
 h1 {
   margin-bottom: var(--space-s);
-  font-size: var(--step-2);
+  font-size: var(--step-3);
 }
 
 h1,
@@ -16,7 +16,7 @@ a {
 h2,
 h3 {
   margin-bottom: var(--space-2xs);
-  font-size: var(--step-1);
+  font-size: var(--step-2);
 }
 
 sup a {

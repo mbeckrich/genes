@@ -1,45 +1,63 @@
 :root {
-  --white: oklch(99% 0.036 69.71);
-  --brown: oklch(38% 0.036 69.71);
-  --brown-light: oklch(78% 0.036 69.71);
-  --brown-lightest: oklch(80% 0.036 69.71);
-  --brown-dark: oklch(30% 0.036 69.71);
-  --links: oklch(73% 0.036 169.71);
+  --white: oklch(99.2% 0.036 69.71);
+  --brown: oklch(42.2% 0.036 69.71);
+  --brown-light: oklch(77.2% 0.036 69.71);
+  --brown-lightest: oklch(80.2% 0.036 69.71);
+  --brown-dark: oklch(33.2% 0.036 69.71);
+  --links: oklch(73.2% 0.036 169.71);
+  --border-r-s: 4px;
+  --border-r-l: 8px;
+  --box-shadow-single: 0 0 2px 0.4px var(--brown-dark);
+  --box-shadow-single-inset: inset 0 0 2px 0.4px var(--brown-dark);
+  --box-shadow-link: 0 0 3px 0.4px oklch(from oklch(73.2% 0.036 169.71) calc(l - 40%) c h);
+  --box-shadow-link-hover:
+    inset 0 0 2px 1px
+    oklch(from oklch(73.2% 0.036 169.71) calc(l - 20%) c h),
+    inset 0 0 4px 1px
+    oklch(from oklch(73.2% 0.036 169.71) calc(l - 12%) c h),
+    inset 0 0 8px 1px
+    oklch(from oklch(73.2% 0.036 169.71) calc(l - 4%) c h);
+  --box-shadow-navbar: 0 0 2px 0.2px oklch(from oklch(33.9% 0.036 69.71) calc(l + 10%) c h);
+  --box-shadow-navbar-hover:
+    inset 0 0 2px 1px
+    oklch(from oklch(77.2% 0.036 69.71) calc(l - 12%) c h),
+    inset 0 0 4px 1px
+    oklch(from oklch(77.2% 0.036 69.71) calc(l - 8%) c h),
+    inset 0 0 8px 1px
+    oklch(from oklch(77.2% 0.036 69.71) calc(l - 4%) c h);
 
   /* --links: oklch(65% 0.036 317.71); purple */
 }
 
 body {
-  margin: var(--space-xl) 0;
+  margin: 0;
   background-color: var(--white);
+  font-size: 1rem;
   color: var(--brown-dark);
   font-family:
     "Public Sans VF",
     system-ui,
     -apple-system,
-    sans-serif,
-    "segoe UI";
+    "segoe UI",
+    sans-serif;
   font-variant-numeric: tabular-nums;
 }
 
 a {
   /* From Cassie Evans's site */
-  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: 0.3s ease;
 }
 
 .featured-project {
-  border-radius: 4px;
-  background-color: var(--brown-light);
-  box-shadow: 0 0 2px 0.4px var(--brown-dark);
+  border-radius: var(--border-r-s);
 }
 
 .featured-project-summary {
-  max-width: 40ch;
-  padding: var(--space-m);
-  border-radius: 4px;
-  margin: var(--space-m);
-  background-color: var(--white);
-  box-shadow: inset 0 0 2px 0.4px var(--brown-dark);
+  max-width: 36ch;
+  padding: var(--space-s);
+  border-radius: var(--border-r-s);
+  box-shadow: var(--box-shadow-navbar);
+  border: 1px solid var(--brown);
 }
 
 .featured-project-summary h2 a {
@@ -66,7 +84,7 @@ a {
 }
 
 .hashtags:not(:first-child) {
-  margin-left: var(--space-2xs);
+  margin-left: var(--space-xs);
 }
 
 .tags {
@@ -88,25 +106,17 @@ a {
 .featured-project .read-more-arrow {
   display: flex;
   width: fit-content;
-  padding: var(--space-2xs);
-  border-radius: 4px;
-  margin: var(--space-2xs) auto 0;
-  box-shadow: 0 0 3px 0.4px oklch(from oklch(73% 0.036 169.71) calc(l - 40%) c h);
+  padding: var(--space-3xs) var(--space-2xs);
+  border-radius: var(--border-r-s);
+  margin: var(--space-s) auto 0;
   color: var(--links);
   font-variant: all-small-caps;
   font-weight: 500;
   outline: 2px solid var(--links);
-  transition: 0.3s ease;
 
   &:hover {
     background-color: var(--links);
-    box-shadow:
-      inset 0 0 2px 1px
-      oklch(from oklch(73% 0.036 169.71) calc(l - 20%) c h),
-      inset 0 0 4px 1px
-      oklch(from oklch(73% 0.036 169.71) calc(l - 12%) c h),
-      inset 0 0 8px 1px
-      oklch(from oklch(73% 0.036 169.71) calc(l - 4%) c h);
+    box-shadow: var(--box-shadow-link-hover);
     color: var(--brown);
   }
 
@@ -118,14 +128,5 @@ a {
 .featured-project .chevron {
   width: 20px;
   height: auto;
-  padding: 0;
   margin-left: var(--space-2xs);
-}
-
-.reference-lists {
-  width: 100%;
-
-  & .reference-lists-posts {
-    max-width: 60ch;
-  }
 }

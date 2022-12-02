@@ -1,18 +1,18 @@
 .site-header h1 {
-  letter-spacing: 0.02em;
+  font-size: var(--step-5);
 }
 
 .site-header a {
   text-decoration: underline;
   text-decoration-color: transparent;
-  text-decoration-thickness: var(--space-4xs-3xs);
-  text-underline-offset: var(--space-4xs-3xs);
+  text-decoration-thickness: 6px;
+  text-underline-offset: 4px;
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 
   &:hover {
     text-decoration: underline;
     text-decoration-color: var(--links);
-    text-decoration-thickness: var(--space-4xs-3xs);
-    text-underline-offset: var(--space-4xs-3xs);
+    text-decoration-thickness: 6px;
+    text-underline-offset: 4px;
   }
 }

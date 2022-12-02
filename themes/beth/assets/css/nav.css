@@ -1,20 +1,21 @@
 .site-nav {
   overflow: hidden;
+  border: 2px solid var(--brown-dark);
   border-radius: var(--border-r-s);
   background-color: var(--brown-dark);
-  box-shadow: var(--box-shadow-navbar);
-  border: 2px solid var(--brown-dark);
-  text-align: center;
+  box-shadow: 0 0 1px 0.2px var(--brown-dark);
+  gap: 2px;
 }
 
 .links {
-  flex: 1 1 auto;
-  font-size: var(--step-0);
+  flex: content;
   padding: var(--space-2xs);
   background-color: var(--brown);
   color: var(--brown-light);
-  font-weight: 500;
-  outline: 2px solid var(--brown-dark);
+  font-size: var(--step--1);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 
   &:hover {
     background-color: var(--brown-light);

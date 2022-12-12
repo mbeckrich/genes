@@ -1,5 +1,5 @@
 ---
-title: dirt farmers
+title: Dirt Farmers
 summary: |
   Some Laura Ingalls Wilder type shit.
 date: "2011-11-11"

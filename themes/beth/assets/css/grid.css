@@ -1,7 +1,5 @@
-body {
-  max-width: var(--grid-max-width);
-  margin-inline: auto;
-  padding-inline: var(--grid-gutter);
+.grid {
+  grid-auto-columns: 1fr;
 }
 
 .site-header {
@@ -12,52 +10,31 @@ body {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  grid-column: 1 / -1;
-  grid-row: 2 / 2;
 }
 
-.main {
-  grid-column: 1 / -1;
-  grid-row: 3 / 3;
+.links {
+  flex-grow: 1;
 }
+
 
 .featured-project {
-  grid-column: 1 / -1;
-  grid-row: 1 / 1;
+  grid-template-columns: repeat(auto-fill, 40ch);
+  justify-content: space-around;
 }
 
 .posts-feed {
-  grid-column: 1 / -1;
-  grid-row: 2 / 2;
-  grid-template-areas:
-    "header header header"
-    ". . .";
+  grid-template-columns: repeat(auto-fill, 40ch);
+  justify-content: space-around;
 }
 
 .posts-feed h1 {
-  grid-area: header;
   grid-column: 1 / -1;
-}
-
-.posts {
-  grid-row: 2 / 2;
+  grid-row: 1 / -1;
 }
 
 .bundles {
-  display: grid;
-  grid-column: 1 / -1;
-  grid-row: 1 / 1;
-  grid-template-columns: repeat(var(--row-columns), 1fr);
-}
-
-.bundle-info {
-  grid-column: 1 / 6;
-  grid-row: 1 / 1;
-}
-
-.bundles-feed {
-  grid-column: 7 / 12;
-  grid-row: 1 / 1;
+grid-template-columns: repeat(auto-fit, 40ch);
+justify-content: space-around;
 }
 
 .single-posts {
@@ -67,7 +44,7 @@ body {
   grid-template-areas:
     "header bio"
     "posts posts";
-  grid-template-columns: repeat(minmax(var(--row-columns), 1fr));
+  grid-template-columns: repeat(minmax(var(--grid-columns), 1fr));
   grid-template-rows: repeat(auto-fill, var(--space-s));
 }
 

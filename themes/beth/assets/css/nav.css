@@ -4,11 +4,10 @@
   border-radius: var(--border-r-s);
   background-color: var(--brown-dark);
   box-shadow: 0 0 1px 0.2px var(--brown-dark);
-  gap: 2px;
+  gap: 3px;
 }
 
 .links {
-  flex: content;
   padding: var(--space-2xs);
   background-color: var(--brown);
   color: var(--brown-light);
@@ -21,4 +20,8 @@
     background-color: var(--brown-light);
     color: var(--brown);
   }
+}
+
+.site-nav a {
+  text-decoration: none;
 }

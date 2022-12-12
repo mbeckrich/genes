@@ -1,5 +1,6 @@
 h1 {
   font-size: var(--step-3);
+  margin-bottom: var(--space-xs)
 }
 
 h1,

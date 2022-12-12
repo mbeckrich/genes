@@ -8,7 +8,6 @@
 
 .single-posts h1 {
   color: var(--links);
-  font-size: var(--step-1);
   text-decoration: underline;
   text-decoration-color: transparent;
   text-underline-offset: 2px;

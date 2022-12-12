@@ -1,25 +1,39 @@
-tableOfContents:
-endLevel: 4
-ordered: false
-startLevel: 3
+asciidocExt:
+  backend: html5
+  extensions: [asciidoctor-html5s]
+  failureLevel: fatal
+  noHeaderOrFooter: true
+  preserveTOC: false
+  safeMode: unsafe
+  sectionNumbers: false
+  trace: false
+  verbose: false
+  workingFolderCurrent: false
+  attributes:
+    sectlinks: true
+    stylesheet: css/style.css
 goldmark:
-extensions:
-  footnote: true
-  linkify: true
-  strikethrough: true
-  table: true
-  taskList: true
-  typographer: false
-renderer:
-  unsafe: true
-highlight:
-codeFences: true
-guessSyntax: false
-hl_Lines: ""
-lineAnchors: ""
-lineNoStart: 1
-lineNos: true
-lineNumbersInTable: false
-noClasses: true
-style: dracula
-tabWidth: 4
+  extensions:
+    footnote: true
+    linkify: true
+    strikethrough: true
+    table: true
+    taskList: true
+    typographer: false
+  renderer:
+    unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: true
+    style: dracula
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 3

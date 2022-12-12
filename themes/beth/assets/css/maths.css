@@ -1,5 +1,6 @@
 /*
 * Unrelated content: space-l
+* Feed content: space-m
 * Related content (e.g. title -> post): space-s
 * Super related content (e.g. paragraphs) space-xs
 * Chevrons: space-2xs
@@ -150,4 +151,23 @@
 .u-grid {
   display: grid;
   gap: var(--grid-gutter);
+}
+
+.u-grid-s {
+  display: grid;
+  gap: calc(var(--grid-gutter) *.5);
+}
+
+/* Flow mod from Utopia */
+
+.u-flow > * + * {
+  margin-bottom: var(--space-s);
+}
+
+.u-flow--l > * + * {
+  margin-bottom: var(--space-l);
+}
+
+.u-flow--s-m > * + * {
+  margin-bottom: var(--space-s-m);
 }

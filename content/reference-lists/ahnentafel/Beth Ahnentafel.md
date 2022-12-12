@@ -1,12 +1,14 @@
 ---
 title: Beth Spindler's Ahnentafel
-summary: |
+outputs:
+  - json
+  - html
+summary:
   Generation 0
   1. Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.
+type:
+  ahnentafel
 ---
-
-{{< regex >}}
-
 Generation 0
 
 1.  Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on

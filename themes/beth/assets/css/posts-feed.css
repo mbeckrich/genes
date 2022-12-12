@@ -1,18 +1,11 @@
 .posts-feed {
 }
 
-/* .posts-feed h1 {
-  letter-spacing: 0.02em;
-} */
-
-.posts-feed .posts {
-  max-width: 40ch;
+.posts-feed h1 {
+  margin-bottom: 0;
 }
 
-.posts-feed h2 {
-}
-
-.posts-feed a {
+a {
   & .post-title {
     text-decoration: underline;
     text-decoration-color: transparent;
@@ -29,9 +22,11 @@
   }
 }
 
-.posts-feed .post-date {
+.post-date {
+  margin-left: var(--space-2xs);
   font-style: italic;
-  /* font-variation-settings: "wght" 300; */
+  font-variation-settings: "wght" 400;
+  font-size: var(--step--1);
 }
 
 .posts-feed p {
@@ -39,7 +34,8 @@
   font-style: italic;
 }
 
-.posts-feed .read-more-arrow {
+.posts-feed .read-more-arrow,
+.bundles-feed .read-more-arrow {
   display: inline-block;
   width: 20px;
   height: auto;

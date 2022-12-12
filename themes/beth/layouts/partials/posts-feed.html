@@ -1,11 +1,11 @@
-<section class="posts-feed u-grid">
+<section class="posts-feed u-grid-s">
   <h1>{{ with .Site.GetPage "Section" "posts" }}{{ .Title }}{{ end }}</h1>
   {{ range first 2 (where .Site.RegularPages "Section" "posts") }}
   <article class="posts">
     <h2>
       <a href="{{ .Permalink }}">
         <span class="post-title">{{ .Title }}</span>
-        <span class="post-date">{{ .Date | time.Format ":date_short" }} </span>
+        <span class="post-date">{{ .Date | time.Format "1 – 2 – 06" }} </span>
       </a>
     </h2>
     {{ .Content | safeHTML | truncate 256 }}{{ if .Truncated }}

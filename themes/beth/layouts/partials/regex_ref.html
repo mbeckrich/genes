@@ -1,0 +1,18 @@
+{{ $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .RawContent }}
+<ul>
+  {{ $counter := 0 }}
+  {{ range $index, $name := $regex }}
+  <li>
+	 {{ $name }}
+   {{- print " [0" (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2))) print "-"
+   -}}
+   {{- $num := 0 -}}
+   {{- $id := add $num $counter -}}
+   {{ if lt $index 9 }}
+   {{- print "00" $id print "]" -}}
+   {{ else }}
+   {{- print "0" $id print "]" -}}
+   {{ end }}
+  </li>
+  {{ end }}
+</ul>

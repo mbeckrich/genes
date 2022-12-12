@@ -17,3 +17,11 @@ taxonomies:
   tag: tags
   series: series
   individual: individuals
+security:
+  exec:
+    osEnv:
+      - '(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$'
+      - ^ASDF_DIR$
+      - ^HOME$
+    allow:
+    - ^asciidoctor

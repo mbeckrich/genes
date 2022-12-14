@@ -1,8 +1,6 @@
 {{ define "main" }}
-{{- partial "regex_ref.html" . -}}
 <article class="single-posts">
   {{ range (where .Site.RegularPages "Section" "reference-lists") }}
-
   <article class="reference-lists-posts">{{ .Content }}</article>
   {{ end }}
 </article>

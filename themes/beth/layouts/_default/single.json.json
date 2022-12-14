@@ -1,0 +1,40 @@
+{{- $ahnentafel := slice -}}
+{{- $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+` .RawContent -}}
+
+{{- $counter := 0 -}}
+{{- range where site.RegularPages "Section" "reference-lists" -}}
+  {{- range $index, $name := $regex -}}
+  {{$name := replaceRE `[0-9.]+\s+` "" $name }}
+
+
+   {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2)))
+   -}}
+   {{- $num := 0 -}}
+   {{- $id := add $num $counter -}}
+
+   {{- if lt $index 9 -}}
+   {{- $id = print "-00" $id -}}
+   {{- else -}}
+   {{- $id = print "-0" $id -}}
+   {{- end -}}
+
+   {{- $generation = string $generation -}}
+   {{- $id := print "[0" $generation print $id "]" -}}
+
+    {{- $ahnentafel = merge $ahnentafel (dict $id $name) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $object := dict "ahnentafel" $ahnentafel -}}
+{{$object | jsonify}}
+
+{{/*
+  Finds with period at end of name:
+  {{- $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .RawContent -}}
+
+{{ range $key, $value := $ahnentafel }}
+ {{ $key }}: {{ $value }}
+{{ end }}
+  */}}
+
+

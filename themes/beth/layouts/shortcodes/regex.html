@@ -1,20 +1,27 @@
-{{ $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .Inner }}
-<ul>
-  {{ $counter := 0 }}
-  {{ range $index, $name := $regex }}
-  <li>
-    {{ $name }}
-    [0{{- math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log
-    2)) -}}-{{ if lt $index 9 }}00{{- add $index 1 -}}]
-    {{ else }}0{{- add $index 1 -}}]
-    {{ end }}
-  </li>
-  {{ end }}
-</ul>
 
-{{/*
-{{ $id := findRE `Generation` .Inner }}
-{{ range $index, $number := $id }}
- {{ $number }}
-{{ end }}
-*/}}
+{{- $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .Inner -}}
+{{- $ahnentafel := slice -}}
+
+  {{- $counter := 0 -}}
+  {{- range $index, $name := $regex -}}
+
+   {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2)))
+   -}}
+   {{- $num := 0 -}}
+   {{- $id := add $num $counter -}}
+   {{- if lt $index 9 -}}
+   {{- $id = print "-0" $id -}}
+   {{- else -}}
+   {{- $id = print "-0" $id -}}
+   {{- end -}}
+
+   {{- $generation = string $generation -}}
+   {{- $id := print "[0" $generation print $id "]" -}}
+
+   {{- $dict := dict
+   $name $id -}}
+
+  {{- $ahnentafel = $ahnentafel | append $dict -}}
+  {{- end -}}
+
+{{- $object := dict "ahnentafel" $ahnentafel -}}

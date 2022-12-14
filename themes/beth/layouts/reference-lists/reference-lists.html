@@ -1,9 +1,10 @@
+
 {{define "main"}}
 <section class="reference-lists">
   <h1>{{ .Title }}</h1>
   {{ range (where .Site.RegularPages "Section" "reference-lists") }}
   <article class="reference-lists-posts">
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+	<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   </article>
   {{ end }}
 </section>

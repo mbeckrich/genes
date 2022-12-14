@@ -21,12 +21,18 @@
    {{- $generation = string $generation -}}
    {{- $id := print "[0" $generation print $id "]" -}}
 
-    {{- $ahnentafel = merge $ahnentafel (dict $id $name) -}}
+    {{- $ahnentafel = merge $ahnentafel
+      (dict
+      (slice $id "name") $name
+      (slice $id "birthplace") "hell"
+      (slice $id "diedplace") "heaven"
+      )
+      -}}
   {{- end -}}
 {{- end -}}
 
 {{- $object := dict "ahnentafel" $ahnentafel -}}
-{{$object | jsonify}}
+{{- $object | jsonify -}}
 
 {{/*
   Finds with period at end of name:

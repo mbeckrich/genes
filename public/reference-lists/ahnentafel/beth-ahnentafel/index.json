@@ -1,3 +1,5226 @@
-{"ahnentafel":{"[00-001]":{"birthplace":"hell","diedplace":"heaven","name":"Spindler, Elisabeth Eleanor"},"[01-002]":{"birthplace":"hell","diedplace":"heaven","name":"Spindler, Douglas Alan"},"[01-003]":{"birthplace":"hell","diedplace":"heaven","name":"Scherzer, Jolie Lynn"},"[02-004]":{"birthplace":"hell","diedplace":"heaven","name":"Spindler, James Sheldon"},"[02-005]":{"birthplace":"hell","diedplace":"heaven","name":"Pine, Rosemary"},"[02-006]":{"birthplace":"hell","diedplace":"heaven","name":"Scherzer, Felix"},"[02-007]":{"birthplace":"hell","diedplace":"heaven","name":"Warman, Sylvia"},"[03-008]":{"birthplace":"hell","diedplace":"heaven","name":"Spindler, Harry Odber"},"[03-009]":{"birthplace":"hell","diedplace":"heaven","name":"Keeler, Mary Eleanor"},"[03-010]":{"birthplace":"hell","diedplace":"heaven","name":"Pine, Robert Leslie"},"[03-011]":{"birthplace":"hell","diedplace":"heaven","name":"Folsom, Eleanor"},"[03-012]":{"birthplace":"hell","diedplace":"heaven","name":"Scherzer, Schulim"},"[03-013]":{"birthplace":"hell","diedplace":"heaven","name":"Margulies, Eva (Chava)"},"[03-014]":{"birthplace":"hell","diedplace":"heaven","name":"Warman, Louis (Leib)"},"[03-015]":{"birthplace":"hell","diedplace":"heaven","name":"Wodnitzky, Sonia Sarah (Sura)"},"[04-016]":{"birthplace":"hell","diedplace":"heaven","name":"Spindler, Frank Herman"},"[04-017]":{"birthplace":"hell","diedplace":"heaven","name":"McCormick, Mary Louise"},"[04-018]":{"birthplace":"hell","diedplace":"heaven","name":"Keeler, Ray Waring"},"[04-019]":{"birthplace":"hell","diedplace":"heaven","name":"Winget, Clara"},"[04-020]":{"birthplace":"hell","diedplace":"heaven","name":"Pine, Robert Miskelley"},"[04-021]":{"birthplace":"hell","diedplace":"heaven","name":"Watkins, Laura Belle"},"[04-022]":{"birthplace":"hell","diedplace":"heaven","name":"Folsom, Clarence Perry"},"[04-023]":{"birthplace":"hell","diedplace":"heaven","name":"Cook, Anna Belle"},"[04-024]":{"birthplace":"hell","diedplace":"heaven","name":"Scherzer, Mordechai (Marcus)"},"[04-025]":{"birthplace":"hell","diedplace":"heaven","name":"Jäger, Frieda"},"[04-026]":{"birthplace":"hell","diedplace":"heaven","name":"Margulies, Abraham"},"[04-027]":{"birthplace":"hell","diedplace":"heaven","name":"Finkel, Lifshe"},"[04-028]":{"birthplace":"hell","diedplace":"heaven","name":"Warman, Pincus"},"[04-029]":{"birthplace":"hell","diedplace":"heaven","name":"Rothfield, Shaindel"},"[04-030]":{"birthplace":"hell","diedplace":"heaven","name":"Wodnicki, Moishe Hakohen"},"[04-031]":{"birthplace":"hell","diedplace":"heaven","name":"Renkawiczka, Cywja Nachuma\\Chana"},"[05-032]":{"birthplace":"hell","diedplace":"heaven","name":"Spindler, Johann Gottlieb"},"[05-033]":{"birthplace":"hell","diedplace":"heaven","name":"Herman, Regula"},"[05-034]":{"birthplace":"hell","diedplace":"heaven","name":"McCormick, Andrew Jackson"},"[05-035]":{"birthplace":"hell","diedplace":"heaven","name":"McClelland, Mary Ann"},"[05-036]":{"birthplace":"hell","diedplace":"heaven","name":"Keeler, Benjamin Lockwood"},"[05-037]":{"birthplace":"hell","diedplace":"heaven","name":"Clark, Mary C"},"[05-038]":{"birthplace":"hell","diedplace":"heaven","name":"Winget, James Cochran"},"[05-039]":{"birthplace":"hell","diedplace":"heaven","name":"Sheldon, Martha Almira"},"[05-040]":{"birthplace":"hell","diedplace":"heaven","name":"Pine, Clark H"},"[05-041]":{"birthplace":"hell","diedplace":"heaven","name":"Miskelley, Theresa Jackson"},"[05-042]":{"birthplace":"hell","diedplace":"heaven","name":"Watkins, William Perry"},"[05-043]":{"birthplace":"hell","diedplace":"heaven","name":"Lawson, Maria"},"[05-044]":{"birthplace":"hell","diedplace":"heaven","name":"Folsom, Charles Edgar"},"[05-045]":{"birthplace":"hell","diedplace":"heaven","name":"Rice, Delana"},"[05-046]":{"birthplace":"hell","diedplace":"heaven","name":"Cook, John Lowes"},"[05-047]":{"birthplace":"hell","diedplace":"heaven","name":"Anderson, Clara Amanda"},"[05-048]":{"birthplace":"hell","diedplace":"heaven","name":"Scherzer, Peretz *LIKELY INCORRECT CONNECTION\\*\\*"},"[05-049]":{"birthplace":"hell","diedplace":"heaven","name":"Rauchwerg (Greenberg?), Jente\\Yetta _LIKELY INCORRECT CONNECTION_"},"[05-050]":{"birthplace":"hell","diedplace":"heaven","name":"Jäger, Josef Israel"},"[05-051]":{"birthplace":"hell","diedplace":"heaven","name":", Breine"},"[05-052]":{"birthplace":"hell","diedplace":"heaven","name":"Margulies, Simon (Chaim?)"},"[05-053]":{"birthplace":"hell","diedplace":"heaven","name":"Sebhen (Gleicher?), Bessie (Blime?)"},"[05-054]":{"birthplace":"hell","diedplace":"heaven","name":"Finkel, Daniel"},"[05-055]":{"birthplace":"hell","diedplace":"heaven","name":", Chava"},"[05-056]":{"birthplace":"hell","diedplace":"heaven","name":"Warman, Avrum"},"[05-057]":{"birthplace":"hell","diedplace":"heaven","name":"Mitler\\Miller, Yocheved (Marium?)"},"[05-058]":{"birthplace":"hell","diedplace":"heaven","name":"Rothfeld, Arie Leib (Louis)"},"[05-059]":{"birthplace":"hell","diedplace":"heaven","name":"Kawe, Sarah (Serla)"},"[05-060]":{"birthplace":"hell","diedplace":"heaven","name":"Wodnicki, Zelik"},"[05-061]":{"birthplace":"hell","diedplace":"heaven","name":"Lipsman, Ester Chana"},"[05-062]":{"birthplace":"hell","diedplace":"heaven","name":"Rekawicznik, Chil"},"[05-063]":{"birthplace":"hell","diedplace":"heaven","name":"Sztejnsznajder, Laja Brajndla"}}}
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Beth's Genealogy Site",
+        "author": {
+            "name": "Beth"
+        },
 
+    "[00-001]": [
+    {
+        "name": "Spindler, Elisabeth Eleanor",
+        "date of birth": "1988-11-09",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
 
+    "[01-002]": [
+    {
+        "name": "Spindler, Douglas Alan",
+        "date of birth": "1954-03-21",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[01-003]": [
+    {
+        "name": "Scherzer, Jolie Lynn",
+        "date of birth": "1957-01-18",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[02-004]": [
+    {
+        "name": "Spindler, James Sheldon",
+        "date of birth": "1986-08-16",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[02-005]": [
+    {
+        "name": "Pine, Rosemary",
+        "date of birth": "1988-11-09",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[02-006]": [
+    {
+        "name": "Scherzer, Felix",
+        "date of birth": "1991-03-08",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[02-007]": [
+    {
+        "name": "Warman, Sylvia",
+        "date of birth": "1925-03-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[03-008]": [
+    {
+        "name": "Spindler, Harry Odber",
+        "date of birth": "2016-08-22",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[03-009]": [
+    {
+        "name": "Keeler, Mary Eleanor",
+        "date of birth": "1950-05-18",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[03-010]": [
+    {
+        "name": "Pine, Robert Leslie",
+        "date of birth": "1927-09-07",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[03-011]": [
+    {
+        "name": "Folsom, Eleanor",
+        "date of birth": "2017-02-11",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[03-012]": [
+    {
+        "name": "Scherzer, Schulim",
+        "date of birth": "1952-09-04",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[03-013]": [
+    {
+        "name": "Margulies, Eva (Chava)",
+        "date of birth": "1954-03-21",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[03-014]": [
+    {
+        "name": "Warman, Louis (Leib)",
+        "date of birth": "1957-11-11",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[03-015]": [
+    {
+        "name": "Wodnitzky, Sonia Sarah (Sura)",
+        "date of birth": "1926-07-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-016]": [
+    {
+        "name": "Spindler, Frank Herman",
+        "date of birth": "2012-03-12",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-017]": [
+    {
+        "name": "McCormick, Mary Louise",
+        "date of birth": "1948-06-19",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-018]": [
+    {
+        "name": "Keeler, Ray Waring",
+        "date of birth": "1927-02-05",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-019]": [
+    {
+        "name": "Winget, Clara",
+        "date of birth": "2002-06-29",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-020]": [
+    {
+        "name": "Pine, Robert Miskelley",
+        "date of birth": "1951-04-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-021]": [
+    {
+        "name": "Watkins, Laura Belle",
+        "date of birth": "1952-12-18",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-022]": [
+    {
+        "name": "Folsom, Clarence Perry",
+        "date of birth": "1957-01-18",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-023]": [
+    {
+        "name": "Cook, Anna Belle",
+        "date of birth": "1895-01-08",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-024]": [
+    {
+        "name": "Scherzer, Mordechai (Marcus)",
+        "date of birth": "1972-03-30",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-025]": [
+    {
+        "name": "Jäger, Frieda",
+        "date of birth": "1923-08-06",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-026]": [
+    {
+        "name": "Margulies, Abraham",
+        "date of birth": "1896-09-25",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-027]": [
+    {
+        "name": "Finkel, Lifshe",
+        "date of birth": "1980-12-14",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-028]": [
+    {
+        "name": "Warman, Pincus",
+        "date of birth": "1924-05-02",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-029]": [
+    {
+        "name": "Rothfield, Shaindel",
+        "date of birth": "1925-03-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[04-030]": [
+    {
+        "name": "Wodnicki, Moishe Hakohen",
+        "date of birth": "2016-08-22",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[04-031]": [
+    {
+        "name": "Renkawiczka, Cywja Nachuma\\Chana",
+        "date of birth": "1925-03-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-032]": [
+    {
+        "name": "Spindler, Johann Gottlieb",
+        "date of birth": "2010-12-05",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-033]": [
+    {
+        "name": "Herman, Regula",
+        "date of birth": "1929-06-01",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-034]": [
+    {
+        "name": "McCormick, Andrew Jackson",
+        "date of birth": "1898-03-21",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-035]": [
+    {
+        "name": "McClelland, Mary Ann",
+        "date of birth": "1982-09-15",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-036]": [
+    {
+        "name": "Keeler, Benjamin Lockwood",
+        "date of birth": "1924-06-28",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-037]": [
+    {
+        "name": "Clark, Mary C",
+        "date of birth": "1899-07-10",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-038]": [
+    {
+        "name": "Winget, James Cochran",
+        "date of birth": "1899-12-10",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-039]": [
+    {
+        "name": "Sheldon, Martha Almira",
+        "date of birth": "1974-08-31",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-040]": [
+    {
+        "name": "Pine, Clark H",
+        "date of birth": "1925-06-17",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-041]": [
+    {
+        "name": "Miskelley, Theresa Jackson",
+        "date of birth": "2013-03-20",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-042]": [
+    {
+        "name": "Watkins, William Perry",
+        "date of birth": "1927-09-07",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-043]": [
+    {
+        "name": "Lawson, Maria",
+        "date of birth": "2017-02-11",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-044]": [
+    {
+        "name": "Folsom, Charles Edgar",
+        "date of birth": "1929-08-31",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-045]": [
+    {
+        "name": "Rice, Delana",
+        "date of birth": "2013-08-08",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-046]": [
+    {
+        "name": "Cook, John Lowes",
+        "date of birth": "1932-08-22",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-047]": [
+    {
+        "name": "Anderson, Clara Amanda",
+        "date of birth": "1893-08-12",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-048]": [
+    {
+        "name": "Scherzer, Peretz *LIKELY INCORRECT CONNECTION\\*\\*",
+        "date of birth": "1965-06-08",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-049]": [
+    {
+        "name": "Rauchwerg (Greenberg?), Jente\\Yetta _LIKELY INCORRECT CONNECTION_",
+        "date of birth": "1896-08-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-050]": [
+    {
+        "name": "Jäger, Josef Israel",
+        "date of birth": "1982-04-04",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-051]": [
+    {
+        "name": ", Breine",
+        "date of birth": "1922-09-03",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-052]": [
+    {
+        "name": "Margulies, Simon (Chaim?)",
+        "date of birth": "1944-12-08",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-053]": [
+    {
+        "name": "Sebhen (Gleicher?), Bessie (Blime?)",
+        "date of birth": "1926-07-24",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-054]": [
+    {
+        "name": "Finkel, Daniel",
+        "date of birth": "2012-03-12",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-055]": [
+    {
+        "name": ", Chava",
+        "date of birth": "1936-08-12",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-056]": [
+    {
+        "name": "Warman, Avrum",
+        "date of birth": "2009-05-15",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-057]": [
+    {
+        "name": "Mitler\\Miller, Yocheved (Marium?)",
+        "date of birth": "1898-09-01",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-058]": [
+    {
+        "name": "Rothfeld, Arie Leib (Louis)",
+        "date of birth": "1971-01-16",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-059]": [
+    {
+        "name": "Kawe, Sarah (Serla)",
+        "date of birth": "1926-01-03",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-060]": [
+    {
+        "name": "Wodnicki, Zelik",
+        "date of birth": "1899-12-02",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-061]": [
+    {
+        "name": "Lipsman, Ester Chana",
+        "date of birth": "1999-08-17",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }],
+    
+    
+
+    "[05-062]": [
+    {
+        "name": "Rekawicznik, Chil",
+        "date of birth": "1927-02-05",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+    }],
+    
+    
+
+    "[05-063]": [
+    {
+        "name": "Sztejnsznajder, Laja Brajndla",
+        "date of birth": "2002-06-29",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        "children": "[
+    i. Spindler, Matthew Leslie 
+    ii. Spindler, Elisabeth Eleanor [1] 
+    iii. Spindler-Fox, Troy Stephen 
+    i. Spindler, Susan Jane 
+    ii. Spindler, Douglas Alan [2] 
+    iii. Spindler, Ellen Marie 
+    i. Scherzer, Mark Peter 
+    ii. Scherzer, Howard Jay 
+    iii. Scherzer, Jolie Lynn [3] 
+    i. Spindler, Eleanor May 
+    ii. Spindler, James Sheldon [4] 
+    iii. Spindler, Dean Allan 
+    iv. Spindler, Harry Keeler 
+    i. Pine, Patricia Eleanor 
+    ii. Pine, Rosemary [5] 
+    iii. Pine, Robert Folsom 
+    iv. Pine, John David 
+    i. Scherzer, Maximilian 
+    ii. Scherzer, Felix [6] 
+    iii. Scherzer, Ruth 
+    i. Warman, Sylvia [7] 
+    ii. Warman, Murray 
+    i. Spindler, Roy Reynold 
+    ii. Spindler, Clyde Frank 
+    iii. Spindler, Harry Odber [8] 
+    iv. Spindler, Myrtle Clare 
+    i. Keeler, Mary Eleanor [9] 
+    ii. Keeler, Herbert Winget 
+    iii. Keeler, Martha Almira 
+    i. Pine, Everett Loran 
+    ii. Pine, Herbert Dudley 
+    iii. Pine, Robert Leslie [10] 
+    iv. Pine, Dorothy Eloise 
+    i. Folsom, Miriam 
+    ii. Folsom, Eleanor [11] 
+    i. Scherzer, Mania (Molly) 
+    ii. Scherzer, Joseph Israel 
+    iii. Scherzer, Sam 
+    iv. Scherzer, Schulim [12] 
+    v. Scherzer, Anna 
+    vi. Scherzer, David 
+    i. Margulies, Eva (Chava) [13] 
+    ii. Margulies, Jacob 
+    iii. Margulies, Isaac 
+    i. Warman, Sarah (Sura) Frega 
+    ii. Warman, Jack (Yoine Hersz) 
+    iii. Warman, Louis (Leib) [14] 
+    iv. Warman, Max (Mordechai\Mottel Szlema) 
+    v. Warman, Jennie (Yocheved) 
+    vi. Warman, Itche Michel 
+    i. Wodnicki, Srul Szmul 
+    ii. Wodnicka, Estera Chana 
+    iii. Wodnitzky, Isidore (Yunke) 
+    iv. Wodnicki, Herschel 
+    v. Wodnicka, Laiya 
+    vi. Wodnicka, Rebecca (Becky) 
+    vii. Wodnicka, Rose (Ruchel) 
+    viii. Wodnitzky, Sonia Sarah (Sura) [15] 
+    i. Spindler, Frank Herman [16] 
+    ii. Spindler, Henry Gottlieb 
+    i. McCormick, Jane 
+    ii. McCormick, Mary Louise [17] 
+    iii. McCormick, Hannah 
+    iv. McCormick, Sarah M 
+    v. McCormick, William 
+    vi. McCormick, John 
+    vii. McCormick, James Henry 
+    i. Keeler, Ray Waring [18] 
+    ii. Keeler, Sarah Sophia 
+    iii. Keeler, Mary Nervie 
+    iv. Keeler, Bessie Florella 
+    i. Winget, William Ezra 
+    ii. Winget, James Sheldon 
+    iii. Winget, Charles Otis 
+    iv. Winget, Arthur S 
+    v. Winget, Luther 
+    vi. Winget, Clara [19] 
+    vii. Winget, John 
+    i. Pine, Edwin M 
+    ii. Pine, Robert Miskelley [20] 
+    iii. Pine, Lewis A 
+    iv. Pine, Samuel Kelly 
+    v. Pine, Laura Ellen 
+    vi. Pine, Clara 
+    i. Watkins, Laura Belle [21] 
+    ii. Watkins, William A 
+    iii. Watkins, Ernest E 
+    i. Folsom, Frank Doubleday 
+    ii. Folsom, Harry Delano 
+    iii. Folsom, Daisy Louise 
+    iv. Folsom, John Townsend 
+    i. Folsom, Clarence Perry [22] 
+    i. Cook, Anna Belle [23] 
+    ii. Cook, Stella Anderson 
+    iii. Cook, Mabel Lowes 
+    iv. Cook, Jennie Scott 
+    v. Cook, Mary Ella 
+    i. Scherzer, Shimon (Seymour) _LIKELY INCORRECT CONNECTION_ 
+    ii. Scherzer, Anna (Ida?) _LIKELY INCORRECT CONNECTION_ 
+    iii. Scherzer, Max (Mechel) _LIKELY INCORRECT CONNECTION_ 
+    iv. Scherzer, Elchanan _IS A RELATION BUT UNSURE IF CONNECTED THIS
+    WAY_ 
+    v. Scherzer, Mordechai (Marcus) [24] 
+    i. Jäger, Sosie Frime 
+    ii. Jäger, Frieda [25] 
+    iii. Jäger, Joel _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Jäger, Leo 
+    i. Margulies, Abraham [26] 
+    ii. Margulies, Moses (Morris) _UNSURE CONNECTION, PARENTS DON'T
+    MATCH_ 
+    iii. Margulies, Izak _UNSURE IF CONNECTED THIS WAY BUT IS A RELATION_ 
+    iv. Margulies, Gdale _UNSURE CONNECTION_ 
+    v. Margulies, Saloman _UNSURE CONNECTION_ 
+    i. Finkel, Mojzesz 
+    ii. Finkel, Bessie (Pearl?) 
+    iii. Finkel, Lifshe [27] 
+    i. Warman, Malka Sura 
+    ii. Warman, Lyka (Leah) 
+    iii. Warman, Mirla 
+    iv. Warman, Jankiel Gersz 
+    v. Warman, Serka 
+    vi. Warman, Pincus [28] 
+    vii. Warman, Moishe 
+    viii. Warman, Chaim Srul 
+    ix. Warman, Michel 
+    x. Warman, Josef (Yosele) 
+    i. Rothfeld, Eyzyk 
+    ii. Rothfield, David 
+    iii. Rothfield, Hersz 
+    iv. Rothfeld, Samuel (Shaya) 
+    v. Rothfield, Shaindel [29] 
+    vi. Rothfeld, Moszko 
+    vii. Rothfeld, Szyfra Ruchla 
+    i. Wodnicki, Jankel _UNCERTAIN CONNECTION_ 
+    ii. Wodnicki, Hersz Chaim 
+    iii. Wodnicki, Mendel 
+    iv. Wodnicki, Srul _UNCERTAIN CONNECTION_ 
+    v. Wodnicki, Moishe Hakohen [30] 
+    i. Rekawicznik, Mosiek Leybus 
+    ii. Rekawicznik, Perla Ruchla 
+    iii. Rekawicznik, Gitla Mindla 
+    iv. Rekawicznik, Jankiel 
+    v. Rekawicznik, Mordko Josef 
+    vi. Renkawiczka, Cywja Nachuma\Chana [31]]"
+        
+    }]
+    
+
+}

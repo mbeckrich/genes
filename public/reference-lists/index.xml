@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference Lists on Beth&#39;s Genealogy Site</title>
+    <link>/reference-lists/</link>
+    <description>Recent content in Reference Lists on Beth&#39;s Genealogy Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/reference-lists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beth&#39;s Ahnentafel</title>
+      <link>/reference-lists/ahnentafel/beth-ahnentafel/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reference-lists/ahnentafel/beth-ahnentafel/index.json</guid>
+      <description>Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.</description>
+    </item>
+    
+  </channel>
+</rss>

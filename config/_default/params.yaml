@@ -2,3 +2,8 @@ author: Beth
 style: css/style.css
 mainSections:
   - posts
+json:
+  name:
+  - findRE `(?mi)^[0-9]+\.\s+([^.])+`
+  bday:
+  - findRE `(?mi)\d\d\d\d\-\d\d-\d\d`

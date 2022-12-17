@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Individuals on Beth&#39;s Genealogy Site</title>
+    <link>/individuals/</link>
+    <description>Recent content in Individuals on Beth&#39;s Genealogy Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="/individuals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maude Lebowski</title>
+      <link>/individuals/maude-lebowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/individuals/maude-lebowski/</guid>
+      <description>It&#39;s a male myth about feminists that we hate sex. It can be a natural, zesty enterprise. But unfortunately there are some people - it is called satyriasis in men, nymphomania in women - who engage in it compulsively and without joy. Yes, Mr. Lebowski, these unfortunate souls cannot love in the true sense of the word.
+Listen, Maude, I&#39;m sorry if your stepmother is a nympho, but I don&#39;t see what it has to do with -- do you have any Kahlúa?</description>
+    </item>
+    
+    <item>
+      <title>The Dude</title>
+      <link>/individuals/the-dude/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/individuals/the-dude/</guid>
+      <description>He&#39;s dead now?</description>
+    </item>
+    
+  </channel>
+</rss>

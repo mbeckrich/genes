@@ -1,46 +1,49 @@
-{{- $ahnentafel := slice -}}
-{{- $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+` .RawContent -}}
+{{- $name := findRE `(?mi)^[0-9]+\.\s+([^.])+` .RawContent -}}
+{{- $bday := findRE `(?mi)\d\d\d\d\-\d\d-\d\d` .RawContent -}}
+{{- $children := findRE `(?mi)^\s+[i, ii, iii, vi, v, vi, vii, viii, ix, x]+\.\s+([^.])+` .RawContent -}}
 
 {{- $counter := 0 -}}
-{{- range where site.RegularPages "Section" "reference-lists" -}}
-  {{- range $index, $name := $regex -}}
-  {{$name := replaceRE `[0-9.]+\s+` "" $name }}
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "{{ .Site.Title }}",
+        "author": {
+            "name": "{{ .Site.Params.author }}"
+        },
+{{- range where .Site.RegularPages ".Type" "ahnentafel" -}}
 
+    {{- range $k, $v := $name -}}
+        {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2))) -}}
 
-   {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2)))
-   -}}
-   {{- $num := 0 -}}
-   {{- $id := add $num $counter -}}
+        {{- $id := $counter -}}
 
-   {{- if lt $index 9 -}}
-   {{- $id = print "-00" $id -}}
-   {{- else -}}
-   {{- $id = print "-0" $id -}}
-   {{- end -}}
+          {{- if lt $k 9 -}}
+          {{- $id = print "-00" $id -}}
+          {{- else -}}
+          {{- $id = print "-0" $id -}}
+          {{- end -}}
 
-   {{- $generation = string $generation -}}
-   {{- $id := print "[0" $generation print $id "]" -}}
+        {{- $generation = string $generation -}}
+        {{- $id := print "[0" $generation print $id "]" -}}
 
-    {{- $ahnentafel = merge $ahnentafel
-      (dict
-      (slice $id "name") $name
-      (slice $id "birthplace") "hell"
-      (slice $id "diedplace") "heaven"
-      )
-      -}}
-  {{- end -}}
-{{- end -}}
+        {{- $names := replaceRE `[0-9.]+\s+` "" $v -}}
+        {{ $names := replaceRE `\\` "\\\\" $names }}
 
-{{- $object := dict "ahnentafel" $ahnentafel -}}
-{{- $object | jsonify -}}
-
-{{/*
-  Finds with period at end of name:
-  {{- $regex := findRE `(?mi)^[0-9]+\.\s+([^.])+\.` .RawContent -}}
-
-{{ range $key, $value := $ahnentafel }}
- {{ $key }}: {{ $value }}
+    "{{- $id -}}": [
+    {
+        "name": "{{- string $names -}}",
+        "date of birth": "{{- index $bday $k -}}",
+        "place of birth": "",
+        "date of death": "",
+        "place of death": "",
+        {{- if (and (modBool $k 2) (ne $id "[00-001]")) }}
+        "children": "{{- index $children }}"
+        {{ end }}
+    }
+    {{- if eq $counter (len $name) -}}
+    ]
+    {{- else -}}
+    ],
+    {{ end }}
+    {{ end }}
 {{ end }}
-  */}}
-
-
+}

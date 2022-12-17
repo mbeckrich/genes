@@ -4,8 +4,8 @@ outputs:
   - JSON
   - HTML
 summary:
-  Generation 0
-  1. Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.
+ Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.
+type: ahnentafel
 ---
 
 Generation 0

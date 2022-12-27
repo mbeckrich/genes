@@ -1,17 +1,18 @@
-{{- $name := findRE `(?mi)^[0-9]+\.\s+([^.])+` .RawContent -}}
-{{- $bday := findRE `(?mi)\d\d\d\d\-\d\d-\d\d` .RawContent -}}
+{{- $dar_first_entry := (findRE `(?mi)^?<p class="DAR-First-Entry">[0-9]+\.(.+)</p>$` .RawContent) -}}
 {{- $children := findRE `(?mi)^\s+[i, ii, iii, vi, v, vi, vii, viii, ix, x]+\.\s+([^.])+` .RawContent -}}
 
+
 {{- $counter := 0 -}}
+
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "{{ .Site.Title }}",
         "author": {
             "name": "{{ .Site.Params.author }}"
         },
-{{- range where .Site.RegularPages ".Type" "ahnentafel" -}}
+{{- range where site.RegularPages ".Type" "DAR" -}}
 
-    {{- range $k, $v := $name -}}
+    {{- range $k, $v := $dar_first_entry -}}
         {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2))) -}}
 
         {{- $id := $counter -}}
@@ -25,21 +26,28 @@
         {{- $generation = string $generation -}}
         {{- $id := print "[0" $generation print $id "]" -}}
 
-        {{- $names := replaceRE `[0-9.]+\s+` "" $v -}}
+        {{- $names := replaceRE `<p class="DAR-First-Entry">[0-9]+\.\s+<strong>(.*)\.\s+</strong>(.*)` `$1` $v -}}
         {{ $names := replaceRE `\\` "\\\\" $names }}
+{{/* Consider changing $loc to findRE?*/}}
+        {{ $bday := findRE `Born.?([0-9-]+)` . }}
+        {{- $loc := replaceRE `.+Born.+[0-9-]+ in\s([^.\(\)]+)\..+` `$1` . -}}
+        {{- $died := findRE `Died.?([0-9-]+)` . -}}
+
+
+
 
     "{{- $id -}}": [
     {
-        "name": "{{- string $names -}}",
-        "date of birth": "{{- index $bday $k -}}",
-        "place of birth": "",
-        "date of death": "",
+        "name": "{{- $names -}}",
+        "date of birth": "{{- $bday -}}",
+        "place of birth": "{{- $loc | safeHTML -}}",
+        "date of death": "{{- $died -}}",
         "place of death": "",
         {{- if (and (modBool $k 2) (ne $id "[00-001]")) }}
         "children": "{{- index $children }}"
         {{ end }}
     }
-    {{- if eq $counter (len $name) -}}
+    {{- if eq $counter (len $dar_first_entry) -}}
     ]
     {{- else -}}
     ],

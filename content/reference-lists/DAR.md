@@ -4,9 +4,6 @@ type: DAR
 outputs:
   - JSON
   - HTML
-resources:
-- name: data
-  src: index.json
 ---
 <div id="grampstextdoc">
   <div id="header">

@@ -1,1 +1,13 @@
 <!-- When a person does not have a page in content/individuals -->
+
+{{- $individuals := .Site.Data.dar.dar -}}
+
+{{- .Title -}}
+
+<ul>
+{{ range $i, $v := $individuals }}
+<li>
+<a href="{{ $i }}">{{ $v.name }}</a>
+</li>
+{{ end }}
+</ul>

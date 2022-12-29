@@ -1,10 +1,12 @@
-{{ $taxonomy := "individuals" }} {{ with .Param $taxonomy }}
+{{- $taxonomy := "individuals" -}}
+{{- with .Param $taxonomy -}}
 <ul>
-  {{ range $index, $individual := . }} {{ with $.Site.GetPage (printf "/%s/%s"
-  $taxonomy $individual) -}}
+  {{- range $i, $v := . -}}
+    {{- with $.Site.GetPage (printf "/%s/%s" $taxonomy $v) -}}
   <li class="hashtags">
-    <a class="tags" href="{{ .Permalink }}">#{{ $individual | urlize }}</a>
+    <a class="tags" href="{{- .Permalink -}}">#{{- $v | urlize -}}</a>
   </li>
-  {{- end -}} {{- end -}}
+  {{- end -}}
+  {{- end -}}
 </ul>
 {{ end }}

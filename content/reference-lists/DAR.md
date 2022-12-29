@@ -2,8 +2,11 @@
 title: DAR
 type: DAR
 outputs:
-  - json
-  - html
+  - JSON
+  - HTML
+resources:
+- name: data
+  src: index.json
 ---
 <div id="grampstextdoc">
   <div id="header">

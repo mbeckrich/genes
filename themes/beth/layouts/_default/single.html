@@ -1,9 +1,12 @@
 {{ define "main" }}
+{{- $dob := `[date of birth]` -}}
 <article class="single-posts">
   <h1>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h1>
-  <div class="posts">{{ .Content }}</div>
+  <div class="posts">{{/* .Content */}}
+{{ $individual := .Site.Data.dar.dar }}
+  </div>
   <aside class="bio">
     {{ if isset .Params "has_image" }} {{ $image := resources.Get .Params.image
     }} {{ with $image }}
@@ -12,11 +15,11 @@
     <ul class="bio-list">
       <h3>Born:</h3>
       <li>
-        {{ .born }}
+        {{ index $individual.id_00_001 "date of birth" }}
       </li>
       <h3>Died:</h3>
       <li>
-        {{ .died }}
+        {{ index $individual.id_00_001 "date of death"}}
       </li>
       {{ end }}
       <h3>Married:</h3>

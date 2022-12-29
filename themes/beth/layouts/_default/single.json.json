@@ -1,4 +1,6 @@
-{{/* What does the data look like?
+{{/*
+TODO: Fix abbreviated place names (e.g. "St." instead of "Saint")
+What does the data look like?
  These searches assume:
  - There exist instances of notes by names between asterisks (e.g. *LIKELY INCORRECT...*) that should be removed when
  rendered on the site
@@ -20,73 +22,94 @@
     - If the regex cannot find a match based on the above info, Hugo will return "Unknown." This doesn't mean the
     information isn't in the text, but it's not formatted like the above examples.
  */}}
-
+{{- $dar := slice -}}
 {{- $dar_first_entry := (findRE `(?mi)^?<p class="DAR-First-Entry">[0-9]+\.(.+)</p>$` .RawContent) -}}
-{{- $children := findRE `(?mi)^\s+[i, ii, iii, vi, v, vi, vii, viii, ix, x]+\.\s+([^.])+` .RawContent -}}
+{{/*- $children := findRE `(?mi)^\s+[i, ii, iii, vi, v, vi, vii, viii, ix, x]+\.\s+([^.])+` .RawContent -*/}}
 
 {{- $counter := 0 -}}
 
-{
-    "version": "https://jsonfeed.org/version/1",
-    "title": "{{ .Site.Title }}",
-        "author": {
-            "name": "{{ .Site.Params.author }}"
-        },
 {{- range where site.RegularPages ".Type" "DAR" -}}
 
     {{- range $k, $v := $dar_first_entry -}}
+
         {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2))) -}}
 
         {{- $id := $counter -}}
 
           {{- if lt $k 9 -}}
-          {{- $id = print "-00" $id -}}
+          {{- $id = print "_00" $id -}}
           {{- else -}}
-          {{- $id = print "-0" $id -}}
+          {{- $id = print "_0" $id -}}
           {{- end -}}
 
         {{- $generation = string $generation -}}
-        {{- $id := print "[0" $generation print $id "]" -}}
+        {{- $id := print "id_0" $generation print $id "" -}}
 
-    "{{- $id -}}": [
-    {
         {{- if (index $dar_first_entry $k) | findRE `[0-9]+?\.` -}}
-        {{ $name := (index $dar_first_entry $k) | replaceRE `.*[?0-9]+\.(?:.*)<strong>(.+?)(?:(\.\s)|(\s\*(.*)\**))</strong>(?:.*)` `$1` }}
-        "name": "{{- $name -}}",
-        {{- end }}
+        {{- $name := (index $dar_first_entry $k) | replaceRE `.*[?0-9]+\.(?:.*)<strong>(.+?)(?:(\.\s)|(\s\*(.*)\**))</strong>(?:.*)` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "name") $name
+        ) -}}
+        {{- end -}}
+
         {{- if (index $dar_first_entry $k) | findRE `.+Born(|\s | in | about)\s\d.*` -}}
-            {{ $bday := (index $dar_first_entry $k) | replaceRE `.+Born.+?([0-9-]+).+` `$1` }}
-        "date of birth": "{{- $bday -}}",
-        {{- else }}
-        "date of birth": "Unknown",
-        {{- end }}
-        {{- if (index $dar_first_entry $k) | findRE `.+?Born.+[0-9-]+\s+in\s+([^.\(\)]+)\..+` -}}
-            {{ $loc := (index $dar_first_entry $k) | replaceRE `.*(?:^?Born.+?)(?:in.+?)([^.\(\)]+)\.?(?:.*)` `$1` }}
-        "place of birth": "{{- $loc -}}",
-        {{- else }}
-        "place of birth": "Unknown",
-        {{- end }}
-        {{- if (index $dar_first_entry $k) | findRE `.+Died(| | in | about)\s\d.*` -}}
-            {{ $died := (index $dar_first_entry $k) | replaceRE `.+Died.+?([0-9-]+).+` `$1` }}
-        "date of death": "{{- $died -}}",
-        {{- else }}
-        "date of death": "Unknown",
-        {{- end }}
-        {{- if (index $dar_first_entry $k) | findRE `.+Died.+?[0-9-]*\s+in\s+([^.\(\)]+)` -}}
-            {{ $deathloc := (index $dar_first_entry $k) | replaceRE `.+(?:^?Died)(?:.*?)(?:in.+?)([^.\(\)]+)\.?\s(?:.*)` `$1` }}
-        "place of death": "{{- $deathloc -}}"
+            {{- $bday := (index $dar_first_entry $k) | replaceRE `.+Born.+?([0-9-]+).+` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "date of birth") $bday
+        ) -}}
         {{- else -}}
-        "place of death": "Unknown"
-        {{- end }}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "date of birth") "Unknown"
+        ) -}}
+        {{- end -}}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+?Born.+[0-9-]+\s+in\s+([^.\(\)]+)\..+` -}}
+            {{ $loc := (index $dar_first_entry $k) | replaceRE `.*(?:^?Born.+?)(?:in.+?)([^.\(\)]+)\.?(?:.*)` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of birth") $loc
+        ) -}}
+        {{- else }}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of birth") "Unknown"
+        ) -}}
+        {{- end -}}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+Died(| | in | about)\s\d.*` -}}
+            {{- $died := (index $dar_first_entry $k) | replaceRE `.+Died.+?([0-9-]+).+` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "died") $died
+        ) -}}
+        {{- else -}}
+        {{ $dar = merge $dar
+        (dict
+        (slice $id "date of death") "Unknown"
+        ) }}
+        {{- end -}}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+Died.+?[0-9-]*\s+in\s+([^.\(\)]+)` -}}
+            {{ $deathloc := (index $dar_first_entry $k) | replaceRE `.+(?:^?Died)(?:.*?)(?:in.+?)([^.\(\)]+)\.?\s(?:.*)` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of death") $deathloc
+        ) -}}
+        {{- else -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of death") "Unknown"
+        ) -}}
+        {{- end -}}
+
         {{/*- if (and (modBool $k 2) (ne $id "[00-001]")) }}
         "children": "{{- index $children }}"
         {{ end */}}
-    }
-    {{- if eq $counter (len $dar_first_entry) -}}
-    ]
-    {{- else -}}
-    ],
-    {{ end }}
-    {{- end -}}
-{{ end }}
-}
+{{- end -}}
+{{- end -}}
+
+{{- $object := dict "dar" $dar -}}
+{{- $object | jsonify -}}

@@ -9,10 +9,10 @@ enableEmoji: true
 enableRobotsTXT: true
 paginate: 5
 permalinks:
-  posts: /posts/:slug/
-  tags: /tags/:title/
-  family: /family/:title/
-  individuals: /individuals/:title/
+  posts: /posts/:slug
+  tags: /tags/:title
+  family: /family/:title
+  individuals: /individuals/:title
 taxonomies:
   tag: tags
   series: series

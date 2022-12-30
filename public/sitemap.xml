@@ -14,15 +14,6 @@
     <loc>/posts/the-fall/</loc>
     <lastmod>2012-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/individuals/02-002/</loc>
-    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/02-003/</loc>
-    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/02-i/</loc>
-    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/individuals/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,17 +23,20 @@
     <loc>/family/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/individuals/id_00_001/</loc>
+    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id_02_005/</loc>
+    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id_02_i/</loc>
+    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/individuals/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/third-post/</loc>
     <lastmod>2011-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/02-005/</loc>
-  </url><url>
-    <loc>/individuals/03-012/</loc>
-  </url><url>
-    <loc>/individuals/03-013/</loc>
   </url><url>
     <loc>/about/</loc>
   </url><url>
@@ -56,13 +50,27 @@
   </url><url>
     <loc>/featured/</loc>
   </url><url>
-    <loc>/individuals/finkel-01-001/</loc>
+    <loc>/individuals/finkel_01_001/</loc>
   </url><url>
-    <loc>/individuals/finkel-01-002/</loc>
+    <loc>/individuals/finkel_01_002/</loc>
   </url><url>
-    <loc>/individuals/finkel-01-oi/</loc>
+    <loc>/individuals/finkel_01_oi/</loc>
   </url><url>
     <loc>/family/finkels-of-winnipeg/</loc>
+  </url><url>
+    <loc>/individuals/id_00_001/</loc>
+  </url><url>
+    <loc>/individuals/id_00-001/</loc>
+  </url><url>
+    <loc>/individuals/id_02_005/</loc>
+  </url><url>
+    <loc>/individuals/id_02-005/</loc>
+  </url><url>
+    <loc>/individuals/id_02-i/</loc>
+  </url><url>
+    <loc>/individuals/id_03_012/</loc>
+  </url><url>
+    <loc>/individuals/id_03_013/</loc>
   </url><url>
     <loc>/featured/project-no-1/</loc>
   </url><url>
@@ -71,8 +79,6 @@
     <loc>/series/</loc>
   </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/individuals/the-dude/</loc>
   </url><url>
     <loc>/family/they-found-the-dirt/</loc>
   </url>

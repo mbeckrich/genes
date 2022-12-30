@@ -4,9 +4,9 @@ summary: |
   Some Laura Ingalls Wilder type shit.
 date: "2011-11-11"
 individuals:
-  - 02-003
-  - 02-002
-  - 02-i
+  - id_00_001
+  - id_02_005
+  - id_02_i
 ---
 
 Life on the range. Ma [02-003] and Pa [02-002] and ol' Aunt Susan Jane [02-i] were dirt farmers in Potato, Idaho.

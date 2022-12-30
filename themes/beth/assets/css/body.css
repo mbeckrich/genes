@@ -5,6 +5,7 @@
   --brown-lightest: oklch(80.2% 0.036 69.71);
   --brown-dark: oklch(33.2% 0.036 69.71);
   --links: oklch(73.2% 0.036 169.71);
+  --red: oklch();
   --border-r-s: 4px;
   --border-r-l: 8px;
   --box-shadow-single: 0 0 2px 0.4px var(--brown-dark);
@@ -27,8 +28,44 @@
     oklch(from oklch(77.2% 0.036 69.71) calc(l - 4%) c h);
   --border-normal: 1px solid oklch(33.2% 0.036 69.71 / 0.6);
 
-  /* --links: oklch(65% 0.036 317.71); purple */
+  /* US Digital Service (USWDS) copy color palette
+  from https://huetone.ardov.me/ */
+
+  /* Gray */
+  --Gray-5: oklch(95%, 0.01, 67.7);
+
+  /* CoolMint */
+  --CoolMint-5: oklch(95.01% 0.024 193.58);
+  --CoolMint-40: oklch(58.93% 0.078 189.67);
+
+  /* Violet */
+  --Violet-30: oklch(66.04% 0.095 299.86);
+
+  /* Magenta */
+  --Magenta-40: oklch(58.87% 0.159 353.58);
+  --Magenta-50: oklch(52.51% 0.179 355.27);
+  --Magenta-60: oklch(42.08% 0.103 352.12);
+
+  /* Yellow */
+  --Yellow-5: oklch(95.11% 0.007 67.74);
+  --Yellow-40: oklch(59.06% 0.08 70.39);
+  --Yellow-50: oklch(52.61% 0.041 70.86);
+  --Yellow-60: oklch(42.22% 0.04 69.38);
+  --Yellow-70: oklch(39.26% 0.033 72.03);
+  --Yellow-80: oklch(30.16% 0.014 67.27);
+
+  /* WarmGreen */
+  --WarmGreen-30: oklch(65.88% 0.12 116.94);
+  --WarmGreen-40: oklch(58.92% 0.103 117.69);
+  --WarmGreen-50: oklch(52.56% 0.081 118.29);
+
+  /* Mint */
+  --Mint-30: oklch(66.03% 0.114 163.74);
+  --Mint-40: oklch(58.97% 0.114 164.24);
+  --Mint-50: oklch(52.55% 0.105 164.01);
 }
+
+
 
 body {
   margin: var(--space-xl) 0 0 0;
@@ -71,4 +108,8 @@ a {
 
 .footnotes hr {
   margin: var(--space-s);
+}
+
+.missing-content {
+  color: var(--links);
 }

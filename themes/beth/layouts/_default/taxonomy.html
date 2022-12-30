@@ -1,13 +1,29 @@
-<!-- When a person does not have a page in content/individuals -->
+{{ define "main" }}
 
-{{- $individuals := .Site.Data.dar.dar -}}
+{{- $individual := index .Site.Data.dar.dar -}}
+Taxonomy.html
+<article class="single-posts">
+  <h1>
+	<a href="{{ .RelPermalink }}">{{ index (index $individual .Title) "name" }}</a>
+  </h1>
+  <div class="posts">
+	{{ .Content }}
+  </div>
+  <aside class="bio">
+	{{ if isset .Params "has_image" }}
+	{{ $image := resources.Get .Params.image}}
+	{{ with $image }}
+	<img class="headshot" src="{{ .RelPermalink }}" width="200" height="200" />
+	{{ end }}
+	{{ end }}
+  </aside>
+</article>
 
-{{- .Title -}}
-
-<ul>
-{{ range $i, $v := $individuals }}
-<li>
-<a href="{{ $i }}">{{ $v.name }}</a>
-</li>
-{{ end }}
+<ul class="bio-list">
+  <h3>Born:</h3>
+	  <li>
+	  {{ index (index $individual .Title) "date of birth" }}
+	  </li>
 </ul>
+
+{{ end }}

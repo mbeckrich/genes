@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>id_02-i on Beth&#39;s Genealogy Site</title>
+    <link>/individuals/id_02-i/</link>
+    <description>Recent content in id_02-i on Beth&#39;s Genealogy Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/individuals/id_02-i/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>They found the dirt!</title>
+      <link>/family/they-found-the-dirt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/family/they-found-the-dirt/</guid>
+      <description>It&#39;s dirt season, boys.</description>
+    </item>
+    
+  </channel>
+</rss>

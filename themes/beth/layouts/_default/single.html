@@ -1,32 +1,4 @@
 {{ define "main" }}
-{{- $individual := .Site.Data.dar.dar -}}
-
-{{ range $i, $v := $individual}}
-{{ $i }}
-{{ end }}
-
-<article class="single-posts">
-  <h1>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h1>
-  <div class="posts">{{ .Content }}
-  </div>
-  <aside class="bio">
-    {{ if isset .Params "has_image" }} {{ $image := resources.Get .Params.image
-    }} {{ with $image }}
-    <img class="headshot" src="{{ .RelPermalink }}" width="200" height="200" />
-    {{ end }} {{ end }} {{ with .Params.bio }}
-    <ul class="bio-list">
-      <h3>Born:</h3>
-      <li>
-        {{ index $individual.id_00_001 "date of birth" }}
-      </li>
-      <h3>Died:</h3>
-      <li>
-        {{ index $individual.id_00_001 "date of death"}}
-      </li>
-      {{ end }}
-    </ul>
-  </aside>
-</article>
+{{ .Content }}
+single.html
 {{ end }}

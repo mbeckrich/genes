@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "sass themes/beth/assets/scss/input.scss themes/beth/assets/css/output.css",
+    "lightningcss": "lightningcss --minify --bundle --targets '>= 0.25%' themes/beth/assets/css/output.css -o themes/beth/assets/css/output.css",
+    "build": "npm run bundle && npm run lightningcss"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "npm": "9.2.0"
   },
   "dependencies": {
+    "lightningcss-cli": "^1.18.0",
     "postcss-html": "^1.5.0",
     "stylelint": "^14.16.1",
     "stylelint-config-html": "^1.1.0",

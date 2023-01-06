@@ -14,5 +14,8 @@
     .Site.Title }}{{- end }}
   </title>
 
-  <link rel="stylesheet" href="/{{.Site.Params.style}}" />
-</head>
+  <!-- CSS -->
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
+  {{ with resources.Get "css/output.css" | toCSS $opts | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{ end }}

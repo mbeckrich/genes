@@ -1,6 +1,8 @@
 {{ define "main" }}
 
 {{- $individual := index .Site.Data.dar.dar -}}
+{{ $id := .Title | strings.TrimLeft "id_" }}
+
 Taxonomy.html
 <article class="single-posts">
   <h1>
@@ -21,9 +23,31 @@ Taxonomy.html
 
 <ul class="bio-list">
   <h3>Born:</h3>
-	  <li>
+  <li>
 	  {{ index (index $individual .Title) "date of birth" }}
-	  </li>
+  </li>
+  <h3>Birthplace:</h3>
+	<li>
+		{{ index (index $individual .Title) "place of birth" }}
+	</li>
+	  <h3>Died:</h3>
+	<li>
+	{{ index (index $individual .Title) "died" }}
+	</li>
+	<h3>Place of Death:</h3>
+	<li>
+	{{ index (index $individual .Title) "place of death" }}
+	</li>
+	<h3>ID:</h3>
+	<li>
+	{{ $id }}
+	</li>
+	{{/* modBool calc to determine relationship to Beth?
+	<h3>Relationship</h3>
+	{{ $generation := replaceRE `[a-z]+_[0-9]+_[0-9]+` `$1` .Title }}
+	{{ $number := replaceRE `[a-z]+_(\d\d)_\d\d(\d)` `$2` .Title }}
+	{{ $number }}
+	*/}}
 </ul>
 
 {{ end }}

@@ -9,9 +9,9 @@
 {{ range $i, $v := $individuals }}
 <li>
 {{ if index $terms $i }}
-	<a href="{{ $i }}">{{ $v.name }}</a>
+	<a class="found-content" href="{{ $i }}">{{ $v.name }}</a>
 {{ else }}
-<a class="missing-content" href="{{ $i }}">{{ $v.name }}</a>
+	<a class="missing-content" href="{{ $i }}">{{ $v.name }}</a>
 {{end}}
 </li>
 {{ end }}

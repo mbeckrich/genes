@@ -21,7 +21,7 @@ security:
   exec:
     osEnv:
       - '(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$'
-      - ^ASDF_DIR$
       - ^HOME$
     allow:
-    - ^asciidoctor
+    - ^asciidoctor$
+    - ^dart-sass-embedded$

@@ -1,6 +1,7 @@
 extends:
   - stylelint-config-html
   - stylelint-config-standard
+  - stylelint-config-standard-scss
   - stylelint-config-idiomatic-order
 ignore-files:
   - node_modules/**/*
@@ -9,3 +10,5 @@ plugins:
 rules:
   string-quotes: double
   selector-attribute-quotes: always
+  alpha-value-notation: percentage
+  color-function-notation: modern

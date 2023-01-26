@@ -1,0 +1,40 @@
+{{/* You gotta keep em separated */}}
+
+{{- $dar_family := slice -}}
+
+{{/* Finds HTML tag for individual adult */}}
+
+{{- $everything := (findRE `(?mi)^\s+<[^>]*"DAR-ChildTitle">(?s).+?(<p class="DAR-First-Entry">|<h3 class="DAR-Generation">|<p class="DAR-ChildTitle">)` .RawContent) -}}
+
+{{/*  TODO: Clear extra spaces from $everything  */}}
+
+{{/*
+<p class="DAR-ChildTitle">Children of Scherzer, Jolie Lynn and Spindler, Douglas Alan</p>
+
+<p class="DAR-ChildList">i. Spindler, Matthew Leslie. (I1503183673) Born 1986-08-16 in Orange, CA, USA.  </p>
+<p class="DAR-ChildList">ii. Spindler, Elisabeth Eleanor [1]. (I1503183670) Born 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.  </p>
+<p class="DAR-ChildList">iii. Spindler-Fox, Troy Stephen. (I1503183674) Born 1991-03-08 in Pittsburgh, Allegheny,   Pennsylvania, USA.  </p>
+
+<h3 class="DAR-Generation">Generation 3</h3>  */}}
+
+{{- range where site.RegularPages ".Type" "dar-children" -}}
+
+  {{- range $k, $v := $everything -}}
+
+  {{- $parents := (index $everything $k) | replaceRE `<p class="DAR-ChildTitle">(.*?)</p>[\s\S]+` `$1` -}}
+  {{- $parents := replaceRE `\s{2,}` `` $parents -}}
+  {{- $children := (index $everything $k) | replaceRE `<p class="DAR-ChildTitle">(.*)</p>((?s).*?)(?:<p class="DAR-First-Entry">|<h3 class="DAR-Generation">|<p class="DAR-ChildTitle">)` `$2` -}}
+  {{- $children := (index $children) | replaceRE `<p class="DAR-ChildList">(.*?)</p>` `$1` -}}
+  {{- $children := (index $children) | replaceRE `([xiv]+\.(.+))\([I0-9]+\)` `$1` -}}
+  {{- $children := replaceRE `\s{3,}` `` $children -}}
+  {{- $children := replaceRE `\s{2,}` ` ` $children -}}
+  {{- $dar_family = merge $dar_family
+  (dict
+  (slice $parents "children") $children
+  ) -}}
+
+{{- end -}}
+{{- end -}}
+
+{{- $object := dict "dar_family" $dar_family -}}
+{{- $object | jsonify -}}

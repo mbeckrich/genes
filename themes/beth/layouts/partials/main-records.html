@@ -1,0 +1,134 @@
+{{/*
+TODO: Fix abbreviated place names (e.g. "St." instead of "Saint")
+What does the data look like?
+ These searches assume:
+ - There exist instances of notes by names between asterisks (e.g. *LIKELY INCORRECT...*) that should be removed when
+ rendered on the site
+ - a name looks like:
+    - , Name (TODO: remove ,)
+    - Name, Name
+    - Name, Name Name (Name)
+    - Name, Name Name\Name
+ - a birthday looks like:
+    - "YYYY-MM-DD" or "YYYY" and follows, perhaps not directly, "Born"
+ - a birth location looks like:
+    - location, until period (which is excluded), preceded by the words "Born" and "in"
+    (e.g. "Born YYYY-MM-DD in Green Hill Zone, Sonicland, USA." will return "Green Hill Zone, Sonicland, USA")
+ - a death date looks like:
+    - "YYYY-MM-DD" or "YYYY" and follows, perhaps not directly, "Died"
+ - Notes:
+    - Currently, if a person has a date range (e.g. "Born between 0000 and 1111"), only the first set of numbers
+    ("0000") is returned.
+    - If the regex cannot find a match based on the above info, Hugo will return "Unknown." This doesn't mean the
+    information isn't in the text, but it's not formatted like the above examples.
+ */}}
+
+{{- $dar := slice -}}
+{{- $dar_family := slice -}}
+
+{{/* $counter is used for conversion from natural log to base 2 */}}
+
+{{- $counter := 0 -}}
+
+{{/* Finds HTML tag for individual adult */}}
+
+{{- $dar_first_entry := (findRE `(?mi)^?<p class="DAR-First-Entry">[0-9]+\.(.+)</p>$` .RawContent) -}}
+
+{{- $dar_parent := (findRE `(?mi)^\s+<p class="DAR-ChildTitle">(.*?)</p>$` .RawContent) -}}
+
+{{- $p_class := (findRE `(?mi)^\s+<p class\b[^>]*>` .RawContent) -}}
+
+{{- range where site.RegularPages ".Type" "dar" -}}
+
+    {{- range $k, $v := $dar_first_entry -}}
+
+        {{/*
+          Math to create ahnentafel ID
+          - https://en.m.wikipedia.org/wiki/Ahnentafel#Calculation_of_the_generation_number
+          - https://www.purplemath.com/modules/logrules5.htm
+          - https://www.omnicalculator.com/math/change-of-base
+        */}}
+
+        {{- $generation := (math.Floor (div (math.Log ($counter = add $counter 1)) (math.Log 2))) -}}
+
+        {{/* If individual is less than 10, returns another 0 */}}
+
+        {{- $id := $counter -}}
+
+          {{- if lt $k 9 -}}
+          {{- $id = print "_00" $id -}}
+          {{- else -}}
+          {{- $id = print "_0" $id -}}
+          {{- end -}}
+
+        {{/* Adds "id_0" to ahnentafel ID. Must start with underscore or a Unicode letter, so "id" is used here. */}}
+
+        {{- $generation = string $generation -}}
+        {{- $id := print "id_0" $generation print $id "" -}}
+
+        {{/* Removes list numbers from individual's name */}}
+
+        {{- if (index $dar_first_entry $k) | findRE `[0-9]+?\.` -}}
+        {{- $name := (index $dar_first_entry $k) | replaceRE `.*[?0-9]+\.(?:.*)<strong>(.+?)(?:(\.\s)|(\s\*(.*)\**))</strong>(?:.*)` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "name") $name
+        ) -}}
+        {{ end }}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+Born(|\s | in | about)\s\d.*` -}}
+            {{- $bday := (index $dar_first_entry $k) | replaceRE `.+Born.+?([0-9-]+).+` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "date of birth") $bday
+        ) -}}
+        {{- else -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "date of birth") "Unknown"
+        ) -}}
+        {{- end -}}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+?Born.+[0-9-]+\s+in\s+([^.\(\)]+)\..+` -}}
+            {{ $loc := (index $dar_first_entry $k) | replaceRE `.*(?:^?Born.+?)(?:in.+?)([^.\(\)]+)\.?(?:.*)` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of birth") $loc
+        ) -}}
+        {{- else }}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of birth") "Unknown"
+        ) -}}
+        {{- end -}}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+Died(| | in | about)\s\d.*` -}}
+            {{- $died := (index $dar_first_entry $k) | replaceRE `.+Died.+?([0-9-]+).+` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "died") $died
+        ) -}}
+        {{- else -}}
+        {{ $dar = merge $dar
+        (dict
+        (slice $id "date of death") "Unknown"
+        ) }}
+        {{- end -}}
+
+        {{- if (index $dar_first_entry $k) | findRE `.+Died.+?[0-9-]*\s+in\s+([^.\(\)]+)` -}}
+            {{ $deathloc := (index $dar_first_entry $k) | replaceRE `.+(?:^?Died)(?:.*?)(?:in.+?)([^.\(\)]+)\.?\s(?:.*)` `$1` -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of death") $deathloc
+        ) -}}
+        {{- else -}}
+        {{- $dar = merge $dar
+        (dict
+        (slice $id "place of death") "Unknown"
+        ) -}}
+        {{- end -}}
+{{- end -}}
+{{- end -}}
+
+{{- $object := dict "dar" $dar -}}
+{{- $object | jsonify -}}

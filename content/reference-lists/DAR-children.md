@@ -1,9 +1,10 @@
 ---
-title: DAR
-type: dar
+title: DAR Children
+type: dar-children
 outputs:
 - html
 - json
+layout: test
 ---
 <div id="grampstextdoc">
   <div id="header">

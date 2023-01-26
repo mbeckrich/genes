@@ -63,10 +63,20 @@
     
     <item>
       <title>DAR</title>
-      <link>/reference-lists/dar/index.json</link>
+      <link>/reference-lists/dar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/reference-lists/dar/index.json</guid>
+      <guid>/reference-lists/dar/</guid>
+      <description>Ancestral Report for Spindler, Elisabeth Eleanor Generation 1 1. Spindler, Elisabeth Eleanor. (I1503183670) Daughter of Spindler, Douglas Alan and Scherzer, Jolie Lynn. Born 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA. Generation 2 2. Spindler, Douglas Alan. (I1503183672) Son of Spindler, James Sheldon and Pine, Rosemary. Born 1954-03-21 in Akron, Summit, Ohio, USA. Relationship with Scherzer, Jolie Lynn. (F1749)
+3. Scherzer, Jolie Lynn. (I1503183671) Daughter of Scherzer, Felix and Warman, Sylvia. Born 1957-01-18 in Cresskill, Bergen, New Jersey, USA.</description>
+    </item>
+    
+    <item>
+      <title>DAR Children</title>
+      <link>/reference-lists/dar-children/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reference-lists/dar-children/</guid>
       <description>Ancestral Report for Spindler, Elisabeth Eleanor Generation 1 1. Spindler, Elisabeth Eleanor. (I1503183670) Daughter of Spindler, Douglas Alan and Scherzer, Jolie Lynn. Born 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA. Generation 2 2. Spindler, Douglas Alan. (I1503183672) Son of Spindler, James Sheldon and Pine, Rosemary. Born 1954-03-21 in Akron, Summit, Ohio, USA. Relationship with Scherzer, Jolie Lynn. (F1749)
 3. Scherzer, Jolie Lynn. (I1503183671) Daughter of Scherzer, Felix and Warman, Sylvia. Born 1957-01-18 in Cresskill, Bergen, New Jersey, USA.</description>
     </item>

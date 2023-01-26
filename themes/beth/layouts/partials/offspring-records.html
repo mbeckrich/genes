@@ -4,6 +4,7 @@
 
 {{/* Finds HTML tag for individual adult */}}
 
+
 {{- $everything := (findRE `(?mi)^\s+<[^>]*"DAR-ChildTitle">(?s).+?(<p class="DAR-First-Entry">|<h3 class="DAR-Generation">|<p class="DAR-ChildTitle">)` .RawContent) -}}
 
 {{/*  TODO: Clear extra spaces from $everything  */}}
@@ -22,15 +23,21 @@
   {{- range $k, $v := $everything -}}
 
   {{- $parents := (index $everything $k) | replaceRE `<p class="DAR-ChildTitle">(.*?)</p>[\s\S]+` `$1` -}}
+
   {{- $parents := replaceRE `\s{2,}` `` $parents -}}
+
   {{- $children := (index $everything $k) | replaceRE `<p class="DAR-ChildTitle">(.*)</p>((?s).*?)(?:<p class="DAR-First-Entry">|<h3 class="DAR-Generation">|<p class="DAR-ChildTitle">)` `$2` -}}
+
   {{- $children := (index $children) | replaceRE `<p class="DAR-ChildList">(.*?)</p>` `$1` -}}
+
   {{- $children := (index $children) | replaceRE `([xiv]+\.(.+))\([I0-9]+\)` `$1` -}}
-  {{- $children := replaceRE `\s{3,}` `` $children -}}
-  {{- $children := replaceRE `\s{2,}` ` ` $children -}}
+
+  {{- $children := (index $children) | replaceRE `\n` `` -}}
+  {{- $children := (index $children) | replaceRE `\s{2,}` ` ` -}}
+
   {{- $dar_family = merge $dar_family
   (dict
-  (slice $parents "children") $children
+  (slice $parents "children") (trim $children " ")
   ) -}}
 
 {{- end -}}

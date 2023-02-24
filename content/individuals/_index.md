@@ -1,3 +1,0 @@
----
-title: all the guys
----

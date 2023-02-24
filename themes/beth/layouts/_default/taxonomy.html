@@ -1,53 +1,71 @@
 {{ define "main" }}
+  {{- $individual := index .Site.Data.dar.dar -}}
+  {{- $family := index .Site.Data.dar_children.dar_family -}}
+  {{ $id := .Title | strings.TrimLeft "id_" }}
+  {{ $child_id := string (replaceRE `id_(.*)_\d\d\d` `$1` .Title) }}
+  {{ $mom := (index (index $individual .Title) "name") }}
 
-{{- $individual := index .Site.Data.dar.dar -}}
-{{ $id := .Title | strings.TrimLeft "id_" }}
+  Taxonomy.html
+  <article class="single-posts">
+    <h1>
+      <a href="{{ .RelPermalink }}"
+        >{{ index (index $individual .Title) "name" }}</a
+      >
+    </h1>
+    <div class="posts">
+      {{ .Content }}
+    </div>
+    <aside class="bio">
+      {{ if isset .Params "has_image" }}
+        {{ $image := resources.Get .Params.image }}
+        {{ with $image }}
+          <img
+            class="headshot"
+            src="{{ .RelPermalink }}"
+            width="200"
+            height="200"
+          />
+        {{ end }}
+      {{ end }}
+    </aside>
+  </article>
 
-Taxonomy.html
-<article class="single-posts">
-  <h1>
-	<a href="{{ .RelPermalink }}">{{ index (index $individual .Title) "name" }}</a>
-  </h1>
-  <div class="posts">
-	{{ .Content }}
-  </div>
-  <aside class="bio">
-	{{ if isset .Params "has_image" }}
-	{{ $image := resources.Get .Params.image}}
-	{{ with $image }}
-	<img class="headshot" src="{{ .RelPermalink }}" width="200" height="200" />
-	{{ end }}
-	{{ end }}
-  </aside>
-</article>
+  <ul class="bio-list">
+    {{ $child_id }}
+    <h3>Born:</h3>
+    <li>
+      {{ index (index $individual .Title) "date of birth" }}
+    </li>
+    <h3>Birthplace:</h3>
+    <li>
+      {{ index (index $individual .Title) "place of birth" }}
+    </li>
+    <h3>Died:</h3>
+    <li>
+      {{ index (index $individual .Title) "died" }}
+    </li>
+    <h3>Place of Death:</h3>
+    <li>
+      {{ index (index $individual .Title) "place of death" }}
+    </li>
+    <h3>ID:</h3>
+    <li>
+      {{ $id }}
+    </li>
+    <h3>Children</h3>
 
-<ul class="bio-list">
-  <h3>Born:</h3>
-  <li>
-	  {{ index (index $individual .Title) "date of birth" }}
-  </li>
-  <h3>Birthplace:</h3>
-	<li>
-		{{ index (index $individual .Title) "place of birth" }}
-	</li>
-	  <h3>Died:</h3>
-	<li>
-	{{ index (index $individual .Title) "died" }}
-	</li>
-	<h3>Place of Death:</h3>
-	<li>
-	{{ index (index $individual .Title) "place of death" }}
-	</li>
-	<h3>ID:</h3>
-	<li>
-	{{ $id }}
-	</li>
-	{{/* modBool calc to determine relationship to Beth?
-	<h3>Relationship</h3>
-	{{ $generation := replaceRE `[a-z]+_[0-9]+_[0-9]+` `$1` .Title }}
-	{{ $number := replaceRE `[a-z]+_(\d\d)_\d\d(\d)` `$2` .Title }}
-	{{ $number }}
-	*/}}
-</ul>
-
+    {{ range $k, $v := $family }}
+      {{ if in $k $mom }}
+        {{ $child := (index $v "children") | replaceRE `([xiv]+\.\s+(.*))` `$1` }}
+        {{ $child }}
+      {{ end }}
+    {{ end }}
+    {{/* modBool calc to determine relationship to Beth?
+      <h3>Relationship</h3>
+      {{ $generation := replaceRE `[a-z]+_[0-9]+_[0-9]+` `$1` .Title
+    }}
+    {{ $number := replaceRE `[a-z]+_(\d\d)_\d\d(\d)` `$2` .Title }}
+    {{ $number }}
+    */}}
+  </ul>
 {{ end }}

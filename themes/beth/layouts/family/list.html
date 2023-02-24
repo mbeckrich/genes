@@ -1,41 +1,43 @@
-{{define "main" }}
-<section class="bundles u-grid">
-  <article class="bundle-info">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </article>
-  <section class="bundles-feed">
-    {{ range first 3 (where .Site.RegularPages "Section" "family") }}
-    <article class="posts">
-      <h2>
-        <a href="{{ .Permalink }}">
-          <span class="post-title">{{ .Title }}</span>
-          <span class="post-date">{{ .Date | time.Format "1 – 2 – 06" }} </span>
-        </a>
-      </h2>
-      {{ partial "family/tags.html" . }}
-      <p>
-        {{ .Summary }}
-        <a class="read-more-arrow" href="{{ .RelPermalink }}">
-          <svg
-            class="chevron"
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polyline points="13 17 18 12 13 7"></polyline>
-            <polyline points="6 17 11 12 6 7"></polyline>
-          </svg>
-        </a>
-      </p>
+{{ define "main" }}
+  <section class="bundles u-grid">
+    <article class="bundle-info">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
     </article>
-    {{end}}
+    <section class="bundles-feed">
+      {{ range first 3 (where .Site.RegularPages "Section" "family") }}
+        <article class="posts">
+          <h2>
+            <a href="{{ .Permalink }}">
+              <span class="post-title">{{ .Title }}</span>
+              <span class="post-date"
+                >{{ .Date | time.Format "1 – 2 – 06" }}
+              </span>
+            </a>
+          </h2>
+          {{ partial "family/tags.html" . }}
+          <p>
+            {{ .Summary }}
+            <a class="read-more-arrow" href="{{ .RelPermalink }}">
+              <svg
+                class="chevron"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="13 17 18 12 13 7"></polyline>
+                <polyline points="6 17 11 12 6 7"></polyline>
+              </svg>
+            </a>
+          </p>
+        </article>
+      {{ end }}
+    </section>
   </section>
-</section>
-{{end}}
+{{ end }}

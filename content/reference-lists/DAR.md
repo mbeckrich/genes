@@ -2,9 +2,10 @@
 title: DAR
 type: dar
 outputs:
-- html
-- json
+- HTML
+- JSON
 ---
+
 <div id="grampstextdoc">
   <div id="header">
     <h1 class="DAR-Title" id="SiteTitle">Ancestral Report for Spindler, Elisabeth Eleanor</h1>

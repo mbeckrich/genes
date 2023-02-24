@@ -2,7 +2,6 @@
   "name": "genes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "bundle": "sass themes/beth/assets/scss/input.scss themes/beth/assets/css/output.css",
     "lightningcss": "lightningcss --minify --bundle --targets '>= 0.25%' themes/beth/assets/css/output.css -o themes/beth/assets/css/output.css",
@@ -19,17 +18,18 @@
     "url": "https://github.com/mbeckrich/genes/issues"
   },
   "homepage": "https://github.com/mbeckrich/genes#readme",
-  "volta": {
-    "node": "18.12.1",
-    "npm": "9.2.0"
-  },
   "dependencies": {
     "lightningcss-cli": "^1.18.0",
+    "prettier": "^2.8.4",
+    "prettier-plugin-go-template": "^0.0.13",
     "stylelint": "^14.16.1",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-config-standard-scss": "^6.1.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
     "stylelint-order": "^6.0.0"
+  },
+  "volta": {
+    "node": "18.14.0"
   }
 }

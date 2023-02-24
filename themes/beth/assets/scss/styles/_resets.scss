@@ -1,33 +1,50 @@
 /* resets */
+
+* {
+  margin: 0;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
 }
 
 html {
-  width: 100%;
+  cursor: default;
   height: 100%;
+  line-height: 1.5;
+  tab-size: 4;
+  word-break: break-all;
+
+  &:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
-  line-height: 1.5;
   min-height: 100%;
+  text-rendering: optimizespeed;
 }
-
-/* https://mastery.games/post/article-grid-layout/ */
-
-/* Grid layout */
 
 img,
 picture,
 video,
 canvas,
 svg {
-  display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  display: block;
+}
+
+svg:not([fill]) {
+  fill: currentcolor;
 }
 
 input,
@@ -37,12 +54,24 @@ select {
   font: inherit;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
+a,
+select:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+/* from sanitize.css */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-delay: 0s !important;
+    transition-duration: 0s !important;
+  }
 }

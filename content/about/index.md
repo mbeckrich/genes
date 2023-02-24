@@ -2,4 +2,4 @@
 title: About
 ---
 
-About me.
+Me and my genes are on this site.

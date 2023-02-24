@@ -2,20 +2,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {{- if eq .Permalink "/genes" }}
-  <meta name="description" content="{{ .Site.Params.Description }}" />
+    <meta name="description" content="{{ .Site.Params.Description }}" />
   {{- else if .Description }}
-  <meta name="description" content="{{ .Description }}" />
+    <meta name="description" content="{{ .Description }}" />
   {{- end }}
+
 
   <meta name="generator" content="Hugo v{{ $.Site.Hugo.Version }}" />
 
   <title>
-    {{- if .IsHome }}{{ .Site.Title }}{{- else }}{{ .Title }} &middot; {{
-    .Site.Title }}{{- end }}
+    {{- if .IsHome }}
+      {{ .Site.Title }}
+    {{- else }}
+      {{ .Title }} &middot;
+      {{ .Site.Title }}
+    {{- end }}
   </title>
 
   <!-- CSS -->
-{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
+  {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
   {{ with resources.Get "css/output.css" | toCSS $opts | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"
+    />
   {{ end }}
+</head>

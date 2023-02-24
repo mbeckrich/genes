@@ -1,19 +1,19 @@
 {{ define "main" }}
-{{- $individuals := .Site.Data.dar.dar -}}
+  {{- $individuals := .Site.Data.dar.dar -}}
 
-{{- .Title -}}
+  {{- .Title -}}
 
-{{ $terms := index .Data.Terms }}
+  {{ $terms := index .Data.Terms }}
 
-<ul>
-{{ range $i, $v := $individuals }}
-<li>
-{{ if index $terms $i }}
-	<a class="found-content" href="{{ $i }}">{{ $v.name }}</a>
-{{ else }}
-	<a class="missing-content" href="{{ $i }}">{{ $v.name }}</a>
-{{end}}
-</li>
-{{ end }}
-</ul>
+  <ul>
+    {{ range $i, $v := $individuals }}
+      <li>
+        {{ if index $terms $i }}
+          <a class="found-content" href="{{ $i }}">{{ $v.name }}</a>
+        {{ else }}
+          <a class="missing-content" href="{{ $i }}">{{ $v.name }}</a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
 {{ end }}

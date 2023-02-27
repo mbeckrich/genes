@@ -1,9 +1,7 @@
 {{ define "main" }}
   {{- $individual := index .Site.Data.dar.dar -}}
   {{- $family := index .Site.Data.dar_children.dar_family -}}
-  {{ $id := .Title | strings.TrimLeft "id_" }}
-  {{ $child_id := string (replaceRE `id_(.*)_\d\d\d` `$1` .Title) }}
-  {{ $mom := (index (index $individual .Title) "name") }}
+  {{ $id := .Title | strings.TrimLeft "id:" }}
 
   Taxonomy.html
   <article class="single-posts">
@@ -31,41 +29,26 @@
   </article>
 
   <ul class="bio-list">
-    {{ $child_id }}
-    <h3>Born:</h3>
     <li>
+      <h3>Born:</h3>
       {{ index (index $individual .Title) "date of birth" }}
     </li>
-    <h3>Birthplace:</h3>
+
     <li>
+      <h3>Birthplace:</h3>
       {{ index (index $individual .Title) "place of birth" }}
     </li>
-    <h3>Died:</h3>
     <li>
+      <h3>Died:</h3>
       {{ index (index $individual .Title) "died" }}
     </li>
-    <h3>Place of Death:</h3>
     <li>
+      <h3>Place of Death:</h3>
       {{ index (index $individual .Title) "place of death" }}
     </li>
-    <h3>ID:</h3>
     <li>
+      <h3>ID:</h3>
       {{ $id }}
     </li>
-    <h3>Children</h3>
-
-    {{ range $k, $v := $family }}
-      {{ if in $k $mom }}
-        {{ $child := (index $v "children") | replaceRE `([xiv]+\.\s+(.*))` `$1` }}
-        {{ $child }}
-      {{ end }}
-    {{ end }}
-    {{/* modBool calc to determine relationship to Beth?
-      <h3>Relationship</h3>
-      {{ $generation := replaceRE `[a-z]+_[0-9]+_[0-9]+` `$1` .Title
-    }}
-    {{ $number := replaceRE `[a-z]+_(\d\d)_\d\d(\d)` `$2` .Title }}
-    {{ $number }}
-    */}}
   </ul>
 {{ end }}

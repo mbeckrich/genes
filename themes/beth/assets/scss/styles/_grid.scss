@@ -16,15 +16,14 @@
   flex-grow: 1;
 }
 
-
 .featured-project {
-  grid-template-columns: repeat(auto-fill, 40ch);
   justify-content: space-around;
+  grid-template-columns: repeat(auto-fill, 40ch);
 }
 
 .posts-feed {
-  grid-template-columns: repeat(auto-fill, 40ch);
   justify-content: space-around;
+  grid-template-columns: repeat(auto-fill, 40ch);
 }
 
 .posts-feed h1 {
@@ -33,8 +32,8 @@
 }
 
 .bundles {
-grid-template-columns: repeat(auto-fit, 40ch);
-justify-content: space-around;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, 40ch);
 }
 
 .single-posts {

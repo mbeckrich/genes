@@ -1,6 +1,3 @@
-.posts-feed {
-}
-
 .posts-feed h1 {
   margin-bottom: 0;
 }
@@ -10,7 +7,7 @@ a {
     text-decoration: underline;
     text-decoration-color: transparent;
     text-decoration-thickness: 4px;
-    text-underline-offset: 4px;
+    text-underline-offset: 0;
     transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 
@@ -24,9 +21,9 @@ a {
 
 .post-date {
   margin-left: var(--space-2xs);
-  font-style: italic;
-  font-variation-settings: "wght" 400;
   font-size: var(--step--1);
+  font-style: italic;
+  font-variation-settings: "wght" 300;
 }
 
 .posts-feed p {
@@ -38,11 +35,11 @@ a {
 .bundles-feed .read-more-arrow {
   display: inline-block;
   width: 20px;
-  height: auto;
+  height: 20px;
   border-radius: var(--border-r-s);
   color: var(--links);
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-  vertical-align: top;
+  vertical-align: text-bottom;
 
   &:hover {
     background-color: var(--links);
@@ -56,6 +53,6 @@ a {
   margin: 0;
 
   &:hover {
-    stroke-width: 3;
+    stroke-width: 4;
   }
 }

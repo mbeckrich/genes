@@ -1,32 +1,32 @@
 <section class="posts-feed u-grid-s">
   <h1>{{ with .Site.GetPage "Section" "posts" }}{{ .Title }}{{ end }}</h1>
-  {{ range first 2 (where .Site.RegularPages "Section" "posts") }}
-    <article class="posts">
-      <h2>
-        <a href="{{ .Permalink }}">
-          <span class="post-title">{{ .Title }}</span>
-          <span class="post-date">{{ .Date | time.Format "1 – 2 – 06" }} </span>
-        </a>
-      </h2>
-      {{ .Content | safeHTML | truncate 256 }}{{ if .Truncated }}
-        <a class="read-more-arrow" href="{{ .RelPermalink }}">
-          <svg
-            class="chevron"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polyline points="13 17 18 12 13 7"></polyline>
-            <polyline points="6 17 11 12 6 7"></polyline>
-          </svg>
-        </a>
-      {{ end }}
-    </article>
-  {{ end }}
+    {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <article class="posts">
+        <h2>
+          <a href="{{ .Permalink }}">
+            <span class="post-title">{{ .Title }}</span>
+            <span class="post-date">{{ .Date | time.Format "2006–01–02" }} </span>
+          </a>
+        </h2>
+          {{ .Content | safeHTML | truncate 256 }}{{ if .Truncated }}
+          <a class="read-more-arrow" href="{{ .RelPermalink }}">
+            <svg
+                    class="chevron"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+            >
+              <polyline points="13 17 18 12 13 7"></polyline>
+              <polyline points="6 17 11 12 6 7"></polyline>
+            </svg>
+          </a>
+          {{ end }}
+      </article>
+    {{ end }}
 </section>

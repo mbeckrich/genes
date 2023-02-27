@@ -4,14 +4,12 @@ title: Beth's Genealogy Site
 languageCode: en-US
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-canonifyURLs: true
 enableEmoji: true
 enableRobotsTXT: true
 paginate: 5
+disablePathToLower: true
 permalinks:
   posts: /posts/:slug
-  tags: /tags/:title
-  family: /family/:title
   individuals: /individuals/:title
 taxonomies:
   tag: tags

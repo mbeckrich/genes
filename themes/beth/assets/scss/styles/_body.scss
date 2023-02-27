@@ -1,11 +1,11 @@
 :root {
-  --white: oklch(99% 0.005 69.71);
-  --brown: oklch(42.2% 0.036 69.71);
-  --brown-light: oklch(77.2% 0.036 69.71);
-  --brown-lightest: oklch(80.2% 0.036 69.71);
-  --brown-dark: oklch(33.2% 0.036 69.71);
-  --links: oklch(73.2% 0.036 169.71);
-  --red: oklch(54.5% 0.18 359.8);
+  --white: oklch(98.5% 0.002 68.18);
+  --brown: oklch(39% 0.05 68.18);
+  --brown-dark: oklch(32.03% 0.06 68.18);
+  --brown-light: oklch(52.5% 0.06 68.18);
+  --brown-lightest: oklch(75% 0.04 68.18);
+  --links: oklch(64% 0.04 140.46);
+  --red: oklch(64% 0.04 359.8);
   --border-r-s: 4px;
   --border-r-l: 8px;
   --box-shadow-single: 0 0 2px 0.4px var(--brown-dark);
@@ -39,47 +39,23 @@ body {
     -apple-system,
     "segoe UI",
     sans-serif;
-  font-size: 1rem;
   font-variant-numeric: tabular-nums;
-}
-
-a {
-  text-decoration: 0;
+  font-weight: 400;
+  line-height: calc(4px + 2ex + 4px);
 }
 
 .hashtags:not(:first-child) {
   margin-left: var(--space-xs);
 }
 
-.tags {
-  color: var(--links);
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
-  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--links);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
-  }
-}
-
 .footnotes hr {
   margin: var(--space-s);
 }
-
-/*
-* Another option is to color the bullets?
-* Using the default links green looks a little too Christmas-y
-*/
 
 .found-content {
   color: var(--links);
 }
 
 .missing-content {
-  color: oklch(59.22% 0.075 16.02);
+  color: var(--red);
 }

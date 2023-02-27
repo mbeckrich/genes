@@ -10,14 +10,14 @@
 .links {
   padding: var(--space-2xs);
   background-color: var(--brown);
-  color: var(--brown-light);
+  color: var(--brown-lightest);
   font-size: var(--step--1);
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 
   &:hover {
-    background-color: var(--brown-light);
+    background-color: var(--brown-lightest);
     color: var(--brown);
   }
 }

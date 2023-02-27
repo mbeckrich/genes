@@ -1,57 +1,46 @@
-
 .featured-project {
-  margin-bottom: calc(var(--grid-gutter) *.5);
-}
-
-.featured-project-summary a {
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 4px;
-  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-
-  &:hover {
-	text-decoration: underline;
-	text-decoration-color: var(--links);
-	text-decoration-thickness: 4px;
-	text-underline-offset: 4px;
-  }
+  margin-bottom: calc(var(--grid-gutter) * 0.5);
 }
 
 .featured-project-summary > ul,
 .bundles ul {
   display: flex;
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 
 .featured-project .read-more-arrow {
-	display: flex;
-	width: fit-content;
-	padding: var(--space-3xs) var(--space-2xs);
-	border-radius: var(--border-r-s);
-	margin: var(--space-s) auto 0;
-	color: var(--links);
-	font-variant: all-small-caps;
-	font-weight: 500;
-	outline: 2px solid var(--links);
-	text-decoration: none;
+  display: flex;
+  width: fit-content;
+  padding: var(--space-3xs) var(--space-2xs);
+  border-radius: var(--border-r-s);
+  margin: var(--space-s) auto 0;
+  color: var(--links);
+  font-family: "EBGaramondSC08";
+  font-size: var(--step-0);
+  font-variant: all-small-caps;
+  font-weight: 400;
+  outline: 2px solid var(--links);
+  text-decoration: none;
 
-	&:hover {
-		text-decoration: none;
-		background-color: var(--links);
-		box-shadow: var(--box-shadow-link-hover);
-		color: var(--brown);
-	}
+  & svg {
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
 
-	&:hover svg {
-		stroke-width: 4;
-	}
+  &:hover {
+    background-color: var(--links);
+    box-shadow: var(--box-shadow-link-hover);
+    color: var(--brown);
+    text-decoration: none;
+  }
+
+  &:hover svg {
+    stroke-width: 4;
+  }
 }
 
 .featured-project .chevron {
   width: 20px;
-  height: auto;
+  height: 20px;
   margin-left: var(--space-2xs);
+  place-self: center;
 }

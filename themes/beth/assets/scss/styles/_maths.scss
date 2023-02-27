@@ -7,6 +7,7 @@
 * Button/link padding: 2xs
 * Big underlines: var(--space-4xs-3xs)
 * framed content: xs
+* post meta: 3xs
 */
 
 /* @link https://utopia.fyi/type/calculator?c=318,18,1.333,1240,20,1.618,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,l,12 */
@@ -155,7 +156,7 @@
 
 .u-grid-s {
   display: grid;
-  gap: calc(var(--grid-gutter) *.5);
+  gap: calc(var(--grid-gutter) * 0.5);
 }
 
 /* Flow mod from Utopia */

@@ -4,9 +4,9 @@
     {{- range $i, $v := . -}}
       {{- with $.Site.GetPage (printf "/%s/%s" $taxonomy $v) -}}
         <li class="hashtags">
-          <a class="tags" href="{{- .Permalink -}}">#{{- $v | urlize -}}</a>
+          <a class="tags" href="{{- .Permalink -}}">:{{- $v | urlize -}}</a>
         </li>
       {{- end -}}
     {{- end -}}
   </ul>
-{{ end }}
+{{- end -}}

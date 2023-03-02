@@ -3,7 +3,7 @@
   {{ $id := .Title | strings.TrimLeft "id-" }}
   Taxonomy.html
   <article class="single-posts">
-    {{ with index $individual .Title }}
+      {{ with index $individual .Title }}
       <h1>
         <a href="{{ .RelPermalink }}">{{ index . "name" }}</a>
       </h1>
@@ -25,28 +25,29 @@
       {{ end }}
     </aside>
   </article>
-
+{{ with index $individual .Title }}
   <ul class="bio-list">
     <li>
       <h3>Born:</h3>
-      {{ index (index $individual .Title) "date of birth" }}
+      {{ index . "date of birth" }}
     </li>
 
     <li>
       <h3>Birthplace:</h3>
-      {{ index (index $individual .Title) "place of birth" }}
+      {{ index . "place of birth" }}
     </li>
     <li>
       <h3>Died:</h3>
-      {{ index (index $individual .Title) "died" }}
+      {{ index . "died" }}
     </li>
     <li>
       <h3>Place of Death:</h3>
-      {{ index (index $individual .Title) "place of death" }}
+      {{ index . "place of death" }}
     </li>
     <li>
       <h3>ID:</h3>
       {{ $id }}
     </li>
   </ul>
+  {{ end }}
 {{ end }}

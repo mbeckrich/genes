@@ -3,11 +3,11 @@
   {{ $id := .Title | strings.TrimLeft "id-" }}
   Taxonomy.html
   <article class="single-posts">
-    <h1>
-      <a href="{{ .RelPermalink }}"
-        >{{ index (index $individual .Title) "name" }}</a
-      >
-    </h1>
+    {{ with index $individual .Title }}
+      <h1>
+        <a href="{{ .RelPermalink }}">{{ index . "name" }}</a>
+      </h1>
+    {{ end }}
     <div class="posts">
       {{ .Content }}
     </div>

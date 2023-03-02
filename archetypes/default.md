@@ -26,7 +26,7 @@ individuals:
 # the same name for a topic is always used.
 series:
 - 
-# The `taxonomy` for miscellaneous tags.
+# The tags `taxonomy` for miscellaneous topics.
 tags:
 - 
 # A brief description of the content:

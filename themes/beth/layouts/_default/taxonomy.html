@@ -1,8 +1,7 @@
 {{ define "main" }}
   {{- $individual := index .Site.Data.dar.dar -}}
   {{- $family := index .Site.Data.dar_children.dar_family -}}
-  {{ $id := .Title | strings.TrimLeft "id:" }}
-
+  {{ $id := .Title | strings.TrimLeft "id-" }}
   Taxonomy.html
   <article class="single-posts">
     <h1>

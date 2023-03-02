@@ -2,32 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/family/</loc>
-    <lastmod>2023-02-26T22:33:02-07:00</lastmod>
-  </url><url>
-    <loc>/family/</loc>
-    <lastmod>2023-02-26T22:33:02-07:00</lastmod>
+    <loc>/posts/Jonathan-Basile-Tar-for-Mortar/</loc>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-02-26T22:33:02-07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-02-26T22:33:02-07:00</lastmod>
-  </url><url>
-    <loc>/family/testpost/</loc>
-    <lastmod>2023-02-26T22:33:02-07:00</lastmod>
-  </url><url>
-    <loc>/posts/Family-test/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/family/</loc>
     <lastmod>2012-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/The-Fall/</loc>
-    <lastmod>2012-12-12T00:00:00+00:00</lastmod>
+    <loc>/individuals/id-00-001/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/Third-post/</loc>
-    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
+    <loc>/individuals/id-01-002/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-02-004/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-02-005/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/family/bundle-1/some-tolkiens/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/family/bundle-2/dirt-farming-continues/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/family/valar-extended-family/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/Valar-00-001/</loc>
+    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/The-Sea-Was-as-Wet-as-Wet-Can-Be/</loc>
+    <lastmod>1967-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/featured/</loc>
+    <lastmod>1966-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/oedipa-maas/</loc>
+    <lastmod>1966-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/Project-No.-1/</loc>
+    <lastmod>1966-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>1966-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/Albert-Camus/</loc>
+    <lastmod>1956-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/La-Chute/</loc>
+    <lastmod>1956-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/The-Fall/</loc>
+    <lastmod>1956-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
   </url><url>
@@ -35,28 +74,10 @@
   </url><url>
     <loc>/reference-lists/DAR/</loc>
   </url><url>
-    <loc>/family/bundle-1/dirt-farmers/</loc>
-  </url><url>
-    <loc>/tags/featured/</loc>
-  </url><url>
-    <loc>/individuals/Finkel-01-001/</loc>
-  </url><url>
-    <loc>/family/finkels-of-winnipeg/</loc>
-  </url><url>
     <loc>/individuals/id-00-001/</loc>
-  </url><url>
-    <loc>/individuals/id-02-005/</loc>
-  </url><url>
-    <loc>/individuals/id-02-i/</loc>
-  </url><url>
-    <loc>/individuals/</loc>
-  </url><url>
-    <loc>/posts/Project-No.-1/</loc>
   </url><url>
     <loc>/reference-lists/</loc>
   </url><url>
     <loc>/series/</loc>
-  </url><url>
-    <loc>/family/bundle-2/dirt-farming-continues/</loc>
   </url>
 </urlset>

@@ -63,15 +63,15 @@
     {{- $id := $counter -}}
 
     {{- if lt $k 9 -}}
-      {{- $id = print ":00" $id -}}
+      {{- $id = print "-00" $id -}}
     {{- else -}}
-      {{- $id = print ":0" $id -}}
+      {{- $id = print "-0" $id -}}
     {{- end -}}
 
     {{/* Adds "id_0" to ahnentafel ID. Must start with underscore or a Unicode letter, so "id" is used here. */}}
 
     {{- $generation = string $generation -}}
-    {{- $id := print "id:0" $generation print $id "" -}}
+    {{- $id := print "id-0" $generation print $id "" -}}
 
     {{/* Removes list numbers from individual's name */}}
 

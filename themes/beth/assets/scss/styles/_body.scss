@@ -40,16 +40,13 @@ body {
     "segoe UI",
     sans-serif;
   font-variant-numeric: tabular-nums;
+  font-size: 1rem;
   font-weight: 400;
   line-height: calc(4px + 2ex + 4px);
 }
 
 .hashtags:not(:first-child) {
   margin-left: var(--space-xs);
-}
-
-.footnotes hr {
-  margin: var(--space-s);
 }
 
 .found-content {

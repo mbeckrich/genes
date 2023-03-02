@@ -15,14 +15,16 @@
   border-radius: var(--border-r-s);
   margin: var(--space-s) auto 0;
   color: var(--links);
-  font-family: "EBGaramondSC08";
   font-size: var(--step-0);
   font-variant: all-small-caps;
-  font-weight: 400;
+  font-weight: 300;
   outline: 2px solid var(--links);
+  place-items: flex-end;
   text-decoration: none;
 
   & svg {
+    width: 20px;
+    height: 20px;
     transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 
@@ -39,8 +41,5 @@
 }
 
 .featured-project .chevron {
-  width: 20px;
-  height: 20px;
-  margin-left: var(--space-2xs);
-  place-self: center;
+  margin-left: var(--space-3xs);
 }

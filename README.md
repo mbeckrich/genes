@@ -27,6 +27,19 @@
 4) Run `volta install node` and `volta install npm`. Then, run `npm install` to
    install dependencies.
 
+# Using the site
+
+After setting up the site, some initial data creation and wrangling is required.
+
+This site is designed to use [Gramps](https://gramps-project.org/blog/) and a [GEDCOM](https://www.gedcom.org) file of family data. After installing Gramps and importing a GEDCOM file, create an HTML report using Gramps: `Reports` -> `Text Reports` -> `Detailed Ancestor Report`. Underneath the [front matter](https://gohugo.io/content-management/front-matter/) in the site's `DAR.md` file
+  (`content/reference-lists/DAR.md`), paste the contents of the file exported from Gramps. 
+  
+Back at the terminal and in your site's directory, run `hugo`. This will create the file `index.json` in `public/reference-lists/dar`. Copy the data from this file and paste it into the file `DAR.json` in `data`.
+
+### Content
+
+
+
 # Things to know
 
 ### CSS

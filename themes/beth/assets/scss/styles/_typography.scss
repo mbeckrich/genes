@@ -1,12 +1,20 @@
-h1 {
-  margin-bottom: var(--space-xs);
-  font-size: var(--step-3);
-  font-variation-settings: "wght" 600;
-  line-height: 1;
-}
+/*
+* Links
+*/
 
 a {
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/*
+* Headings
+*/
+
+h1 {
+  margin-bottom: var(--space-xs);
+  font-size: var(--step-2);
+  font-variation-settings: "wght" 500;
+  line-height: 1;
 }
 
 h1,
@@ -23,15 +31,35 @@ h2,
 h3 {
   margin-bottom: var(--space-2xs);
   font-size: var(--step-1);
-  font-variation-settings: "wght" 500;
+  font-variation-settings: "wght" 400;
   line-height: 1;
 }
+
+/*
+* Paragraphs
+*/
 
 p {
   font-size: var(--step-0);
   hyphens: none;
+  font-variation-settings: "wght" 325;
   line-height: calc(4px + 2ex + 4px);
-  text-align: left;
+}
+
+/*
+* Superscript
+*/
+
+sup {
+  font-family: "EBGaramondSC08";
+  font-size: var(--step--1);
+  line-height: 0;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  vertical-align: super;
+}
+
+sup:hover {
+  color: var(--links);
 }
 
 sup a {
@@ -40,35 +68,68 @@ sup a {
 
 sup::before {
   content: "[";
-  vertical-align: text-bottom;
+  vertical-align: baseline;
 }
 
 sup::after {
   content: "]";
-  vertical-align: text-bottom;
+  vertical-align: baseline;
 }
 
-.tags {
-  color: var(--links);
-  font-family:
-    "EBGaramondSC08",
-    system-ui,
-    -apple-system,
-    "segoe UI",
-    sans-serif;
-  font-size: var(--step-0);
-  letter-spacing: 0.05em;
-  line-height: calc(4px + 2ex + 4px);
+/*
+* Footnotes
+*/
+
+.footnotes hr {
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin: var(--space-xs) 0;
+  color: var(--brown-dark);
+}
+
+.footnotes p {
+  font-size: var(--step--1);
+}
+
+.footnotes a {
   text-decoration: underline;
   text-decoration-color: transparent;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   text-underline-offset: 0;
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 
   &:hover {
     text-decoration: underline;
     text-decoration-color: var(--links);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
+  }
+}
+
+.footnote-backref {
+  color: var(--links);
+}
+
+/*
+* Hashtags
+*/
+
+.tags {
+  color: var(--links);
+  font-size: var(--step-0);
+  font-variant-caps: all-small-caps;
+  font-variation-settings: "wght" 300;
+  line-height: 1;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--links);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
   }
 }

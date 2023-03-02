@@ -20,8 +20,9 @@
   </title>
 
   <!-- CSS -->
-  {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
-  {{ with resources.Get "css/output.css" | toCSS $opts | minify | fingerprint }}
+  {{/*  {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }} */}}
+  {{ $opts := dict "targetPath" "css/style.css" }}
+  {{ with resources.Get "css/output.css" | toCSS $opts | fingerprint }}
     <link
       rel="stylesheet"
       href="{{ .RelPermalink }}"

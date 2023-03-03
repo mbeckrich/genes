@@ -1,12 +1,27 @@
 .posts-feed h1 {
-  margin-bottom: 0;
+  margin-bottom: var(--space-m);
+}
+
+.featured-project-summary a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--links);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
 }
 
 a {
   & .post-title {
     text-decoration: underline;
     text-decoration-color: transparent;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 2px;
     text-underline-offset: 0;
     transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
@@ -14,8 +29,8 @@ a {
   &:hover .post-title {
     text-decoration: underline;
     text-decoration-color: var(--links);
-    text-decoration-thickness: 4px;
-    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
   }
 }
 
@@ -28,8 +43,8 @@ a {
 }
 
 .posts-feed p {
-  display: inline;
   font-style: italic;
+  display: inline;
 }
 
 .posts-feed .read-more-arrow,

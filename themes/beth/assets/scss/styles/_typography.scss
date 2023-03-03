@@ -11,7 +11,7 @@ a {
 */
 
 h1 {
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-s);
   font-size: var(--step-2);
   font-variation-settings: "wght" 500;
   line-height: 1;
@@ -118,7 +118,7 @@ sup::after {
   color: var(--links);
   font-size: var(--step-0);
   font-variant-caps: all-small-caps;
-  font-variation-settings: "wght" 300;
+  font-weight: 500;
   line-height: 1;
   text-decoration: underline;
   text-decoration-color: transparent;

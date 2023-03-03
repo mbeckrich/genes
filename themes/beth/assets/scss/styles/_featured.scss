@@ -1,5 +1,5 @@
 .featured-project {
-  margin-bottom: calc(var(--grid-gutter) * 0.5);
+  margin-bottom: var(--space-l);
 }
 
 .featured-project-summary > ul,
@@ -17,7 +17,7 @@
   color: var(--links);
   font-size: var(--step-0);
   font-variant: all-small-caps;
-  font-weight: 300;
+  font-weight: 500;
   outline: 2px solid var(--links);
   place-items: flex-end;
   text-decoration: none;

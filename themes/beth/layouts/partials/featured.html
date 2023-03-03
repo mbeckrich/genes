@@ -5,29 +5,9 @@
       <h2>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h2>
-      {{ .Content | safeHTML | truncate 500 }}{{ if .Truncated }}
-        <a class="read-more-arrow" href="{{ .RelPermalink }}"
-          >Read more
-          <svg
-            class="chevron"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polyline points="13 17 18 12 13 7"></polyline>
-            <polyline points="6 17 11 12 6 7"></polyline>
-          </svg>
-        </a>
-      {{ end }}
+      {{ partial "read-more-svg.html" . }}
     {{ end }}
   </article>
-  <img />
 </div>
 
 <!-- icon from https://lucide.dev -->

@@ -23,6 +23,7 @@
 
 .posts-feed {
   justify-content: space-around;
+  gap: var(--space-m);
   grid-template-columns: repeat(auto-fill, 40ch);
 }
 

@@ -18,7 +18,7 @@
     </svg>
   </a>
 {{- else -}}
-  {{- .Content | safeHTML | truncate 512 -}}
+  {{- .Content | safeHTML | truncate 256 -}}
   <a class="read-more-arrow" href="{{- .RelPermalink -}}">
     <svg
       class="chevron"

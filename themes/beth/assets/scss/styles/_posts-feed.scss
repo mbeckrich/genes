@@ -1,5 +1,6 @@
 .posts-feed h1 {
-  margin-bottom: var(--space-m);
+  padding: 0;
+  margin: 0;
 }
 
 .featured-project-summary a {
@@ -36,15 +37,15 @@ a {
 
 .post-date {
   margin-left: var(--space-2xs);
-  font-size: var(--step--1);
+  font-size: var(--step-0);
   font-style: italic;
   font-variant-caps: all-petite-caps;
   font-variation-settings: "wght" 300;
 }
 
 .posts-feed p {
-  font-style: italic;
   display: inline;
+  font-style: italic;
 }
 
 .posts-feed .read-more-arrow,

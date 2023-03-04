@@ -1,8 +1,10 @@
+{{/* Shows up to the first five posts without the 'featured' tag */}}
+
 <section class="posts-feed u-grid-s">
   <h1>{{ with .Site.GetPage "Section" "posts" }}{{ .Title }}{{ end }}</h1>
-
-  {{ range first 5 (where .Site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
-    <article class="posts">
+  {{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+  {{ if (not (in .Params.tags "featured")) }}
+<article class="posts">
       <h2>
         <a href="{{ .Permalink }}">
           <span class="post-title">{{ .Title }}</span>
@@ -11,5 +13,6 @@
       </h2>
        {{ partial "read-more-svg-no-text.html" . }}
     </article>
+  {{ end }}
   {{ end }}
 </section>

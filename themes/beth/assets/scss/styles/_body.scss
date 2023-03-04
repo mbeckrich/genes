@@ -1,11 +1,11 @@
 :root {
-  --white: oklch(98.5% 0.002 68.18);
-  --brown: oklch(39% 0.05 68.18);
-  --brown-dark: oklch(32.03% 0.06 68.18);
-  --brown-light: oklch(52.5% 0.06 68.18);
-  --brown-lightest: oklch(75% 0.04 68.18);
-  --links: oklch(64% 0.04 140.46);
-  --red: oklch(64% 0.04 359.8);
+  --white: oklch(98.5% 0.002 68.18 / 100%);
+  --brown: oklch(39% 0.05 68.18 / 100%);
+  --brown-dark: oklch(32.03% 0.06 68.18 / 100%);
+  --brown-light: oklch(52.5% 0.06 68.18 / 100%);
+  --brown-lightest: oklch(75% 0.04 68.18 / 100%);
+  --links: oklch(64% 0.04 140.46 / 100%);
+  --red: oklch(64% 0.04 359.8 / 100%);
   --border-r-s: 4px;
   --border-r-l: 8px;
   --box-shadow-single: 0 0 2px 0.4px var(--brown-dark);
@@ -18,7 +18,7 @@
     oklch(from oklch(73.2% 0.036 169.71) calc(l - 12%) c h),
     inset 0 0 8px 1px
     oklch(from oklch(73.2% 0.036 169.71) calc(l - 4%) c h);
-  --box-shadow-navbar: 0 0 2px 0.2px oklch(from oklch(33.9% 0.036 69.71) calc(l + 10%) c h);
+  --box-shadow-navbar: 0 0 1px 0.2px oklch(from oklch(33.9% 0.036 69.71) calc(l + 10%) c h);
   --box-shadow-navbar-hover:
     inset 0 0 2px 1px
     oklch(from oklch(77.2% 0.036 69.71) calc(l - 12%) c h),
@@ -30,7 +30,6 @@
 }
 
 body {
-  margin: var(--space-xl) 0 0 0;
   background-color: var(--white);
   color: var(--brown-dark);
   font-family:
@@ -40,7 +39,6 @@ body {
     "segoe UI",
     sans-serif;
   font-variant-numeric: tabular-nums;
-  font-size: 1rem;
   font-weight: 400;
   line-height: calc(4px + 2ex + 4px);
 }

@@ -30,6 +30,7 @@
 
 .bundles {
   justify-content: space-around;
+  gap: var(--grid-gutter);
   grid-template-columns: repeat(auto-fit, 40ch);
 }
 

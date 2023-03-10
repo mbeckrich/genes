@@ -7,16 +7,15 @@
     <section class="posts-feed u-grid-s">
       {{- range first 3 (where .Site.RegularPages "Section" "family") -}}
         <article class="posts">
-          <h2 class="post-summary-meta">
-
-            <a href="{{- .Permalink -}}">
-              <span class="post-title">{{- .Title -}}</span>
-              <span class="post-date"
-                >{{- .Date | time.Format "2006–01–02" -}}
-              </span>
-            </a>
+          <div class="post-meta">
               {{ partial "family/tags.html" . }}
-          </h2>
+            <a href="{{ .Permalink }}">
+              <h2 class="post-title">{{ .Title }}</h2>
+              <time datetime class="post-date"
+              >{{ .Date | time.Format "2006–01–02" }}
+              </time>
+            </a>
+          </div>
           {{ partial "read-more-svg-no-text.html" . }}
         </article>
       {{ end }}

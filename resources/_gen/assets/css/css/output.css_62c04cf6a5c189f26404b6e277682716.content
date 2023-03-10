@@ -219,8 +219,9 @@ body {
   grid-area: 1/1/-1/-1; }
 
 .bundles {
-  grid-template-columns: repeat(auto-fit, 40ch);
-  justify-content: space-around; }
+  justify-content: space-around;
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(auto-fit, 40ch); }
 
 .single-posts {
   gap: var(--grid-gutter);
@@ -300,15 +301,15 @@ body {
   width: fit-content;
   padding: var(--space-3xs) var(--space-2xs);
   border-radius: var(--border-r-s);
-  margin: var(--space-3xs) auto 0;
+  margin: var(--space-3xs-2xs) auto 0;
   color: var(--brown);
   font-size: var(--step-0);
   font-variant: all-small-caps;
   font-weight: 500;
   text-decoration: none;
-  display: flex; }
+  display: block; }
 
-.featured-project .read-more-arrow svg {
+.featured-project .read-more-arrow .chevron {
   width: 20px;
   height: 20px;
   margin-left: var(--space-3xs);
@@ -321,7 +322,7 @@ body {
   color: var(--brown);
   text-decoration: none; }
 
-.featured-project .read-more-arrow:hover svg {
+.featured-project .read-more-arrow:hover .chevron {
   stroke-width: 4px; }
 
 .section-title {
@@ -389,19 +390,39 @@ body {
   display: inline-block; }
 
 .posts-feed .read-more-arrow:hover, .bundles-feed .read-more-arrow:hover {
-  background-color: var(--links);
-  box-shadow: var(--box-shadow-link-hover);
+  background-color: oklch(from var(--links) l c h/33%);
+  box-shadow: inset 0 0 2px 1px oklch(from var(--links) 80% c h/33%), inset 0 0 4px 1px oklch(from var(--links) 75% c h/33%), inset 0 0 6px 1px oklch(from var(--links) 70% c h/33%);
   color: var(--brown); }
 
 .posts-feed .chevron {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .posts-feed .chevron:hover {
   stroke-width: 4px; }
 
 .bundles-feed .posts:not(:last-child) {
   margin-bottom: var(--space-m); }
+
+.bundle-info h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: var(--space-xs);
+  padding: 0;
+  position: relative; }
+
+.bundle-info h1:before {
+  z-index: -1;
+  width: 100%;
+  height: 6px;
+  border-radius: var(--border-r-s);
+  background-color: oklch(from var(--red) l c h/33%);
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0; }
 
 a {
   color: var(--brown);
@@ -414,8 +435,8 @@ a {
   color: var(--red); }
 
 h1 {
+  margin-bottom: var(--space-s-m);
   font-size: var(--step-4);
-  margin: 0;
   font-weight: 700; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -443,8 +464,12 @@ sup {
   line-height: 0;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
-sup:hover, sup a {
-  color: var(--links); }
+sup:hover {
+  border-radius: var(--border-r-s);
+  background-color: oklch(from var(--links) l c h/30%); }
+
+sup a {
+  color: var(--brown); }
 
 sup:before {
   content: "[";
@@ -461,7 +486,7 @@ sup:after {
   border-top-width: 1px; }
 
 .footnotes p {
-  font-size: var(--step--1); }
+  font-size: var(--step--2); }
 
 .footnote-backref {
   color: var(--links); }

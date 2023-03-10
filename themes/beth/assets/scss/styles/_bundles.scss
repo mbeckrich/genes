@@ -1,3 +1,22 @@
 .bundles-feed .posts:not(:last-child) {
   margin-bottom: var(--space-m);
 }
+
+.bundle-info h1 {
+  position: relative;
+  width: fit-content;
+  padding: 0;
+  margin-bottom: var(--space-xs);
+
+  &::before {
+    position: absolute;
+    z-index: -1;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: var(--border-r-s);
+    background-color: oklch(from var(--red) l c h / 33%);
+    content: "";
+  }
+}

@@ -8,6 +8,7 @@
   --red: oklch(64% 0.04 359.8 / 100%);
   --border-r-s: 4px;
   --border-r-l: 8px;
+  --border-normal: 1px solid oklch(33.2% 0.036 69.71 / 0.6);
   --box-shadow-single: 0 0 2px 0.4px var(--brown-dark);
   --box-shadow-single-inset: inset 0 0 2px 0.4px var(--brown-dark);
   --box-shadow-link: 0 0 3px 0.4px oklch(from oklch(73.2% 0.036 169.71) calc(l - 40%) c h);
@@ -26,31 +27,20 @@
     oklch(from oklch(77.2% 0.036 69.71) calc(l - 8%) c h),
     inset 0 0 8px 1px
     oklch(from oklch(77.2% 0.036 69.71) calc(l - 4%) c h);
-  --border-normal: 1px solid oklch(33.2% 0.036 69.71 / 0.6);
-}
-
-body {
-  background-color: var(--white);
-  color: var(--brown-dark);
-  font-family:
+  --transition-standard: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --fonts-standard:
     "Public Sans VF",
     system-ui,
     -apple-system,
     "segoe UI",
     sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--brown-dark);
+  font-family: var(--fonts-standard);
   font-variant-numeric: tabular-nums;
   font-weight: 400;
-  line-height: calc(4px + 2ex + 4px);
-}
-
-.hashtags:not(:first-child) {
-  margin-left: var(--space-xs);
-}
-
-.found-content {
-  color: var(--links);
-}
-
-.missing-content {
-  color: var(--red);
+  line-height: 1.5;
 }

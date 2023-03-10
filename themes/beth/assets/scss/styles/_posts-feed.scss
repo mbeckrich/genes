@@ -1,51 +1,60 @@
-.posts-feed h1 {
+.section-title {
+  position: relative;
+  width: fit-content;
   padding: 0;
+  margin: 0 0 var(--space-3xs-2xs);
+
+  &::before {
+    position: absolute;
+    z-index: -1;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: var(--border-r-s);
+    background-color: oklch(from var(--red) l c h / 33%);
+    content: "";
+  }
+}
+
+.post-meta {
+  margin-bottom: var(--space-2xs);
+}
+
+.post-title {
+  position: relative;
+  width: fit-content;
   margin: 0;
-}
+  white-space: nowrap;
 
-.featured-project-summary a {
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 0;
-  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--links);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
-  }
-}
-
-a {
-  & .post-title {
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0;
-    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  &::before {
+    position: absolute;
+    z-index: -1;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: var(--border-r-s);
+    background-color: oklch(from var(--links) l c h / 33%);
+    content: "";
+    transition: var(--transition-standard);
   }
 
-  &:hover .post-title {
-    text-decoration: underline;
-    text-decoration-color: var(--links);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
+  &:hover::before {
+    bottom: 2px;
+    height: 90%;
   }
 }
 
 .post-date {
-  margin-left: var(--space-2xs);
   font-size: var(--step-0);
   font-style: italic;
   font-variant-caps: all-petite-caps;
-  font-variation-settings: "wght" 300;
+  font-weight: 300;
 }
 
 .posts-feed p {
   display: inline;
-  font-style: italic;
 }
 
 .posts-feed .read-more-arrow,

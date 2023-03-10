@@ -1,3 +1,3 @@
 ---
-title: "Latest Blog Posts"
+title: "Latest Posts"
 ---

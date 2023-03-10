@@ -1,7 +1,3 @@
-.grid {
-  grid-auto-columns: 1fr;
-}
-
 .site-header {
   grid-column: 1 / -1;
   grid-row: 1 / 1;
@@ -18,13 +14,13 @@
 
 .featured-project {
   justify-content: space-around;
-  grid-template-columns: repeat(auto-fill, 40ch);
+  grid-template-columns: repeat(auto-fill, 54ch);
 }
 
 .posts-feed {
   justify-content: space-around;
-  gap: var(--space-m);
-  grid-template-columns: repeat(auto-fill, 40ch);
+  gap: var(--grid-gutter);
+  grid-template-columns: repeat(auto-fill, 54ch);
 }
 
 .posts-feed h1 {
@@ -44,7 +40,7 @@
   grid-template-areas:
     "header bio"
     "posts posts";
-  grid-template-columns: repeat(minmax(var(--grid-columns), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--grid-columns), 1fr));
   grid-template-rows: repeat(auto-fill, var(--space-s));
 }
 

@@ -21,7 +21,8 @@
 {{- else -}}
   {{- .Content | truncate 512 -}}
   <a class="read-more-arrow" href="{{- .RelPermalink -}}"
-    >Read more
+    ><span class="read-more">Read more</span>
+    <span class="svg-icon">
     <svg
       class="chevron"
       xmlns="http://www.w3.org/2000/svg"
@@ -37,5 +38,6 @@
       <polyline points="13 17 18 12 13 7"></polyline>
       <polyline points="6 17 11 12 6 7"></polyline>
     </svg>
+    </span>
   </a>
 {{- end -}}

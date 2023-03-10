@@ -2,9 +2,14 @@
   <article class="featured-project-summary">
     {{ range first 1 .Site.Taxonomies.tags.featured }}
       {{ partial "tags.html" . }}
-      <h2>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h2>
+      <div class="post-meta">
+        <a href="{{ .Permalink }}">
+          <h2 class="post-title">{{ .Title }}</h2>
+          <time datetime class="post-date"
+          >{{ .Date | time.Format "2006–01–02" }}
+          </time>
+        </a>
+      </div>
       {{ partial "read-more-svg.html" . }}
     {{ end }}
   </article>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest Blog Posts on Beth&#39;s Genealogy Site</title>
+    <title>Latest Posts on Beth&#39;s Genealogy Site</title>
     <link>/posts/</link>
-    <description>Recent content in Latest Blog Posts on Beth&#39;s Genealogy Site</description>
+    <description>Recent content in Latest Posts on Beth&#39;s Genealogy Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -40,7 +40,7 @@
       <pubDate>Tue, 31 Jul 1956 00:00:00 +0000</pubDate>
       
       <guid>/posts/La-Chute/</guid>
-      <description>“Men are never convinced of your reasons, of your sincerity, of the seriousness of your sufferings, except by your death. So long as you are alive, your case is doubtful; you have a right only to their skepticism.”</description>
+      <description>Men are never convinced of your reasons, of your sincerity, of the seriousness of your sufferings, except by your death. So long as you are alive, your case is doubtful; you have a right only to their skepticism.</description>
     </item>
     
   </channel>

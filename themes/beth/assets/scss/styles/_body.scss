@@ -1,7 +1,8 @@
 :root {
   --white: oklch(98.5% 0.002 68.18 / 100%);
-  --brown: oklch(39% 0.05 68.18 / 100%);
-  --brown-dark: oklch(32.03% 0.06 68.18 / 100%);
+  --brown: oklch(41% 0.05 68.18 / 100%);
+  --text: oklch(51% 0.02 68.18 / 99%);
+  --brown-dark: oklch(30.03% 0.05 68.18 / 100%);
   --brown-light: oklch(52.5% 0.06 68.18 / 100%);
   --brown-lightest: oklch(75% 0.04 68.18 / 100%);
   --links: oklch(64% 0.04 140.46 / 100%);
@@ -11,22 +12,22 @@
   --border-normal: 1px solid oklch(33.2% 0.036 69.71 / 0.6);
   --box-shadow-single: 0 0 2px 0.4px var(--brown-dark);
   --box-shadow-single-inset: inset 0 0 2px 0.4px var(--brown-dark);
-  --box-shadow-link: 0 0 3px 0.4px oklch(from oklch(73.2% 0.036 169.71) calc(l - 40%) c h);
+  --box-shadow-link: 0 0 3px 0.4px oklch(from oklch(73.2% 0.036 169.71) -40% c h);
   --box-shadow-link-hover:
     inset 0 0 2px 1px
-    oklch(from oklch(73.2% 0.036 169.71) calc(l - 20%) c h),
+    oklch(from oklch(73.2% 0.036 169.71) -20% c h),
     inset 0 0 4px 1px
-    oklch(from oklch(73.2% 0.036 169.71) calc(l - 12%) c h),
+    oklch(from oklch(73.2% 0.036 169.71) -12% c h),
     inset 0 0 8px 1px
-    oklch(from oklch(73.2% 0.036 169.71) calc(l - 4%) c h);
-  --box-shadow-navbar: 0 0 1px 0.2px oklch(from oklch(33.9% 0.036 69.71) calc(l + 10%) c h);
+    oklch(from oklch(73.2% 0.036 169.71) -4% c h);
+  --box-shadow-navbar: 0 0 1px 0.2px oklch(from oklch(30.03% 0.05 68.18) +10% c h);
   --box-shadow-navbar-hover:
     inset 0 0 2px 1px
-    oklch(from oklch(77.2% 0.036 69.71) calc(l - 12%) c h),
+    oklch(from oklch(77.2% 0.036 69.71) -12% c h),
     inset 0 0 4px 1px
-    oklch(from oklch(77.2% 0.036 69.71) calc(l - 8%) c h),
+    oklch(from oklch(77.2% 0.036 69.71) -8% c h),
     inset 0 0 8px 1px
-    oklch(from oklch(77.2% 0.036 69.71) calc(l - 4%) c h);
+    oklch(from oklch(77.2% 0.036 69.71) -4% c h);
   --transition-standard: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --fonts-standard:
     "Public Sans VF",
@@ -35,6 +36,16 @@
     "segoe UI",
     sans-serif;
 }
+
+/*
+* She wants to hide any overflow and prevent scrolling.
+*
+html,
+body {
+overflow: hidden;
+}
+*/
+
 
 body {
   background-color: var(--white);

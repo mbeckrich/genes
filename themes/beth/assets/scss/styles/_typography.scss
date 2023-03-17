@@ -47,7 +47,7 @@ h3 {
 */
 
 p {
-  color: var(--brown);
+  color: var(--text);
   font-size: var(--step-0);
   font-weight: 375;
   hyphens: none;
@@ -68,7 +68,7 @@ sup {
 
 sup:hover {
   border-radius: var(--border-r-s);
-  background-color: oklch(from var(--links) l c h / 30%);
+  background-color: oklch(from oklch(64% 0.04 140.46) l c h / 30%);
 }
 
 sup a {
@@ -110,14 +110,14 @@ sup::after {
 
 .tags {
   color: var(--brown);
-  font-size: var(--step--1);
-  font-variant-caps: all-small-caps;
-  font-weight: 700;
+  font-size: var(--step--2);
+  text-transform: uppercase;
+  font-weight: 600;
   line-height: 1;
 
   &:hover {
     border-radius: var(--border-r-s);
-    background-color: oklch(from var(--links) l c h / 30%);
+    background-color: oklch(from oklch(64% 0.04 140.46) l c h / 30%);
   }
 }
 

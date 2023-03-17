@@ -14,13 +14,13 @@
 
 .featured-project {
   justify-content: space-around;
-  grid-template-columns: repeat(auto-fill, 54ch);
+  grid-template-columns: repeat(auto-fill, 48ch);
 }
 
 .posts-feed {
   justify-content: space-around;
   gap: var(--grid-gutter);
-  grid-template-columns: repeat(auto-fill, 54ch);
+  grid-template-columns: repeat(auto-fill, 48ch);
 }
 
 .posts-feed h1 {

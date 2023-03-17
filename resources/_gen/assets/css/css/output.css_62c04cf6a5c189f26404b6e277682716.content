@@ -207,13 +207,13 @@ body {
   flex-grow: 1; }
 
 .featured-project {
-  grid-template-columns: repeat(auto-fill, 54ch);
+  grid-template-columns: repeat(auto-fill, 48ch);
   justify-content: space-around; }
 
 .posts-feed {
   justify-content: space-around;
   gap: var(--grid-gutter);
-  grid-template-columns: repeat(auto-fill, 54ch); }
+  grid-template-columns: repeat(auto-fill, 48ch); }
 
 .posts-feed h1 {
   grid-area: 1/1/-1/-1; }
@@ -273,13 +273,12 @@ body {
   overflow: hidden; }
 
 .links {
-  padding: var(--space-2xs);
+  padding: var(--space-3xs);
   background-color: var(--brown);
   color: var(--brown-lightest);
-  font-size: var(--step--1);
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 500; }
 
 .links:hover {
   background-color: var(--brown-lightest);

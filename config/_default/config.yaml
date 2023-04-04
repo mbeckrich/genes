@@ -10,7 +10,7 @@ paginate: 5
 disablePathToLower: true
 permalinks:
   posts: /posts/:slug
-  individuals: /individuals/:title
+  individuals: /individuals/:slug
 taxonomies:
   tag: tags
   series: series

@@ -35,3 +35,9 @@ description:
 images:
 - 
 ---
+
+[//]: # (The squiggly brackets denote a shortcode. Any text placed inside will be searched for a family member's name in the database and turned into a link to their page, provided it has been created in the site's `content/individuals` folder. The name must be written the same as the database's name to be found. The database is located in `data/dar.json`. For example, if his name is written as "Superwholock, Larry" in the database, it will need to be written as "Superwholock, Larry" any time you want it to be turned into a link in the post.)
+
+{{< individual >}}
+
+{{</ individual >}}

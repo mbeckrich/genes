@@ -2,7 +2,7 @@
 title: Some Tolkiens
 date: "2012-12-21"
 summary: |
-  John Ronald Reuel Tolkien is alleged to have fabricated the entirety of his Lord of the Rings novels. The Silmarillion, somehow, is all true.
+  Tolkien, John Ronald Reuel is alleged to have fabricated the entirety of his Lord of the Rings novels. The Silmarillion, somehow, is all true.
 individuals:
 # J.R.R. Tolkien
 - id-00-001

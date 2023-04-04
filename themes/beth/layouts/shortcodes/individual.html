@@ -1,0 +1,15 @@
+{{ $dar := index .Site.Data.dar.dar }}
+{{ $c := .Inner }}
+{{ $i := relURL "individuals" }}
+
+{{ range $k, $v := $dar }}
+  {{ if in $c (index $v.name) }}
+    {{ $name := $v.name }}
+
+    {{ $url := $k }}
+    {{ $url = printf "%s%s%s%s%s%s%s%s" "<" "a href=" $i "/" $url ">" $name "</a>" }}
+    {{ $c = replace $c $name $url }}
+
+{{ end }}
+{{ end }}
+{{ $c | safeHTML }}

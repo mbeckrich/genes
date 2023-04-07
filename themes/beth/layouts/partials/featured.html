@@ -1,18 +1,17 @@
-<div class="featured-project u-grid-s">
-  <article class="featured-project-summary">
-    {{ range first 1 .Site.Taxonomies.tags.featured }}
+<article class="featured with-sidebar">
+  {{ range first 1 .Site.Taxonomies.tags.featured }}
+    <div class="stack-s">
       {{ partial "tags.html" . }}
-      <div class="post-meta">
-        <a href="{{ .Permalink }}">
-          <h2 class="post-title">{{ .Title }}</h2>
-          <time datetime class="post-date"
+      <div class="meta">
+        <h2>
+          <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
+        </h2>
+        <time datetime class="post-date"
           >{{ .Date | time.Format "2006–01–02" }}
-          </time>
-        </a>
+        </time>
       </div>
-      {{ partial "read-more-svg.html" . }}
-    {{ end }}
-  </article>
-</div>
-
-<!-- icon from https://lucide.dev -->
+      {{ partial "summary-svg-text.html" . }}
+    </div>
+    {{ partial "featured-image.html" . }}
+  {{ end }}
+</article>

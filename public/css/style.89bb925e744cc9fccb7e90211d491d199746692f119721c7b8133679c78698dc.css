@@ -155,8 +155,7 @@ body {
   background-color: var(--white);
   color: var(--text);
   font-feature-settings: "tnum" 1;
-  font-size: var(--s0);
-  max-width: 80%; }
+  font-size: var(--s0); }
 
 .center {
   box-sizing: content-box;
@@ -194,12 +193,12 @@ h5, h6 {
 main div h1 {
   flex: 100%; }
 
-article:not(.featured) {
+article {
   max-width: 40ch; }
 
 .cluster-header {
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-s) var(--space-xl);
   flex-wrap: wrap;
   display: flex; }
@@ -212,28 +211,6 @@ article:not(.featured) {
 
 [role=hashtags] {
   font-size: var(--s-1); }
-
-.with-sidebar {
-  gap: var(--space-3xl);
-  flex-wrap: wrap;
-  display: flex; }
-
-.with-sidebar > :first-child {
-  max-width: 40ch;
-  min-width: 40ch;
-  flex-grow: 999;
-  flex-basis: 0; }
-
-.with-sidebar > :last-child {
-  flex-grow: 1;
-  flex-basis: 20rem; }
-
-.switcher-feed h1 {
-  min-width: 100%;
-  box-shadow: 0 2px var(--brown-lightest); }
-
-svg {
-  opacity: 0; }
 
 .stack-l {
   flex-direction: column;
@@ -314,7 +291,7 @@ svg {
   flex-grow: 1;
   flex-basis: calc(29970rem - 99900%); }
 
-.switcher-feed > :nth-last-child(n+7), .switcher-feed > :nth-last-child(n+7) ~ * {
+.switcher-feed > :nth-last-child(n+3), .switcher-feed > :nth-last-child(n+3) ~ * {
   flex-basis: 100%; }
 
 .switcher-s {

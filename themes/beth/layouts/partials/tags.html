@@ -1,7 +1,7 @@
-<ul>
+<ul class="switcher-s">
   {{ range (.GetTerms "tags") }}
-  <li class="hashtags">
-    <a class="tags" href="{{ .Permalink }}">:{{ .LinkTitle}}</a>
+  <li>
+    <a role="hashtags" href="{{ .Permalink }}">:{{ .LinkTitle}}</a>
     {{ end }}
   </li>
 </ul>

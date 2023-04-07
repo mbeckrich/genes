@@ -1,0 +1,5 @@
+<div class="featured-image">
+  {{ with .Page.Resources.GetMatch .Params.image }}
+      <img src="{{ .RelPermalink }}" />
+  {{ end }}
+</div>

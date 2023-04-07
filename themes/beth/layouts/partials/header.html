@@ -1,7 +1,10 @@
-<header class="site-header">
+<header class="cluster-header">
   <h1>
-    <a class="header-link" href="{{ "/" | relURL }}">Beth's Jeans</a>
+    <a href="{{- "/" | relURL -}}"
+      >{{ .Site.Title }}
+    </a>
   </h1>
+  <nav>
+    {{- partial "nav.html" . -}}
+  </nav>
 </header>
-
-<nav class="site-nav u-grid-s">{{ partial "nav.html" . }}</nav>

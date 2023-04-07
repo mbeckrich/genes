@@ -10,82 +10,43 @@
 * post meta: 3xs
 */
 
-/* @link https://utopia.fyi/type/calculator?c=318,18,1.067,1364,22,1.2,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1400,22,1.2,4,3,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 :root {
-  --step--2: clamp(0.96rem, calc(1rem + -0.05vw), 0.99rem);
-  --step--1: clamp(1.05rem, calc(1.03rem + 0.14vw), 1.15rem);
-  --step-0: clamp(1.13rem, calc(1.05rem + 0.38vw), 1.38rem);
-  --step-1: clamp(1.2rem, calc(1.06rem + 0.69vw), 1.65rem);
-  --step-2: clamp(1.28rem, calc(1.07rem + 1.07vw), 1.98rem);
-  --step-3: clamp(1.37rem, calc(1.06rem + 1.54vw), 2.38rem);
-  --step-4: clamp(1.46rem, calc(1.03rem + 2.13vw), 2.85rem);
-  --step-5: clamp(1.56rem, calc(0.99rem + 2.85vw), 3.42rem);
+  --s-3: clamp(0.7rem, calc(0.67rem + 0.14vw), 0.8rem);
+  --s-2: clamp(0.79rem, calc(0.74rem + 0.24vw), 0.96rem);
+  --s-1: clamp(0.89rem, calc(0.81rem + 0.38vw), 1.15rem);
+  --s0: clamp(1rem, calc(0.89rem + 0.56vw), 1.38rem);
+  --s1: clamp(1.13rem, calc(0.97rem + 0.78vw), 1.65rem);
+  --s2: clamp(1.27rem, calc(1.05rem + 1.06vw), 1.98rem);
+  --s3: clamp(1.42rem, calc(1.14rem + 1.41vw), 2.38rem);
+  --s4: clamp(1.6rem, calc(1.23rem + 1.85vw), 2.85rem);
 }
 
-/* @link https://utopia.fyi/space/calculator?c=318,18,1.067,1364,22,1.2,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+/* @link https://utopia.fyi/space/calculator?c=320,16,1.125,1400,22,1.2,4,3,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-xl|3xs-s&g=s,l,xl,12 */
 
 :root {
-  --space-3xs: clamp(0.31rem, calc(0.29rem + 0.1vw), 0.38rem);
-  --space-2xs: clamp(0.56rem, calc(0.52rem + 0.19vw), 0.69rem);
-  --space-xs: clamp(0.88rem, calc(0.82rem + 0.29vw), 1.06rem);
-  --space-s: clamp(1.13rem, calc(1.05rem + 0.38vw), 1.38rem);
-  --space-m: clamp(1.69rem, calc(1.57rem + 0.57vw), 2.06rem);
-  --space-l: clamp(2.25rem, calc(2.1rem + 0.76vw), 2.75rem);
-  --space-xl: clamp(3.38rem, calc(3.15rem + 1.15vw), 4.13rem);
-  --space-2xl: clamp(4.5rem, calc(4.2rem + 1.53vw), 5.5rem);
-  --space-3xl: clamp(6.75rem, calc(6.29rem + 2.29vw), 8.25rem);
+  --space-3xs: clamp(0.25rem, calc(0.21rem + 0.19vw), 0.38rem);
+  --space-2xs: clamp(0.5rem, calc(0.44rem + 0.28vw), 0.69rem);
+  --space-xs: clamp(0.75rem, calc(0.66rem + 0.46vw), 1.06rem);
+  --space-s: clamp(1rem, calc(0.89rem + 0.56vw), 1.38rem);
+  --space-m: clamp(1.5rem, calc(1.33rem + 0.83vw), 2.06rem);
+  --space-l: clamp(2rem, calc(1.78rem + 1.11vw), 2.75rem);
+  --space-xl: clamp(3rem, calc(2.67rem + 1.67vw), 4.13rem);
+  --space-2xl: clamp(4rem, calc(3.56rem + 2.22vw), 5.5rem);
+  --space-3xl: clamp(6rem, calc(5.33rem + 3.33vw), 8.25rem);
 
   /* One-up pairs */
-  --space-3xs-2xs: clamp(0.31rem, calc(0.2rem + 0.57vw), 0.69rem);
-  --space-2xs-xs: clamp(0.56rem, calc(0.41rem + 0.76vw), 1.06rem);
-  --space-xs-s: clamp(0.88rem, calc(0.72rem + 0.76vw), 1.38rem);
-  --space-s-m: clamp(1.13rem, calc(0.84rem + 1.43vw), 2.06rem);
-  --space-m-l: clamp(1.69rem, calc(1.36rem + 1.63vw), 2.75rem);
-  --space-l-xl: clamp(2.25rem, calc(1.68rem + 2.87vw), 4.13rem);
-  --space-xl-2xl: clamp(3.38rem, calc(2.73rem + 3.25vw), 5.5rem);
-  --space-2xl-3xl: clamp(4.5rem, calc(3.36rem + 5.74vw), 8.25rem);
+  --space-3xs-2xs: clamp(0.25rem, calc(0.12rem + 0.65vw), 0.69rem);
+  --space-2xs-xs: clamp(0.5rem, calc(0.33rem + 0.83vw), 1.06rem);
+  --space-xs-s: clamp(0.75rem, calc(0.56rem + 0.93vw), 1.38rem);
+  --space-s-m: clamp(1rem, calc(0.69rem + 1.57vw), 2.06rem);
+  --space-m-l: clamp(1.5rem, calc(1.13rem + 1.85vw), 2.75rem);
+  --space-l-xl: clamp(2rem, calc(1.37rem + 3.15vw), 4.13rem);
+  --space-xl-2xl: clamp(3rem, calc(2.26rem + 3.7vw), 5.5rem);
+  --space-2xl-3xl: clamp(4rem, calc(2.74rem + 6.3vw), 8.25rem);
 
   /* Custom pairs */
-  --space-s-l: clamp(1.13rem, calc(0.63rem + 2.49vw), 2.75rem);
-}
-
-/* @link https://utopia.fyi/grid/calculator?c=318,18,1.333,1236,20,1.618,5,2,&s=0.8|0.4|0.2,1.4|1.8|2.4|3.2|4.2,s-l&g=s,l,2xl,12 */
-
-/* @link https://utopia.fyi/grid/calculator?c=318,18,1.067,1364,22,1.2,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-
-:root {
-  --grid-max-width: 85.25rem;
-  --grid-gutter: var(--space-s-l, clamp(1.13rem, calc(0.63rem + 2.49vw), 2.75rem));
-  --grid-columns: 12;
-}
-
-.u-container {
-  max-width: var(--grid-max-width);
-  margin-inline: auto;
-  padding-inline: var(--grid-gutter);
-}
-
-.u-grid {
-  display: grid;
-  gap: var(--grid-gutter);
-}
-
-.u-grid-s {
-  display: grid;
-  gap: calc(var(--grid-gutter) * 0.5);
-}
-
-/* Flow mod from Utopia */
-
-.u-flow > * + * {
-  margin-bottom: var(--space-s);
-}
-
-.u-flow--l > * + * {
-  margin-bottom: var(--space-l);
-}
-
-.u-flow--s-m > * + * {
-  margin-bottom: var(--space-s-m);
+  --space-s-xl: clamp(1rem, calc(0.07rem + 4.63vw), 4.13rem);
+  --space-3xs-s: clamp(0.25rem, calc(-0.08rem + 1.67vw), 1.38rem);
 }

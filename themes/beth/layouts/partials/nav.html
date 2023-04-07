@@ -1,5 +1,9 @@
-{{ range .Site.Menus.main }}
-  <a class="links" href="{{ .URL }}">{{ .Name }}</a>
-
-  {{ .Post }}
-{{ end }}
+<ul class="cluster switcher">
+  {{- range .Site.Menus.main -}}
+    <li>
+      <a href="{{- .URL -}}">
+        {{- .Name -}}
+      </a>
+    </li>
+  {{- end -}}
+</ul>

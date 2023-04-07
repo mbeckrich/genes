@@ -2,12 +2,5 @@
 @use "styles/maths";
 @use "styles/resets";
 @use "styles/body";
-@use "styles/fluid";
-@use "styles/grid";
-@use "styles/header";
-@use "styles/nav";
-@use "styles/featured";
-@use "styles/posts-feed";
-@use "styles/bundles";
-@use "styles/typography";
-@use "styles/posts";
+@use "styles/stacks";
+@use "styles/switchers";

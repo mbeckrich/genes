@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest Blog Posts on Beth&#39;s Genealogy Site</title>
+    <title>Beth&#39;s Genealogy Site</title>
     <link>/</link>
-    <description>Recent content in Latest Blog Posts on Beth&#39;s Genealogy Site</description>
+    <description>Recent content on Beth&#39;s Genealogy Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -22,7 +22,7 @@
       <pubDate>Fri, 21 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>/family/bundle-1/some-tolkiens/</guid>
-      <description>John Ronald Reuel Tolkien is alleged to have fabricated the entirety of his Lord of the Rings novels. The Silmarillion, somehow, is all true.</description>
+      <description>Tolkien, John Ronald Reuel is alleged to have fabricated the entirety of his Lord of the Rings novels. The Silmarillion, somehow, is all true.</description>
     </item>
     
     <item>
@@ -77,15 +77,6 @@
       
       <guid>/about/</guid>
       <description>Me and my genes are on this site.</description>
-    </item>
-    
-    <item>
-      <title>Beth&#39;s Ahnentafel</title>
-      <link>/reference-lists/ahnentafel/Beth-Ahnentafel/index.json</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/reference-lists/ahnentafel/Beth-Ahnentafel/index.json</guid>
-      <description>Spindler, Elisabeth Eleanor. Elisabeth Eleanor was born on 1988-11-09 in Pittsburgh, Allegheny, Pennsylvania, USA.</description>
     </item>
     
     <item>

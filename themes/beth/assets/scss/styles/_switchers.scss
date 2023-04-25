@@ -5,12 +5,13 @@
 .switcher {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-3xs) var(--space-l);
+  gap: var(--space-s) var(--space-l);
 }
 
 .switcher > * {
+  min-width: fit-content;
+  flex-basis: calc((48rem - 100%) * 999);
   flex-grow: 1;
-  flex-basis: calc((46rem - 100%) * 999);
 }
 
 .switcher > :nth-last-child(n + 7),
@@ -21,17 +22,22 @@
 .switcher-feed {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-l) var(--space-l);
+  gap: var(--space-l) var(--space-xl);
 }
 
 .switcher-feed > * {
+  flex-basis: calc((100rem - 100%) * 999);
   flex-grow: 1;
-  flex-basis: calc((30rem - 100%) * 999);
 }
 
-.switcher-feed > :nth-last-child(n + 7),
-.switcher-feed > :nth-last-child(n + 7) ~ * {
+.switcher-feed > :nth-last-child(n + 8),
+.switcher-feed > :nth-last-child(n + 8) ~ * {
   flex-basis: 100%;
+}
+
+.switcher-feed h1 {
+  min-width: 100%;
+  box-shadow: 0 2px var(--grey);
 }
 
 .switcher-s {

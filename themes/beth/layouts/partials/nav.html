@@ -1,4 +1,14 @@
-<ul class="cluster switcher">
+<ul class="cluster">
+  {{- range .Site.Menus.main -}}
+  <li>
+    <a href="{{- .URL -}}">
+      {{- .Name -}}
+    </a>
+  </li>
+  {{- end -}}
+</ul>
+
+<!-- <ul class="switcher">
   {{- range .Site.Menus.main -}}
     <li>
       <a href="{{- .URL -}}">
@@ -6,4 +16,4 @@
       </a>
     </li>
   {{- end -}}
-</ul>
+</ul> -->

@@ -22,7 +22,7 @@
   <!-- CSS -->
   {{/*  {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }} */}}
   {{ $opts := dict "targetPath" "css/style.css" }}
-  {{ with resources.Get "css/output.css" | toCSS $opts | fingerprint }}
+  {{ with resources.Get "css/output.css" }}
     <link
       rel="stylesheet"
       href="{{ .RelPermalink }}"

@@ -1,0 +1,16 @@
+.with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-l) var(--space-3xl);
+}
+
+.with-sidebar > :first-child {
+  flex-basis: 40ch;
+  flex-grow: 999;
+  max-inline-size: 40ch;
+}
+
+.with-sidebar > :last-child {
+  flex-basis: 20rem;
+  flex-grow: 1;
+}

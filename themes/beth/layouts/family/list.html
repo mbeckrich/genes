@@ -1,20 +1,20 @@
 {{ define "main" }}
-  <section class="bundles u-grid">
-    <article class="bundle-info">
+  <section class="with-sidebar">
+    <article class="stack-s">
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </article>
-    <section class="posts-feed u-grid-s">
+    <div class="switcher-feed">
       {{- range first 3 (where .Site.RegularPages "Section" "family") -}}
-        <article class="posts">
-          <div class="post-meta">
-              {{ partial "family/tags.html" . }}
-            <a href="{{ .Permalink }}">
-              <h2 class="post-title">{{ .Title }}</h2>
-              <time datetime class="post-date"
+        <article class="stack-s">
+          {{ partial "family/tags.html" . }}
+          <div class="meta">
+            <h2>
+              <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
+            </h2>
+            <time datetime class="post-date"
               >{{ .Date | time.Format "2006–01–02" }}
-              </time>
-            </a>
+            </time>
           </div>
           {{ partial "summary-svg-no-text.html" . }}
         </article>

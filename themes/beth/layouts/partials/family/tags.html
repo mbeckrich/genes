@@ -1,10 +1,10 @@
 {{- $taxonomy := "individuals" -}}
 {{- with .Param $taxonomy -}}
-  <ul>
+  <ul class="switcher-s">
     {{- range $i, $v := . -}}
       {{- with $.Site.GetPage (printf "/%s/%s" $taxonomy $v) -}}
-        <li class="hashtags">
-          <a class="tags" href="{{- .Permalink -}}">:{{- $v | urlize -}}</a>
+        <li>
+          <a role="hashtags" href="{{- .Permalink -}}">:{{- $v | urlize -}}</a>
         </li>
       {{- end -}}
     {{- end -}}

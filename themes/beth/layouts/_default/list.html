@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{/* shows all posts not part of the "family" section — aka the blog */}}
+<div class="switcher-feed">
+  {{ range (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ if (not (in .Params.tags "featured")) }}
+      <article class="stack-s">
+        <div class="meta">
+          <h2>
+            <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
+          </h2>
+          <time datetime class="post-date"
+            >{{ .Date | time.Format "2006–01–02" }}
+          </time>
+        </div>
+        {{ partial "summary-svg-no-text.html" . }}
+      </article>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

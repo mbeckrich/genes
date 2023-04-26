@@ -43,7 +43,7 @@
 			"file": "themes/beth/layouts/partials/header.html",
 			"settings":
 			{
-				"buffer_size": 176,
+				"buffer_size": 177,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
@@ -57,7 +57,7 @@
 						"characters": "clut"
 					},
 					"BQAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAQAAAB0ZXN0EAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAATAAAAAAAAAA8AAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					7,
@@ -65,7 +65,7 @@
 					"left_delete",
 					null,
 					"AQAAABIAAAAAAAAAEgAAAAAAAAABAAAAdA",
-					"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					8,
@@ -75,8 +75,305 @@
 						"characters": "ster-header"
 					},
 					"CwAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAA8L8"
 				]
+			]
+		},
+		{
+			"file": "themes/beth/assets/scss/styles/_nav.scss",
+			"settings":
+			{
+				"buffer_size": 138,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					2,
+					"left_delete",
+					null,
+					"AgAAAB0AAAAAAAAAHQAAAAAAAAABAAAAeBwAAAAAAAAAHAAAAAAAAAABAAAAMw",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							[
+								[
+									14,
+									18
+								],
+								[
+									14,
+									18
+								],
+								"co",
+								2
+							],
+							[
+								[
+									14,
+									19
+								],
+								[
+									14,
+									22
+								],
+								"",
+								2
+							],
+							[
+								[
+									14,
+									22
+								],
+								[
+									14,
+									22
+								],
+								"or",
+								2
+							],
+							[
+								[
+									14,
+									24
+								],
+								[
+									14,
+									28
+								],
+								"",
+								2
+							],
+							[
+								[
+									14,
+									28
+								],
+								[
+									14,
+									28
+								],
+								"va",
+								2
+							],
+							[
+								[
+									14,
+									29
+								],
+								[
+									14,
+									31
+								],
+								"",
+								2
+							],
+							[
+								[
+									14,
+									31
+								],
+								[
+									14,
+									31
+								],
+								"(--brow",
+								2
+							],
+							[
+								[
+									14,
+									32
+								],
+								[
+									14,
+									33
+								],
+								"",
+								2
+							],
+							[
+								[
+									14,
+									33
+								],
+								[
+									14,
+									33
+								],
+								")",
+								2
+							],
+							[
+								[
+									15,
+									18
+								],
+								[
+									15,
+									20
+								],
+								"",
+								2
+							],
+							[
+								[
+									15,
+									21
+								],
+								[
+									15,
+									23
+								],
+								"",
+								2
+							],
+							[
+								[
+									15,
+									23
+								],
+								[
+									15,
+									23
+								],
+								"ine",
+								2
+							],
+							[
+								[
+									15,
+									25
+								],
+								[
+									15,
+									32
+								],
+								"",
+								2
+							],
+							[
+								[
+									15,
+									32
+								],
+								[
+									15,
+									32
+								],
+								"unde",
+								2
+							],
+							[
+								[
+									15,
+									33
+								],
+								[
+									15,
+									35
+								],
+								"",
+								2
+							],
+							[
+								[
+									15,
+									35
+								],
+								[
+									15,
+									35
+								],
+								"li",
+								2
+							],
+							[
+								[
+									15,
+									36
+								],
+								[
+									15,
+									37
+								],
+								"",
+								2
+							],
+							[
+								[
+									15,
+									37
+								],
+								[
+									15,
+									37
+								],
+								"e",
+								2
+							],
+							[
+								[
+									18,
+									1
+								],
+								[
+									18,
+									1
+								],
+								"\n",
+								2
+							]
+						]
+					},
+					"EwAAACcBAAAAAAAAKAEAAAAAAAAAAAAA5AAAAAAAAADlAAAAAAAAAAAAAADjAAAAAAAAAOMAAAAAAAAAAQAAACniAAAAAAAAAOQAAAAAAAAAAAAAAOAAAAAAAAAA4AAAAAAAAAACAAAAb3ffAAAAAAAAAOMAAAAAAAAAAAAAANgAAAAAAAAA2AAAAAAAAAAHAAAAdmFyKC0tYtYAAAAAAAAA2QAAAAAAAAAAAAAA1AAAAAAAAADUAAAAAAAAAAIAAABvctEAAAAAAAAA0QAAAAAAAAACAAAAY2+9AAAAAAAAAL4AAAAAAAAAAAAAALwAAAAAAAAAvAAAAAAAAAABAAAAZbsAAAAAAAAAwgAAAAAAAAAAAAAAuQAAAAAAAAC5AAAAAAAAAAIAAABsabgAAAAAAAAAugAAAAAAAAAAAAAAtAAAAAAAAAC0AAAAAAAAAAQAAAB1bmRlsgAAAAAAAAC0AAAAAAAAAAAAAACvAAAAAAAAAK8AAAAAAAAAAwAAAGluZa4AAAAAAAAAsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "x"
+					},
+					"AQAAABwAAAAAAAAAHQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"left_delete",
+					null,
+					"AQAAABwAAAAAAAAAHAAAAAAAAAABAAAAeA",
+					"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					3,
+					"left_delete",
+					null,
+					"AwAAAIsAAAAAAAAAiwAAAAAAAACcAAAAbmF2IGxpOmhvdmVyIGEgewogIHRleHQtZGVjb3JhdGlvbi1jb2xvcjogdmFyKC0tYnJvd24pOwogIHRleHQtZGVjb3JhdGlvbi1saW5lOiB1bmRlcmxpbmU7CiAgdGV4dC1kZWNvcmF0aW9uLXRoaWNrbmVzczogMnB4OwogIHRleHQtdW5kZXJsaW5lLW9mZnNldDogMnB4Owp9igAAAAAAAACKAAAAAAAAAAEAAAAKiQAAAAAAAACJAAAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAJwEAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "themes/beth/assets/scss/styles/_maths.scss",
+			"settings":
+			{
+				"buffer_size": 2248,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
 			]
 		}
 	],
@@ -273,19 +570,18 @@
 				{
 					"buffer": 0,
 					"file": "themes/beth/layouts/partials/header.html",
-					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 176,
+						"buffer_size": 177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								177,
+								177
 							]
 						],
 						"settings":
@@ -307,7 +603,7 @@
 								}
 							],
 							"lsp_active": true,
-							"lsp_hover_provider_count": 1,
+							"lsp_hover_provider_count": 2,
 							"lsp_uri": "file:///Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/partials/header.html",
 							"show_definitions": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -316,6 +612,94 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "themes/beth/assets/scss/styles/_nav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_nav.scss",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "themes/beth/assets/scss/styles/_maths.scss",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								294
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_maths.scss",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

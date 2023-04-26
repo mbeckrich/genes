@@ -8,11 +8,11 @@ a {
 }
 
 .found-content {
-  color: var(--links);
+  color: oklch(var(--links));
 }
 
 .missing-content {
-  color: var(--red);
+  color: oklch(var(--red));
 }
 
 /*
@@ -47,7 +47,7 @@ h3 {
 */
 
 p {
-  color: var(--text);
+  color: oklch(var(--text));
   font-size: var(--step-0);
   font-weight: 375;
   hyphens: none;
@@ -93,7 +93,7 @@ sup::after {
   border-top-width: 1px;
   border-top-style: solid;
   margin: var(--space-xs) 0;
-  color: var(--brown-dark);
+  color: oklch(var(--brown-dark));
 }
 
 .footnotes p {
@@ -101,7 +101,7 @@ sup::after {
 }
 
 .footnote-backref {
-  color: var(--links);
+  color: oklch(var(--links));
 }
 
 /*

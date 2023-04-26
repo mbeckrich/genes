@@ -3,7 +3,7 @@ nav ul {
 }
 
 nav a {
-  color: var(--links);
+  color: oklch(var(--links));
   font-weight: 600;
 }
 

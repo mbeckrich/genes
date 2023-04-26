@@ -1,5 +1,5 @@
 .single-posts {
-  background-color: var(--white);
+  background-color: oklch(var(--white));
 }
 
 .single-posts .posts {
@@ -7,7 +7,7 @@
 }
 
 .single-posts h1 {
-  color: var(--links);
+  color: oklch(var(--links));
   text-decoration: underline;
   text-decoration-color: transparent;
   text-underline-offset: 2px;
@@ -15,7 +15,7 @@
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: var(--links);
+    text-decoration-color: oklch(var(--links));
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
   }
@@ -28,10 +28,10 @@
 .single-posts .headshot {
   max-width: 200px;
   height: auto;
-  border: 2px solid var(--brown);
+  border: 2px solid oklch(var(--brown));
   border-radius: 4px;
   margin-bottom: var(--space-2xs);
-  box-shadow: 0 0 0.4px 0.4px var(--brown-lightest);
+  box-shadow: 0 0 0.4px 0.4px oklch(var(--brown-lightest));
 }
 
 :where(.bio ul) {

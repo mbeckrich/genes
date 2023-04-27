@@ -51,182 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "themes/beth/assets/scss/styles/_body.scss",
-			"settings":
-			{
-				"buffer_size": 3108,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					7,
-					1,
-					"insert",
-					{
-						"characters": "oklch"
-					},
-					"BgAAAM8HAAAAAAAA0AcAAAAAAAAAAAAA0AcAAAAAAADQBwAAAAAAABUAAABva2xjaChva2xjaCgtLWJyb3duKSnQBwAAAAAAANEHAAAAAAAAAAAAANEHAAAAAAAA0gcAAAAAAAAAAAAA0gcAAAAAAADTBwAAAAAAAAAAAADTBwAAAAAAANQHAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5AcAAAAAAADPBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAANQHAAAAAAAA1gcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA1AcAAAAAAADUBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "--browN"
-					},
-					"BwAAANUHAAAAAAAA1gcAAAAAAAAAAAAA1gcAAAAAAADXBwAAAAAAAAAAAADXBwAAAAAAANgHAAAAAAAAAAAAANgHAAAAAAAA2QcAAAAAAAAAAAAA2QcAAAAAAADaBwAAAAAAAAAAAADaBwAAAAAAANsHAAAAAAAAAAAAANsHAAAAAAAA3AcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA1QcAAAAAAADVBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"left_delete",
-					null,
-					"AQAAANsHAAAAAAAA2wcAAAAAAAABAAAATg",
-					"AQAAAAAAAAABAAAA3AcAAAAAAADcBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"insert",
-					{
-						"characters": "n"
-					},
-					"AQAAANsHAAAAAAAA3AcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2wcAAAAAAADbBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"",
-					null,
-					"AwAAAKIJAAAAAAAAtQkAAAAAAAAOAAAAb2tsY2goLS1icm93bilUCAAAAAAAAGcIAAAAAAAADgAAAG9rbGNoKC0tYnJvd24pzwcAAAAAAADiBwAAAAAAAA4AAABva2xjaCgtLWJyb3duKQ",
-					"AQAAAAAAAAABAAAA3AcAAAAAAADcBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					45,
-					1,
-					"left_delete",
-					null,
-					"AQAAAD4BAAAAAAAAPgEAAAAAAAAGAAAAb2tsY2go",
-					"AQAAAAAAAAABAAAARAEAAAAAAAA+AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					48,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFEBAAAAAAAAUQEAAAAAAAABAAAAKQ",
-					"AQAAAAAAAAABAAAAUgEAAAAAAABSAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					52,
-					1,
-					"",
-					null,
-					"AQAAAMwKAAAAAAAA3woAAAAAAAAMAAAAdmFyKC0tbGlua3Mp",
-					"AQAAAAAAAAABAAAAUQEAAAAAAABRAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					74,
-					1,
-					"left_delete",
-					null,
-					"AQAAABMAAAAAAAAAEwAAAAAAAAAGAAAAb2tsY2go",
-					"AQAAAAAAAAABAAAAGQAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					77,
-					1,
-					"left_delete",
-					null,
-					"AQAAACsAAAAAAAAAKwAAAAAAAAABAAAAKQ",
-					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					84,
-					1,
-					"",
-					null,
-					"AQAAADoGAAAAAAAATQYAAAAAAAAMAAAAdmFyKC0td2hpdGUp",
-					"AQAAAAAAAAABAAAAbgAAAAAAAABuAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					92,
-					1,
-					"",
-					null,
-					"AQAAAD4LAAAAAAAAUAsAAAAAAAALAAAAdmFyKC0tZ3JleSk",
-					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					98,
-					6,
-					"left_delete",
-					null,
-					"BgAAAF4AAAAAAAAAXgAAAAAAAAABAAAAKF0AAAAAAAAAXQAAAAAAAAABAAAAaFwAAAAAAAAAXAAAAAAAAAABAAAAY1sAAAAAAAAAWwAAAAAAAAABAAAAbFoAAAAAAAAAWgAAAAAAAAABAAAAa1kAAAAAAAAAWQAAAAAAAAABAAAAbw",
-					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					100,
-					1,
-					"left_delete",
-					null,
-					"AQAAAGgAAAAAAAAAaAAAAAAAAAABAAAAKQ",
-					"AQAAAAAAAAABAAAAaQAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					101,
-					1,
-					"insert",
-					{
-						"characters": " /"
-					},
-					"AgAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABqAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					102,
-					1,
-					"insert",
-					{
-						"characters": " 100%"
-					},
-					"BQAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAG0AAAAAAAAAAAAAAG0AAAAAAAAAbgAAAAAAAAAAAAAAbgAAAAAAAABvAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					105,
-					6,
-					"left_delete",
-					null,
-					"BgAAAIAAAAAAAAAAgAAAAAAAAAABAAAAKH8AAAAAAAAAfwAAAAAAAAABAAAAaH4AAAAAAAAAfgAAAAAAAAABAAAAY30AAAAAAAAAfQAAAAAAAAABAAAAbHwAAAAAAAAAfAAAAAAAAAABAAAAa3sAAAAAAAAAewAAAAAAAAABAAAAbw",
-					"AQAAAAAAAAABAAAAgQAAAAAAAACBAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					108,
-					1,
-					"left_delete",
-					null,
-					"AQAAAI8AAAAAAAAAjwAAAAAAAAABAAAAKQ",
-					"AQAAAAAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -362,6 +186,9 @@
 	],
 	"file_history":
 	[
+		"/Users/mkb/iccs/exif.rb",
+		"/Users/mkb/iccs/exifr.mjs",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_body.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_switchers.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/resources/_gen/assets/css/css/output.css_62c04cf6a5c189f26404b6e277682716.content",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/css/output.css",
@@ -377,7 +204,6 @@
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_typography.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_featured.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/partials/header.html",
-		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_body.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_maths.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_clusters.scss",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/partials/nav.html",
@@ -445,51 +271,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "themes/beth/assets/scss/styles/_body.scss",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								138
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html, text.xml"
-								},
-								{
-									"rhs_empty": true,
-									"selector": "punctuation.accessor"
-								}
-							],
-							"lsp_active": true,
-							"lsp_uri": "file:///Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_body.scss",
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],

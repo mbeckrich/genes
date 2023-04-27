@@ -10,25 +10,10 @@
   --red: 64% 0.04 359.8;
   --border-r-s: 4px;
   --border-r-l: 8px;
-  --border-normal: 1px solid oklch(33.2% 0.036 69.71 / 60%);
   --box-shadow-single: 0 0 2px 0.4px oklch(var(--brown-dark));
   --box-shadow-single-inset: inset 0 0 2px 0.4px oklch(var(--brown-dark));
-  --box-shadow-link: 0 0 3px 0.4px oklch(from oklch(73.2% 0.036 169.71) -40% c h);
-  --box-shadow-link-hover:
-    inset 0 0 2px 1px
-    oklch(from oklch(73.2% 0.036 169.71) -20% c h),
-    inset 0 0 4px 1px
-    oklch(from oklch(73.2% 0.036 169.71) -12% c h),
-    inset 0 0 8px 1px
-    oklch(from oklch(73.2% 0.036 169.71) -4% c h);
-  --box-shadow-navbar: 0 0 1px 0.2px oklch(from oklch(30.03% 0.05 68.18) +10% c h);
-  --box-shadow-navbar-hover:
-    inset 0 0 2px 1px
-    oklch(from oklch(77.2% 0.036 69.71) -12% c h),
-    inset 0 0 4px 1px
-    oklch(from oklch(77.2% 0.036 69.71) -8% c h),
-    inset 0 0 8px 1px
-    oklch(from oklch(77.2% 0.036 69.71) -4% c h);
+  --box-shadow-link: 0 0 1.5px 0.1px oklch(from oklch(64% 0.04 135) 40% c h);
+  --box-shadow-link-hover: inset 0 0 1.5px 0.1px oklch(from oklch(64% 0.04 135) 40% c h);
   --transition-standard: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --fonts-standard:
     "Public Sans VF",
@@ -91,10 +76,38 @@ time {
   margin-inline: auto;
 }
 
-svg {
-  opacity: 0%;
-}
-
 img {
   filter: drop-shadow(0 1px 2px oklch(var(--brown-dark)));
+}
+
+.box-text {
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  padding: var(--space-3xs);
+  border-radius: var(--border-r-s);
+  background-color: oklch(var(--links) / 33%);
+  box-shadow: var(--box-shadow-link);
+  color: oklch(var(--text) / 90%);
+  font-size: var(--s-2);
+  margin-inline: auto;
+  text-transform: uppercase;
+  transition: var(--transition-standard);
+
+  &:hover {
+    box-shadow:
+      var(--box-shadow-link),
+      0 0 3px 0.1px oklch(from oklch(64% 0.04 135) 40% 0.02 h / 33%);
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-inline-start: var(--space-3xs);
+    transition: var(--transition-standard);
+  }
+
+  &:hover svg {
+    stroke-width: 4;
+  }
 }

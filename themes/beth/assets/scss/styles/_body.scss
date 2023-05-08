@@ -13,7 +13,7 @@
   --box-shadow-single: 0 0 2px 0.4px oklch(var(--brown-dark));
   --box-shadow-single-inset: inset 0 0 2px 0.4px oklch(var(--brown-dark));
   --box-shadow-link: 0 0 1.5px 0.1px oklch(from oklch(64% 0.04 135) 40% c h);
-  --box-shadow-link-hover: inset 0 0 1.5px 0.1px oklch(from oklch(64% 0.04 135) 40% c h);
+  --box-shadow-link-hover: inset 0 0 1px 0.1px oklch(from oklch(64% 0.04 135) 40% c h);
   --transition-standard: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --fonts-standard:
     "Public Sans VF",
@@ -85,19 +85,14 @@ img {
   box-sizing: content-box;
   align-items: center;
   padding: var(--space-3xs);
-  border-radius: var(--border-r-s);
-  background-color: oklch(var(--links) / 33%);
+  background-color: oklch(var(--links) / 27%);
   box-shadow: var(--box-shadow-link);
-  color: oklch(var(--text) / 90%);
-  font-size: var(--s-2);
+  font-size: var(--s-1);
   margin-inline: auto;
-  text-transform: uppercase;
   transition: var(--transition-standard);
 
   &:hover {
-    box-shadow:
-      var(--box-shadow-link),
-      0 0 3px 0.1px oklch(from oklch(64% 0.04 135) 40% 0.02 h / 33%);
+    background-color: oklch(var(--links) / 54%);
   }
 
   svg {

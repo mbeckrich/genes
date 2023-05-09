@@ -2,7 +2,7 @@
   --white: 98.5% 0.002 68.18;
   --brown: 41% 0.05 68.18;
   --grey: 72% 0.007 68.18;
-  --text: 51% 0.02 68.18;
+  --text: 51% 0.02 68.18 / 99%;
   --brown-dark: 30.03% 0.05 68.18;
   --brown-light: 52.5% 0.06 68.18;
   --brown-lightest: 75% 0.04 68.18;
@@ -26,7 +26,7 @@
     sans-serif;
 
   background-color: oklch(var(--white));
-  color: oklch(var(--text) / 99%);
+  color: oklch(var(--text));
   font-family: var(--fonts-standard);
   font-feature-settings: "tnum" 1;
   font-weight: 400;
@@ -82,12 +82,13 @@ img {
 
 .box-text {
   display: flex;
-  box-sizing: content-box;
   align-items: center;
+  align-content: center;
   padding: var(--space-3xs);
   background-color: oklch(var(--links) / 27%);
   box-shadow: var(--box-shadow-link);
   font-size: var(--s-1);
+  line-height: 1;
   margin-inline: auto;
   transition: var(--transition-standard);
 
@@ -95,14 +96,16 @@ img {
     background-color: oklch(var(--links) / 54%);
   }
 
+  a {
+    color: oklch(var(--text));
+  }
+
   svg {
-    width: 1em;
-    height: 1em;
     margin-inline-start: var(--space-3xs);
     transition: var(--transition-standard);
   }
 
   &:hover svg {
-    stroke-width: 4;
+    stroke-width: 3;
   }
 }

@@ -1,44 +1,14 @@
 <!-- icon from https://lucide.dev -->
 {{- if .Params.Summary -}}
-  <p>{{- .Summary -}}</p>
+  <p>{{- .Summary | safeHTML -}}</p>
   <a class="box-text" href="{{- .RelPermalink -}}"
     >Read more
-    <svg
-      class="chevron"
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <polyline points="13 17 18 12 13 7"></polyline>
-      <polyline points="6 17 11 12 6 7"></polyline>
-    </svg>
   </a>
+  {{ partial "chevron.html" }}
 {{- else -}}
-  {{- .Content | truncate 512 -}}
+  {{- .Content | safeHTML | truncate 512 -}}
 <div class="box-text">
-    <a href="{{- .RelPermalink -}}"
-    >Read more
-  </a>
-  <svg
-    class="chevron"
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  >
-    <polyline points="13 17 18 12 13 7"></polyline>
-    <polyline points="6 17 11 12 6 7"></polyline>
-  </svg>
+    <a href="{{- .RelPermalink -}}">Read more</a>
+  {{ partial "chevron.html" }}
 </div>
 {{- end -}}

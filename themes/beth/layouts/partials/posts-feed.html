@@ -1,22 +1,19 @@
 {{/* Shows up to the first five posts without the 'featured' tag */}}
 <div class="switcher-feed">
-  {{ with .Site.GetPage "Section" "posts" }}
+    {{ with .Site.GetPage "Section" "posts" }}
     <h1>{{ .Title }}</h1>
-  {{ end }}
-
-  {{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-    {{ if (not (in .Params.tags "featured")) }}
-      <article class="stack-s">
+    {{ end }} {{ range first 5 (where site.RegularPages "Type" "in"
+    site.Params.mainSections) }} {{ if (not (in .Params.tags "featured")) }}
+    <article class="stack-s">
         <div class="meta">
-          <h2>
-            <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
-          </h2>
-          <time datetime class="post-date"
-            >{{ .Date | time.Format "2006–01–02" }}
-          </time>
+            <h2>
+                <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
+            </h2>
+            <time datetime class="post-date"
+                >{{ .Date | time.Format "2006–01–02" }}
+            </time>
         </div>
         {{ partial "summary-svg-no-text.html" . }}
-      </article>
-    {{ end }}
-  {{ end }}
+    </article>
+    {{ end }} {{ end }}
 </div>

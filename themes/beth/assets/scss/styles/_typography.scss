@@ -8,6 +8,15 @@ a {
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+a:focus {
+  background-color: red;
+}
+
+a:hover:focus {
+  background-color: red;
+}
+
+
 nav a,
 p a {
   color: oklch(var(--links));
@@ -19,7 +28,7 @@ p a {
 }
 
 nav a:hover,
-p > a:hover {
+p>a:hover {
   border-radius: var(--border-r-s);
   background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
   color: oklch(var(--brown));
@@ -66,8 +75,8 @@ header h1 {
 }
 
 h2 a:hover {
-    border-radius: var(--border-r-s);
-    background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
+  border-radius: var(--border-r-s);
+  background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
 }
 
 h2,
@@ -136,7 +145,7 @@ sup::after {
 * Footnotes
 */
 
-.footnotes > * + * {
+.footnotes>*+* {
   margin-block-start: var(--space-s);
 }
 

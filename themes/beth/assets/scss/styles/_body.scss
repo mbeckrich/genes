@@ -100,11 +100,6 @@ img {
     color: oklch(var(--text));
   }
 
-  a:active {
-    color: pink;
-    background-color: red;
-  }
-
   svg {
     margin-inline-start: var(--space-3xs);
     transition: var(--transition-standard);

@@ -3,7 +3,7 @@
 */
 
 a {
-  color: currentColor;
+  color: currentcolor;
   text-decoration: none;
   transition: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -19,7 +19,7 @@ p a {
 }
 
 nav a:hover,
-p>a:hover {
+p > a:hover {
   border-radius: var(--border-r-s);
   background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
   color: oklch(var(--brown));
@@ -136,7 +136,7 @@ sup::after {
 * Footnotes
 */
 
-.footnotes>*+* {
+.footnotes > * + * {
   margin-block-start: var(--space-s);
 }
 

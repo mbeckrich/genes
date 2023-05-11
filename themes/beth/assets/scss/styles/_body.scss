@@ -82,19 +82,22 @@ img {
 
 .box-text {
   display: flex;
-  font-size: var(--s-1);
-  line-height: 1;
   margin-inline: auto;
-  transition: var(--transition-standard);
 
   a {
     display: flex;
     align-items: center;
-    align-content: center;
-    color: oklch(var(--text));
     padding: var(--space-3xs);
     background-color: oklch(var(--links) / 27%);
     box-shadow: var(--box-shadow-link);
+    color: oklch(var(--text));
+    font-size: var(--s-1);
+    transition: var(--transition-standard);
+  }
+
+  a:hover {
+    background-color: oklch(var(--links) / 45%);
+    color: oklch(var(--text) / 100%);
   }
 
   svg {

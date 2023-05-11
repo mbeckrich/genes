@@ -3,19 +3,10 @@
 */
 
 a {
-  color: oklch(var(--brown));
+  color: currentColor;
   text-decoration: none;
-  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
-a:focus {
-  background-color: red;
-}
-
-a:hover:focus {
-  background-color: red;
-}
-
 
 nav a,
 p a {

@@ -2,13 +2,12 @@
 {{- if .Params.Summary -}}
   <p>{{- .Summary | safeHTML -}}</p>
   <a class="box-text" href="{{- .RelPermalink -}}"
-    >Read more
+    >Read more{{ partial "chevron.html" }}
   </a>
-  {{ partial "chevron.html" }}
 {{- else -}}
   {{- .Content | safeHTML | truncate 512 -}}
 <div class="box-text">
-    <a href="{{- .RelPermalink -}}">Read more</a>
-  {{ partial "chevron.html" }}
+    <a href="{{- .RelPermalink -}}">Read more{{ partial "chevron.html"}}
+     </a>
 </div>
 {{- end -}}

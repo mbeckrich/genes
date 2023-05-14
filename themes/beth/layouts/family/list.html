@@ -1,6 +1,6 @@
 {{ define "main" }}
-  <section class="with-sidebar">
-    <article class="stack-s">
+  <section class="stack-l">
+        <article class="stack-s full-post">
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </article>
@@ -19,6 +19,7 @@
           {{ partial "summary-svg-no-text.html" . }}
         </article>
       {{ end }}
-    </section>
+    </div>
+
   </section>
 {{ end }}

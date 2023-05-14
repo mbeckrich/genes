@@ -1,7 +1,6 @@
 /*
 * Links
 */
-
 a {
   color: currentcolor;
   text-decoration: none;
@@ -11,9 +10,7 @@ a {
 nav a,
 p a {
   color: oklch(var(--links));
-  text-decoration-color: transparent;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
+  text-decoration: underline solid transparent;
   text-decoration-thickness: 0;
   transition: var(--transition-standard);
 }
@@ -93,7 +90,8 @@ p {
   line-height: calc(4px + 2ex + 4px);
 }
 
-.full-post p {
+.full-post {
+  align-self: center;
   max-inline-size: 72ch;
 }
 
@@ -167,7 +165,31 @@ sup::after {
 
   &:hover {
     border-radius: var(--border-r-s);
-    background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
+    background-color: oklch(from oklch(64% 0.04 135) l c h / 36%);
     color: oklch(var(--brown));
   }
+}
+
+/*
+* Blockquotes
+*/ 
+
+blockquote p {
+  font-size: var(--s-1);
+  margin-inline-start: var(--space-s);
+}
+
+
+blockquote {
+  max-width: 80%;
+  align-self: center;
+  padding: var(--space-s);
+  border-radius: var(--border-r-s);
+  border-left: oklch(var(--links) / 72%) 3px solid;
+  background-color: oklch(var(--links) / 18%);
+}
+
+blockquote a {
+    border-radius: var(--border-r-s);
+    background-color: oklch(from oklch(64% 0.04 135) l c h / 36%);
 }

@@ -38,11 +38,8 @@
   display: grid;
   gap: var(--grid-gutter);
   grid-column: 1 / -1;
-  grid-template-areas:
-    "header bio"
-    "posts posts";
-  grid-template-columns: repeat(auto-fill, minmax(var(--grid-columns), 1fr));
-  grid-template-rows: repeat(auto-fill, var(--space-s));
+  grid-template:
+    "header bio" repeat(auto-fill, "posts posts" var(--space-s)) / repeat(auto-fill, minmax(var(--grid-columns), 1fr));
 }
 
 .single-posts h1 {

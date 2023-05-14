@@ -1,5 +1,3 @@
-<!-- Needs to be clearer that individual posts are part of a larger list (the bundles) rather than solo posts, which go under /posts (duh). So there should be a mini-list containing these on the p&f page? -->
-
 {{ define "main" }}
   <article class="stack-s full-post">
     <div class="meta center">
@@ -10,7 +8,8 @@
         >{{ .Date | time.Format "2006–01–02" }}
       </time>
     </div>
-    <!-- Maybe a sidebar for images here? -->
     {{ .Content | markdownify }}
   </article>
 {{ end }}
+
+{{/* Needs to be clearer that individual posts are part of a larger list (the bundles) rather than solo posts, which go under /posts (duh). So there should be a mini-list containing these on the p&f page? */}}

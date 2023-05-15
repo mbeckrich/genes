@@ -9,7 +9,7 @@ individuals:
 # John Benjamin Tolkien
 - id-02-004
 ---
-{{< individual >}}
+{{% individual %}}
 H. Jon Benjamin was so named after J.R.R. Tolkien's grandfather: Tolkien, John Benjamin.
 
 In 2025, H. Jon Benjamin was cast as Roger Lea McBride[^1].

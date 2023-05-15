@@ -2,23 +2,27 @@
 * Links
 */
 a {
+  border-radius: var(--border-r-s);
   color: currentcolor;
   text-decoration: none;
-  transition: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: var(--transition-standard);
 }
 
 nav a,
 p a {
+  border-radius: var(--border-r-s);
   color: oklch(var(--links));
-  text-decoration: underline solid transparent;
-  text-decoration-thickness: 0;
-  transition: var(--transition-standard);
 }
 
 nav a:hover,
 p > a:hover {
-  border-radius: var(--border-r-s);
-  background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
+  background-color: var(--links-hover);
+  color: oklch(var(--brown));
+}
+
+nav a:active,
+p > a:active {
+  background-color: var(--links-active);
   color: oklch(var(--brown));
 }
 
@@ -63,8 +67,7 @@ header h1 {
 }
 
 h2 a:hover {
-  border-radius: var(--border-r-s);
-  background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
+  background-color: var(--links-hover);
 }
 
 h2,
@@ -109,7 +112,7 @@ sup {
 
 sup:hover {
   border-radius: var(--border-r-s);
-  background-color: oklch(from oklch(64% 0.04 135) l c h / 33%);
+  background-color: var(--links-hover);
 }
 
 sup a {
@@ -165,7 +168,7 @@ sup::after {
 
   &:hover {
     border-radius: var(--border-r-s);
-    background-color: oklch(from oklch(64% 0.04 135) l c h / 36%);
+    background-color: var(--links-hover);
     color: oklch(var(--brown));
   }
 }
@@ -176,20 +179,23 @@ sup::after {
 
 blockquote p {
   font-size: var(--s-1);
-  margin-inline-start: var(--space-s);
+  margin-inline-start: var(--space-3xs);
 }
 
 
 blockquote {
-  max-width: 80%;
+  max-width: 90%;
   align-self: center;
-  padding: var(--space-s);
+  padding: var(--space-3xs-s);
   border-radius: var(--border-r-s);
   border-left: oklch(var(--links) / 72%) 3px solid;
   background-color: oklch(var(--links) / 18%);
 }
 
-blockquote a {
-    border-radius: var(--border-r-s);
-    background-color: oklch(from oklch(64% 0.04 135) l c h / 36%);
+/*
+* ID numbers
+*/ 
+
+.id:hover::after {
+  content: attr(aria-label);
 }

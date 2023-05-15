@@ -7,13 +7,16 @@
   --brown-light: 52.5% 0.06 68.18;
   --brown-lightest: 75% 0.04 68.18;
   --links: 64% 0.04 135;
+  --links-hover: oklch(from oklch(64% 0.04 135) l c h / 36%);
+  --links-active: oklch(from oklch(64% 0.04 135) l c h / 42%);
   --red: 64% 0.04 359.8;
   --border-r-s: 4px;
   --border-r-l: 8px;
-  --box-shadow-single: 0 0 2px 0.4px oklch(var(--brown-dark));
+  --box-shadow-single: 0 0 2px 0.2px oklch(var(--brown-dark));
   --box-shadow-single-inset: inset 0 0 2px 0.4px oklch(var(--brown-dark));
-  --box-shadow-link: 0 0 1.2px 0.1px oklch(from oklch(64% 0.04 135) 20% c h);
-  --transition-standard: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --box-shadow-link: 0 0 1.5px oklch(from oklch(64% 0.04 135) 40% c h);
+  --box-shadow-link-hover: 0 0 1.5px oklch(from oklch(64% 0.04 135) 20% c h);
+  --transition-standard: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --transition-svg: stroke-width 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --fonts-standard:
     "Public Sans VF",
@@ -31,7 +34,7 @@
   font-feature-settings: "tnum" 1;
   font-weight: 400;
   line-height: 1.6;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: var(--links-active);
 }
 
 /* modified from andy bell */
@@ -74,7 +77,7 @@ time {
 }
 
 img {
-  filter: drop-shadow(0 1px 2px oklch(var(--brown-dark)));
+  filter: drop-shadow(0 0 1.2px oklch(var(--brown-dark)));
 }
 
 .featured {
@@ -85,10 +88,15 @@ img {
     background-color: oklch(var(--links) / 27%);
     box-shadow: var(--box-shadow-link);
     color: oklch(var(--text) / 99%);
-    cursor: pointer;
     font-size: var(--s-1);
     margin-inline: auto;
     transition: var(--transition-standard);
+
+    &:hover {
+      background-color: var(--links-hover);
+      box-shadow: var(--box-shadow-link-hover);
+      color: oklch(var(--text));
+    }
 
     svg {
       margin-inline-start: var(--space-3xs);
@@ -99,19 +107,8 @@ img {
       stroke-width: 3;
     }
   }
-
-  .read-more:hover {
-    background-color: oklch(var(--links) / 36%);
-    color: oklch(var(--text));
-  }
-
-  .read-more:active {
-    background-color: oklch(var(--links) / 45%);
-    transition: 0.3s;
-  }
 }
 
 .space-s > :last-child {
-  margin-block-end: var(--space-xl);
+  margin-block-end: var(--space-l);
 }
-

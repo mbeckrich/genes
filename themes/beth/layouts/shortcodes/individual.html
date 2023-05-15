@@ -1,4 +1,27 @@
 {{ $dar := index .Site.Data.dar.dar }}
+{{ $c := .Inner | safeHTML }}
+{{ $i := relURL "individuals" }}
+
+{{/* Provides superscript approach to ID 
+
+{{ range $k, $v := $dar }}
+  {{ if in $c (index $v.name) }}
+    {{ $name := $v.name }}
+
+    {{ $url := $k }}
+    {{ $url = printf "%s%s%s%s%s%s%s%s" "<sup class='id'><" "a href=" $i "/" $url ">:" $k "</a></sup>" }}
+    {{ $c = replace $c $name (print $name $url | safeHTML) }}
+    {{ if findRE (print $url ".") $c }}
+    {{ $c = replace $c (print $url ".") (print "." $url) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $c | markdownify }}
+*/}}
+
+  {{ $dar := index .Site.Data.dar.dar
+}}
 {{ $c := .Inner }}
 {{ $i := relURL "individuals" }}
 
@@ -7,9 +30,8 @@
     {{ $name := $v.name }}
 
     {{ $url := $k }}
-    {{ $url = printf "%s%s%s%s%s%s%s%s" "<" "a href=" $i "/" $url ">" $name "</a>" }}
+    {{ $url = printf "%s%s%s%s%s%s%s" "<a href=" $i "/" $url ">" $name "</a>" }}
     {{ $c = replace $c $name $url }}
-
+  {{ end }}
 {{ end }}
-{{ end }}
-{{ $c | safeHTML }}
+{{ $c | markdownify }}

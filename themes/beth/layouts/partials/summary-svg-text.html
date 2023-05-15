@@ -1,11 +1,11 @@
 <!-- icon from https://lucide.dev -->
 {{- if .Params.Summary -}}
-  <p>{{- .Summary | safeHTML -}}</p>
+  <p>{{- .Summary | $.Page.RenderString (dict "display" "block") -}}</p>
   <a class="read-more" href="{{- .RelPermalink -}}"
     >Read
-    more{{ partial "chevron.html" }}
+    more{{- partial "chevron.html" -}}
   </a>
 {{- else -}}
-  {{- .Content | safeHTML | truncate 512 -}}
-    <a class="read-more" href="{{- .RelPermalink -}}">Read more{{ partial "chevron.html" }} </a>
+  {{- .Content | $.Page.RenderString (dict "display" "block") | truncate 512 -}}
+    <a class="read-more" href="{{- .RelPermalink -}}">Read more{{- partial "chevron.html" -}} </a>
 {{- end -}}

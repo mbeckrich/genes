@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/family/bundle-1/pacific-trip-2/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/family/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-00-001/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-01-002/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-01-003/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-02-006/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/id-03-012/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/individuals/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/reference-lists/DAR/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/reference-lists/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/family/bundle-1/pacific-trip-1/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/Jonathan-Basile-Tar-for-Mortar/</loc>
@@ -17,38 +47,20 @@
     <loc>/posts/</loc>
     <lastmod>2018-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/family/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+    <loc>/individuals/id-05-033/</loc>
+    <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/individuals/id-00-001/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+    <loc>/individuals/id-05-043/</loc>
+    <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/individuals/id-01-002/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/id-02-004/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/id-02-005/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/individuals/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/family/bundle-1/some-tolkiens/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/family/bundle-2/tolkien-ingalls-wilder/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+    <loc>/family/bundle-2/culvers/</loc>
+    <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/family/valar-extended-family/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+    <lastmod>1990-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/individuals/Valar-00-001/</loc>
-    <lastmod>2012-12-21T00:00:00+00:00</lastmod>
+    <lastmod>1990-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/The-Sea-Was-as-Wet-as-Wet-Can-Be/</loc>
     <lastmod>1967-05-01T00:00:00+00:00</lastmod>

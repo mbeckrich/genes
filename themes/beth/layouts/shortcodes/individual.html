@@ -1,37 +1,33 @@
-{{ $dar := index .Site.Data.dar.dar }}
-{{ $c := .Inner | safeHTML }}
-{{ $i := relURL "individuals" }}
+{{- $dar := index .Site.Data.dar.dar -}}
+{{- $c := .Inner -}}
+{{- $i := relURL "individuals" -}}
 
 {{/* Provides superscript approach to ID 
-
 {{ range $k, $v := $dar }}
   {{ if in $c (index $v.name) }}
     {{ $name := $v.name }}
 
     {{ $url := $k }}
     {{ $url = printf "%s%s%s%s%s%s%s%s" "<sup class='id'><" "a href=" $i "/" $url ">:" $k "</a></sup>" }}
-    {{ $c = replace $c $name (print $name $url | safeHTML) }}
+    {{ $c = replace $c $name (print $name $url) }}
     {{ if findRE (print $url ".") $c }}
     {{ $c = replace $c (print $url ".") (print "." $url) }}
     {{ end }}
   {{ end }}
 {{ end }}
 
-{{ $c | markdownify }}
+{{ $c }} 
 */}}
 
-  {{ $dar := index .Site.Data.dar.dar
-}}
-{{ $c := .Inner }}
-{{ $i := relURL "individuals" }}
-
-{{ range $k, $v := $dar }}
+{{- range $k, $v := $dar -}}
   {{ if in $c (index $v.name) }}
-    {{ $name := $v.name }}
+    {{- $name := $v.name -}}
+    {{- $url := $k -}}
+    {{- $url = printf "%s%s%s%s%s%s%s" "<a href=" $i "/" $url ">" $name "</a>" -}}
+    {{- $c = replace $c $name $url -}}
+  {{- end -}}
+{{- end -}}
 
-    {{ $url := $k }}
-    {{ $url = printf "%s%s%s%s%s%s%s" "<a href=" $i "/" $url ">" $name "</a>" }}
-    {{ $c = replace $c $name $url }}
-  {{ end }}
-{{ end }}
-{{ $c | markdownify }}
+{{- $c | $.Page.RenderString (dict "display" "block") -}}
+{{/* This is protection for instances where posts are only a single paragraph. Hugo strips paragraph tags in that case, which breaks the theme's formatting (posts are flex items). */}}
+<p style="margin: 0">{{ print "" }}</p>

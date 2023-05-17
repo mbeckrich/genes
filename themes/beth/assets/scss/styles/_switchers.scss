@@ -50,8 +50,3 @@
   min-width: fit-content;
   flex-basis: calc((5rem - 100%) * 999);
 }
-
-.switcher-s > :nth-last-child(n + 4),
-.switcher-s > :nth-last-child(n + 4) ~ * {
-  flex-basis: 100%;
-}

@@ -64,6 +64,34 @@
 		"selected_items":
 		[
 			[
+				"format",
+				"LSP: Format File"
+			],
+			[
+				"lsp-",
+				"Preferences: LSP-json Settings"
+			],
+			[
+				"for",
+				"LSP: Format File"
+			],
+			[
+				"lsp sett",
+				"Preferences: LSP Settings"
+			],
+			[
+				"lsp-s",
+				"Preferences: LSP-stylelint Settings"
+			],
+			[
+				"form",
+				"LSP: Format File"
+			],
+			[
+				"split",
+				"File: Split View"
+			],
+			[
 				"lsp sty",
 				"Preferences: LSP-stylelint Settings"
 			],
@@ -110,10 +138,6 @@
 			[
 				"stylelint",
 				"Preferences: LSP-stylelint Settings"
-			],
-			[
-				"lsp sett",
-				"Preferences: LSP Settings"
 			],
 			[
 				"sass",
@@ -174,18 +198,25 @@
 	"expanded_folders":
 	[
 		"/Users/mkb/repositories/mbeckrich/sites/genes",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/content",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/content/reference-lists",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/data",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/public",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/public/reference-lists",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/public/reference-lists/DAR",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth",
-		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets",
-		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/css",
-		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss",
-		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/_default",
-		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/partials"
+		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/partials",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/reference-lists"
 	],
 	"file_history":
 	[
+		"/Users/mkb/repositories/mbeckrich/sites/genes/content/reference-lists/DAR.md",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/public/reference-lists/DAR/index.json",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/data/dar.json",
+		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/layouts/partials/main-records.html",
 		"/Users/mkb/iccs/exif.rb",
 		"/Users/mkb/iccs/exifr.mjs",
 		"/Users/mkb/repositories/mbeckrich/sites/genes/themes/beth/assets/scss/styles/_body.scss",
@@ -223,7 +254,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -238,6 +269,95 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"born",
+			"Born([^.]+).?",
+			"Born([^.]+)?",
+			"Born([^.]+).?",
+			"Born([^.]+)\\.?",
+			"Born([^.]+)\\.",
+			"Born([^.]?)\\.",
+			"Born([^.]+)\\.",
+			"Born.+\\d\\d\\d\\d",
+			"Born.+\\d\\d\\d\\d[.]",
+			"^Born.+\\d\\d\\d\\d[.]",
+			"^Born.+\\d\\d\\d\\d.$",
+			"^Born.+\\d\\d\\d\\d\\.$",
+			"Born.+\\d\\d\\d\\d\\.$",
+			"Born.+\\d\\d\\d\\d\\.?",
+			"Born.+\\d\\d\\d\\d\\.+",
+			"Born.+\\d\\d\\d\\d",
+			"Born.+\\d\\d\\d\\d+\\.+",
+			"Born.+\\d\\d\\d\\d+?\\.",
+			"Born.+\\d\\d\\d\\d+\\.?",
+			"Born.+[\\d\\d\\d\\d]+\\.",
+			"Born.+[\\d\\d\\d\\d]+",
+			"Born[^.]+\\.",
+			"Born[^in]",
+			"?[^in]",
+			"?[^in]+",
+			"Born[^?in]+",
+			"Born[^`in`]+",
+			"Born[^i-n]+",
+			"Born[^\"in\"]+",
+			"Born[^in]+",
+			"Born[^in]+.*\\.",
+			"Born[^in]+.+\\.?",
+			"Born[^in]+.+\\.",
+			"Born[^in]+",
+			"Born[^in]+\\.",
+			"Born[^in]+",
+			"Born[^in]+\\.",
+			"Born[^.]+\\.",
+			"Born[^in|^<]+",
+			"Born[^in|^  ]+",
+			"Born[^in|^\\s\\s]+",
+			"Born[^in|\\s\\s]+",
+			"Born[^in|\\s+]+",
+			"Born[^in|^<]+",
+			"Born[^in|]+",
+			"Born[^in]+",
+			"Born[^.]+\\.",
+			"Born\\s+([^in]+\\.|[0-9-]+\\.)",
+			"Born\\s+([^in]+|[0-9-]+[^<])",
+			"Born\\s+([^in]+|[0-9-^<]+)",
+			"Born\\s+([^in]+|[0-9-]+)",
+			"Born\\s+([^in]|[0-9-]+)",
+			"Born\\s+[^in]|[0-9-]+",
+			"Born\\s+[^in]\\.|[0-9-]+",
+			"Born\\s(+[^in]\\.) | Born\\s[0-9-]+",
+			"Born\\s+[^in]\\. | Born\\s[0-9-]+",
+			"Born\\s+[^in] | Born\\s[0-9-]+",
+			"(Born\\s+[^in] | [0-9-]+)",
+			"Born\\s+[^in] | [0-9-]+",
+			"Born\\s+[\\d | \\w | \\d]+",
+			"Born\\s+[\\d\\w\\d]+",
+			"Born\\s+[\\d\\w]+",
+			"Born\\s+[\\d]+",
+			"Born\\s+[\\d",
+			"Born\\s+[^.]+",
+			"Born\\s+",
+			"\\d+\\s+\\w+\\s+\\d+",
+			"\\d+\\s+\\w+\\d+",
+			"\\d+",
+			"\\d+\\w+\\d+",
+			"Born[^.]+",
+			"Born[^\\s]+",
+			"Born[^\\s-\"in\"]+",
+			"Born[^\\s\"in]+",
+			"Born[^\\sin]+",
+			"Born[^in]+",
+			"Born[^\"in\"]+",
+			"Born[^in]+",
+			"Born[^in]",
+			"Born[^in]+\\.",
+			"Born[^in]+",
+			"Born[^.]+",
+			"Born([^in])+",
+			"Born[^in]+",
+			"Born[^.]+",
+			".+Born(|\\s | in | about)\\s\\d.*",
+			"^.+Born(|\\s | in | about)\\s\\d.*",
+			".+Born(|\\s | in | about)\\s\\d.*",
 			"text",
 			"var(--grey)",
 			"var(--white)",
@@ -249,7 +369,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"oklch(var(--grey))",
@@ -276,7 +396,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -333,7 +453,7 @@
 	"project": "genes.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

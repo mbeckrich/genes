@@ -62,10 +62,10 @@
     <loc>/family/bundle-2/culvers/</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/family/valar-extended-family/</loc>
+    <loc>/family/bundle-3/Extended-Family/</loc>
     <lastmod>1990-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/family/valar-extended-family/Extended-Family/</loc>
+    <loc>/family/bundle-3/</loc>
     <lastmod>1990-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/individuals/Valar-00-001/</loc>
@@ -74,16 +74,16 @@
     <loc>/posts/The-Sea-Was-as-Wet-as-Wet-Can-Be/</loc>
     <lastmod>1967-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/posts/Charles-Clarence-Drake/</loc>
+    <lastmod>1966-10-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/featured/</loc>
     <lastmod>1966-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/oedipa-maas/</loc>
+    <loc>/individuals/id-05-041/</loc>
     <lastmod>1966-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>1966-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/The-Crying-of-Lot-49/</loc>
     <lastmod>1966-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/albert-camus/</loc>
@@ -92,9 +92,19 @@
     <loc>/posts/La-Chute/</loc>
     <lastmod>1956-07-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/photos-and-documents/docs/census/1880/</loc>
+  </url><url>
     <loc>/about/</loc>
   </url><url>
+    <loc>/photos-and-documents/docs/census/</loc>
+  </url><url>
+    <loc>/photos-and-documents/docs/</loc>
+  </url><url>
     <loc>/individuals/id-00-001/</loc>
+  </url><url>
+    <loc>/photos-and-documents/pics/</loc>
+  </url><url>
+    <loc>/photos-and-documents/</loc>
   </url><url>
     <loc>/series/</loc>
   </url>

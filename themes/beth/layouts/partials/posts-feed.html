@@ -1,7 +1,7 @@
 {{/* Shows up to the first five posts without the 'featured' tag */}}
 <div class="switcher-feed">
   {{- with .Site.GetPage "Section" "posts" -}}
-    <h1>{{- .Title -}}</h1>
+    <h1 role="latest-posts">{{- .Title -}}</h1>
   {{- end -}}
   {{- range first 5 (where site.RegularPages "Type" "in"
     site.Params.mainSections)

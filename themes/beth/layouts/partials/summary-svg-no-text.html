@@ -2,5 +2,5 @@
 {{- if .Params.Summary -}}
   {{- .Summary | $.Page.RenderString (dict "display" "block") -}}
 {{- else -}}
-  {{- .Content | $.Page.RenderString (dict "display" "block") | truncate 256 -}}
+  {{- .Content | $.Page.RenderString (dict "display" "block") | truncate 256 "..." -}}
 {{- end -}}

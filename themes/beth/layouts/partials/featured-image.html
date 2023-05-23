@@ -1,5 +1,8 @@
 <div class="featured-image">
-  {{ with .Page.Resources.GetMatch .Params.image }}
+  <figure>
+    {{ with .Page.Resources.GetMatch .Params.image }}
       <img src="{{ .RelPermalink }}" />
-  {{ end }}
+    {{ end }}
+      <figcaption class="center">{{ .Params.caption }}</figcaption>
+  </figure>
 </div>

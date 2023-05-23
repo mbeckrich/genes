@@ -28,6 +28,6 @@
   {{- end -}}
 {{- end -}}
 
-{{- $c | $.Page.RenderString (dict "display" "block") -}}
+{{- $c | safeHTML -}}
 {{/* This is protection for instances where posts are only a single paragraph. Hugo strips paragraph tags in that case, which breaks the theme's formatting (posts are flex items). */}}
-<p style="margin: 0">{{ print "" }}</p>
+<p style="margin: 0"></p>

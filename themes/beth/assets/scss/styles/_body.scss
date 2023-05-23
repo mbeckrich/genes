@@ -18,6 +18,7 @@
   --box-shadow-link-hover: 0 0 1.5px oklch(from oklch(64% 0.04 135) 20% c h);
   --transition-standard: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --transition-svg: stroke-width 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition-text-decoration: text-decoration-line 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --fonts-standard:
     "Public Sans VF",
     seravek,
@@ -77,6 +78,7 @@ time {
 }
 
 img {
+  border-radius: var(--border-r-s);
   filter: drop-shadow(0 0 1.2px oklch(var(--brown-dark)));
 }
 
@@ -109,6 +111,11 @@ img {
   }
 }
 
-.space-s > :last-child {
+.space-s-last > :last-child {
   margin-block-end: var(--space-l);
+}
+
+
+.space-s-first > :first-child {
+  margin-block-end: var(--space-s);
 }

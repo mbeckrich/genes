@@ -1,3 +1,3 @@
 ---
-title: "Latest Posts"
+title: "Recent Posts"
 ---

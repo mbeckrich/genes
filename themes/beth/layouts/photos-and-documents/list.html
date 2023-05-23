@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <section class="stack-l">
+    <article class="stack-s full-post center">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </article>
+    <div class="switcher-feed">
+      {{- range first 3 (where .Sections "Section" "photos-and-documents") -}}
+        <article class="stack-s space-s-last space-s-first">
+      {{ partial "photos-and-documents/url-path.html" . }}
+
+          <h1>
+            <a href="{{- .Permalink -}}">{{- .Title -}}</a>
+          </h1>
+          {{- range .RegularPagesRecursive -}}
+            <div class="meta">
+              <h2>
+                <a href="{{- .Permalink -}}">{{- .Title -}}</a>
+              </h2>
+              <time datetime class="post-date"
+                >{{ .Date | time.Format "2006–01–02" }}
+              </time>
+            </div>
+            {{ partial "summary-svg-no-text.html" . }}
+          {{ end }}
+        </article>
+      {{ end }}
+
+    </div>
+  </section>
+{{ end }}

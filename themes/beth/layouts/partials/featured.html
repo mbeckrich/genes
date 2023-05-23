@@ -1,11 +1,11 @@
 <article class="featured with-sidebar">
   {{ range first 1 .Site.Taxonomies.tags.featured }}
     <div class="stack-s">
-      {{ partial "tags.html" . }}
+      {{/* remove tags for now partial "tags.html" . */}}
       <div class="meta">
-        <h2>
+        <h1>
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
-        </h2>
+        </h1>
         <time datetime class="post-date"
           >{{ .Date | time.Format "2006–01–02" }}
         </time>

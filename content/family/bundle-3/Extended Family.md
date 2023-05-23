@@ -1,10 +1,10 @@
 ---
-title: Valar Extended Family
+title: Eastern Seaboard
 date: "1990-12-21"
 references:
 - The Silmarillion
 summary: |
-  Manwë and Tolkien, J.R.R. spotted out in Heaven.
+  The aquarium. Crabs. Birding. It takes all kinds.
 individuals:
 # J.R.R.
 - id-00-001

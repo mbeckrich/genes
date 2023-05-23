@@ -1,30 +1,36 @@
 main:
 - identifier: home
+  pageRef: /
   name: Home
   title: home
   url: /
-  weight: 1
+  weight: 1  
 - identifier: people-and-families
+  pageRef: "family"
   name: People & Families
   title: people-and-families section
   url: /family
   weight: 10
 - identifier: photos-and-documents
+  pageRef: "photos-and-documents"
   name: Photos & Documents
   title: photos-and-documents section
-  url: /photos
+  url: /photos-and-documents
   weight: 20
 - identifier: reference-lists
+  pageRef: "reference-lists"
   name: Reference Lists
   title: reference-lists section
   url: /reference-lists
   weight: 30
 - identifier: posts
+  pageRef: "posts"
   name: Posts
   title: posts section
   url: /posts
   weight: 40
 - identifier: about
+  pageRef: "about"
   name: About
   title: about section
   url: /about

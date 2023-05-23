@@ -1,19 +1,26 @@
+{{/* https://harrycresswell.com/writing/menus-in-hugo/ */}}
 <ul class="cluster">
-  {{- range .Site.Menus.main -}}
-  <li>
-    <a href="{{- .URL -}}">
-      {{- .Name -}}
-    </a>
-  </li>
-  {{- end -}}
-</ul>
-
-<!-- <ul class="switcher">
-  {{- range .Site.Menus.main -}}
-    <li>
-      <a href="{{- .URL -}}">
-        {{- .Name -}}
-      </a>
-    </li>
-  {{- end -}}
-</ul> -->
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      <li>
+        <a 
+        class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}is-active{{ end }}"
+        href="{{ .URL }}">
+        {{ .Name }}
+        </a>
+        {{ if .HasChildren }}
+          <ul>
+            {{ range .Children }}
+              <li>
+                <a
+                class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
+                href="{{ .URL }}">
+                  {{ .Name }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>

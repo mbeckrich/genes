@@ -1,53 +1,42 @@
 {{ define "main" }}
   {{- $individual := index .Site.Data.dar.dar -}}
+
   {{ $id := .Title | strings.TrimLeft "id-" }}
-  Taxonomy.html
-  <article class="single-posts">
-    {{ with index $individual .Title }}
-      <h1>
-        <a href="{{ .RelPermalink }}">{{ index . "name" }}</a>
-      </h1>
-    {{ end }}
-    <div class="posts">
-      {{ .Content }}
-    </div>
-    <aside class="bio">
-      {{ if isset .Params "has_image" }}
-        {{ $image := resources.Get .Params.image }}
-        {{ with $image }}
-          <img
-            class="headshot"
-            src="{{ .RelPermalink }}"
-            width="200"
-            height="200"
-          />
-        {{ end }}
-      {{ end }}
-    </aside>
-  </article>
-  {{ with index $individual .Title }}
-    <ul class="bio-list">
+  <article class="featured with-sidebar">
+    <div class="stack-s">
+      <div class="meta">
+      {{ with (index $individual .Title) }}
+        <h1 class="space-s">
+          <a href="{{ .RelPermalink }}">{{ index . "name" }}</a>
+        </h1>
+      </div>
+
+    <ul class="stack-s">
       <li>
-        <h3>Born:</h3>
+        <h4>Born:</h4>
         {{ index . "date of birth" }}
       </li>
 
       <li>
-        <h3>Birthplace:</h3>
+        <h4>Birthplace:</h4>
         {{ index . "place of birth" }}
       </li>
       <li>
-        <h3>Died:</h3>
+        <h4>Died:</h4>
         {{ index . "died" }}
       </li>
       <li>
-        <h3>Place of Death:</h3>
+        <h4>Place of Death:</h4>
         {{ index . "place of death" }}
       </li>
       <li>
-        <h3>ID:</h3>
+        <h4>ID:</h4>
         {{ $id }}
       </li>
     </ul>
   {{ end }}
+    </div>
+      {{ partial "headshot.html" . }}
+  </article>
+
 {{ end }}

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beth&#39;s Genealogy Site</title>
+    <title>Genealogy Zone</title>
     <link>/</link>
-    <description>Recent content on Beth&#39;s Genealogy Site</description>
+    <description>Recent content on Genealogy Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1880 Census</title>
+      <link>/photos-and-documents/docs/census/1880/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/photos-and-documents/docs/census/1880/</guid>
+      <description> Drake, Clarence Charles </description>
+    </item>
+    
     <item>
       <title>Another Trip to the West Coast</title>
       <link>/family/bundle-1/pacific-trip-2/</link>
@@ -90,6 +99,15 @@
     </item>
     
     <item>
+      <title>1890 Census</title>
+      <link>/photos-and-documents/docs/census/1890/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photos-and-documents/docs/census/1890/</guid>
+      <description>1890 Census file.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -99,12 +117,30 @@
     </item>
     
     <item>
+      <title>Austria</title>
+      <link>/photos-and-documents/docs/immigration/Austria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/photos-and-documents/docs/immigration/Austria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>id-00-001</title>
       <link>/individuals/id-00-001/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/individuals/id-00-001/</guid>
       <description>Testing hello!</description>
+    </item>
+    
+    <item>
+      <title>id-05-041</title>
+      <link>/individuals/id-05-041/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/individuals/id-05-041/</guid>
+      <description></description>
     </item>
     
   </channel>

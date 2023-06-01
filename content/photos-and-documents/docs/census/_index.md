@@ -1,4 +1,4 @@
 ---
-title: "Census Records by Year"
+title: "Census Records by Decade"
 ---
 Census Folder

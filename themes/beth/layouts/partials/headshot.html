@@ -1,0 +1,11 @@
+<div class="featured-image">
+{{ with .Site.GetPage (printf "%s%s" "/individuals/" .Title) }}
+  {{ with . }}
+  
+  <figure>
+    <img src="{{ .Params.image }}" />
+    <figcaption class="center">{{ .Params.caption }}</figcaption>
+  </figure>
+  {{ end }}
+{{ end }}
+</div>

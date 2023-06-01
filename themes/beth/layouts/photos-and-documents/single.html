@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{ partial "photos-and-documents/breadcrumb.html" . }}
+  <article class="full-post center">
+    <div class="stack-s">
+      <div class="meta center">
+        <h2>
+          <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
+        </h2>
+        <time datetime
+          >{{ .Date | time.Format "2006–01–02" }}
+        </time>
+        {{- if ne .Date .Lastmod -}}
+          <span
+            >updated
+            <time datetime>{{- .Lastmod.Format "2006–01–02" -}}</time></span
+          >
+        {{- end -}}
+      </div>
+      <div class="featured-image">
+        <figure>
+          {{ with .Params.attached_content }}
+            <img width="600" height="600" src="{{ . }}" />
+          {{ end }}
+          <figcaption class="center">{{ .Params.attached_content | replaceRE `\.jpg|\.png|\.tif|\.tiff` "" }}</figcaption>
+        </figure>
+      </div>
+    </div>
+  </article>
+{{ end }}

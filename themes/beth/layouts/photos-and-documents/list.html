@@ -6,23 +6,26 @@
     </article>
     <div class="switcher-feed">
       {{- range first 3 (where .Sections "Section" "photos-and-documents") -}}
-        <article class="stack-s space-s-last space-s-first">
-      {{ partial "photos-and-documents/url-path.html" . }}
+        <article class="stack-s">
+          {{ partial "photos-and-documents/breadcrumb.html" . }}
 
           <h1>
             <a href="{{- .Permalink -}}">{{- .Title -}}</a>
           </h1>
-          {{- range .RegularPagesRecursive -}}
-            <div class="meta">
-              <h2>
-                <a href="{{- .Permalink -}}">{{- .Title -}}</a>
-              </h2>
-              <time datetime class="post-date"
-                >{{ .Date | time.Format "2006–01–02" }}
-              </time>
-            </div>
-            {{ partial "summary-svg-no-text.html" . }}
-          {{ end }}
+          <div class="meta">
+            <ol>
+              {{- range .Pages -}}
+                <li>
+                  <a href="{{- .Permalink -}}">{{- .Title -}}</a
+                  >{{ range .RegularPagesRecursive }}
+                    <ul>
+                      <li><a href="{{- .Permalink -}}">{{- .Title -}}</a></li>
+                    </ul>
+                  {{ end }}
+                </li>
+              {{ end }}
+            </ol>
+          </div>
         </article>
       {{ end }}
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photos &amp; Documents on Beth&#39;s Genealogy Site</title>
+    <title>Photos &amp; Documents on Genealogy Zone</title>
     <link>/photos-and-documents/</link>
-    <description>Recent content in Photos &amp; Documents on Beth&#39;s Genealogy Site</description>
+    <description>Recent content in Photos &amp; Documents on Genealogy Zone</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/photos-and-documents/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/photos-and-documents/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

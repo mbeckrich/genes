@@ -5,7 +5,7 @@
         <h2>
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
         </h2>
-        <time datetime class="post-date"
+        <time datetime
           >{{ .Date | time.Format "2006–01–02" }}
         </time>
       </div>

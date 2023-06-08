@@ -123,13 +123,14 @@ sup {
 sup:hover {
   border-radius: var(--border-r-s);
   background-color: var(--links-hover);
+  color: oklch(var(--brown));
 }
 
-sup a {
+sup:hover a {
   color: oklch(var(--links));
 }
 
-sup a:hover {
+sup:hover a {
   color: oklch(var(--brown));
 }
 

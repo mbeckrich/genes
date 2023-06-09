@@ -1,6 +1,6 @@
-baseURL: /
+baseURL: /genes
 theme: beth
-title: "Genealogy Zone"
+title: "Family History & Stories"
 languageCode: en-US
 pygmentsCodeFences: true
 pygmentsUseClasses: true

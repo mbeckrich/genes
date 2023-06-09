@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Census Records by Decade on Genealogy Zone</title>
-    <link>/photos-and-documents/docs/census/</link>
-    <description>Recent content in Census Records by Decade on Genealogy Zone</description>
+    <title>Census Records by Decade on Family History &amp; Stories</title>
+    <link>/genes/photos-and-documents/docs/census/</link>
+    <description>Recent content in Census Records by Decade on Family History &amp; Stories</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/photos-and-documents/docs/census/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/genes/photos-and-documents/docs/census/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1880 Census</title>
-      <link>/photos-and-documents/docs/census/1880/</link>
+      <link>/genes/photos-and-documents/docs/census/1880/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/photos-and-documents/docs/census/1880/</guid>
+      <guid>/genes/photos-and-documents/docs/census/1880/</guid>
       <description> Drake, Clarence Charles </description>
     </item>
     
     <item>
       <title>1890 Census</title>
-      <link>/photos-and-documents/docs/census/1890/</link>
+      <link>/genes/photos-and-documents/docs/census/1890/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/photos-and-documents/docs/census/1890/</guid>
+      <guid>/genes/photos-and-documents/docs/census/1890/</guid>
       <description>1890 Census file.</description>
     </item>
     

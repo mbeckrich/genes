@@ -7,6 +7,10 @@
         </h2>
         <time datetime
           >{{ .Date | time.Format "2006–01–02" }}
+          {{- if ne .Date .Lastmod -}}
+          updated: 
+          {{- .Lastmod | time.Format "2006-01-02" -}}
+      {{- end -}}
         </time>
       </div>
       {{ .Content | markdownify }}

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>id-00-001 on Family History &amp; Stories</title>
-    <link>/genes/individuals/id-00-001/</link>
+    <link>/individuals/id-00-001/</link>
     <description>Recent content in id-00-001 on Family History &amp; Stories</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/genes/individuals/id-00-001/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/individuals/id-00-001/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Another Trip to the West Coast</title>
-      <link>/genes/family/bundle-1/pacific-trip-2/</link>
+      <link>/family/bundle-1/pacific-trip-2/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/genes/family/bundle-1/pacific-trip-2/</guid>
+      <guid>/family/bundle-1/pacific-trip-2/</guid>
       <description>A return to the West Coast.</description>
     </item>
     
     <item>
       <title>Trip to the Pacific</title>
-      <link>/genes/family/bundle-1/pacific-trip-1/</link>
+      <link>/family/bundle-1/pacific-trip-1/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/genes/family/bundle-1/pacific-trip-1/</guid>
+      <guid>/family/bundle-1/pacific-trip-1/</guid>
       <description>A childhood trip to the Pacific ocean.</description>
     </item>
     
     <item>
       <title>Eastern Seaboard</title>
-      <link>/genes/family/bundle-3/Extended-Family/</link>
+      <link>/family/bundle-3/Extended-Family/</link>
       <pubDate>Fri, 21 Dec 1990 00:00:00 +0000</pubDate>
       
-      <guid>/genes/family/bundle-3/Extended-Family/</guid>
+      <guid>/family/bundle-3/Extended-Family/</guid>
       <description>The aquarium. Crabs. Birding. It takes all kinds.</description>
     </item>
     

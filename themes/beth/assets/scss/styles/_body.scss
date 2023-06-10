@@ -71,6 +71,11 @@ time {
   font-size: var(--s-1);
 }
 
+time {
+  display: flex;
+  flex-direction: column;
+}
+
 .featured {
   display: flex;
   box-sizing: content-box;
@@ -111,11 +116,11 @@ img {
   }
 }
 
-.space-s-last > :last-child {
+.space-s-last> :last-child {
   margin-block-end: var(--space-l);
 }
 
 
-.space-s-first > :first-child {
+.space-s-first> :first-child {
   margin-block-end: var(--space-s);
 }

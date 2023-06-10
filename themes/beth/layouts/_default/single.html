@@ -6,11 +6,7 @@
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
         </h2>
         <time datetime
-          >{{ .Date | time.Format "2006–01–02" }}
-          {{- if ne .Date .Lastmod -}}
-            <span>updated:</span> 
-            {{- .Lastmod | time.Format "2006-01-02" -}}
-          {{- end -}}
+          >{{- .Date | time.Format "2006–01–02" -}}
         </time>
       </div>
       {{ .Content | markdownify }}

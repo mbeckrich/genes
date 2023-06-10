@@ -1,5 +1,5 @@
 baseURL: /
-theme: beth
+theme: "beth"
 title: "Family History & Stories"
 languageCode: en-US
 pygmentsCodeFences: true
@@ -7,15 +7,7 @@ pygmentsUseClasses: true
 enableEmoji: true
 enableRobotsTXT: true
 paginate: 5
-enableGitInfo: true
 disablePathToLower: true
-frontmatter:
-  date:
-  - :git
-  - date
-  lastmod:
-  - :git
-  - date
 permalinks:
   posts: /posts/:slug
   individuals: /individuals/:slug

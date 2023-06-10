@@ -1,5 +1,5 @@
 baseURL: /
-theme: "beth"
+theme: beth
 title: "Family History & Stories"
 languageCode: en-US
 pygmentsCodeFences: true

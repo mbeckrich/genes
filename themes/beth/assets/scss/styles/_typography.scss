@@ -15,20 +15,27 @@ p a {
 }
 
 nav a:hover,
-p > a:hover {
+p>a:hover {
   background-color: var(--links-hover);
   color: oklch(var(--brown));
 }
 
 nav a:active,
-p > a:active {
+p>a:active {
   background-color: var(--links-active);
   color: oklch(var(--brown));
 }
 
+/* FIX:
+* This doesn't extend the underline all the way on Safari
+*/
+
 .is-active {
-  text-decoration: 2px underline oklch(var(--brown));
+  text-decoration-line: underline;
+  text-decoration-color: oklch(var(--brown));
+  text-decoration-thickness: .1em;
   text-decoration-style: dotted;
+  text-underline-offset: .2ex;
 }
 
 .found-content {
@@ -148,7 +155,7 @@ sup::after {
 * Footnotes
 */
 
-.footnotes > * + * {
+.footnotes>*+* {
   margin-block-start: var(--space-s);
 }
 
@@ -186,7 +193,7 @@ sup::after {
 
 /*
 * Blockquotes
-*/ 
+*/
 
 blockquote p {
   font-size: var(--s-1);
@@ -205,7 +212,7 @@ blockquote {
 
 /*
 * ID numbers
-*/ 
+*/
 
 .id:hover::after {
   content: attr(aria-label);
@@ -213,7 +220,7 @@ blockquote {
 
 /*
 * Image captions
-*/ 
+*/
 
 figcaption {
   color: oklch(var(--grey));
@@ -223,7 +230,7 @@ figcaption {
 
 /*
 * Lists
-*/ 
+*/
 ul,
 ol {
   padding-inline-start: 0;
@@ -253,7 +260,7 @@ ol li ul li {
 
 /*
 * Breadcrumb styling https://dongheenam.info/posts/breadcrumb-navigation-in-hugo/
-*/ 
+*/
 
 .breadcrumb {
   display: flex;
@@ -271,7 +278,7 @@ ol li ul li {
   white-space: nowrap;
 }
 
-.breadcrumb li + li::before {
+.breadcrumb li+li::before {
   padding: 0.3rem;
   content: "/";
 }

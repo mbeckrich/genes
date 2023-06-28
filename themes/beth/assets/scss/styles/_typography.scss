@@ -113,8 +113,12 @@ p {
 }
 
 .full-post {
-  max-inline-size: 72ch;
+  p,
+  .footnotes hr {
+  max-width: 66ch;
+  margin-inline: auto;  
 }
+} 
 
 /*
 * Superscript
@@ -152,18 +156,25 @@ sup:hover a {
 }
 
 .footnotes hr {
+  margin-block-start: var(--space-xs);
   border-top-width: 0.07em;
   border-top-style: solid;
   color: oklch(var(--grey));
 }
 
-.footnotes p {
-  font-size: var(--s-1);
-}
-
 .footnote-backref {
   color: oklch(var(--links));
   text-decoration: none;
+}
+
+.footnotes ol {
+  font-size: var(--s-1);
+  list-style-position: inside;
+  list-style-type: decimal;
+
+  a {
+    font-size: var(--s-1);
+  }
 }
 
 /*
@@ -174,8 +185,8 @@ sup:hover a {
   color: oklch(var(--links));
   font-size: var(--s-2);
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.015em;
+  text-transform: uppercase;
 
   &:hover {
     border-radius: var(--border-r-s);

@@ -57,12 +57,12 @@ body {
 }
 
 .center {
-  display: flex;
-  box-sizing: content-box;
-  flex-direction: column;
-  align-items: center;
-  margin-inline: auto;
-  padding-inline: var(--space-s-xl);
+display: flex;
+box-sizing: content-box;
+flex-direction: column;
+align-items: center;
+margin-inline: auto;
+padding-inline: var(--space-s-xl);
 }
 
 nav li {

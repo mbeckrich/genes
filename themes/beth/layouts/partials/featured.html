@@ -2,7 +2,7 @@
   {{ range first 1 .Site.Taxonomies.tags.featured }}
     <div class="stack-s">
       {{/* remove tags for now partial "tags.html" . */}}
-      <div class="meta">
+      <div class="meta stack-3xs">
         <h1>
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
         </h1>

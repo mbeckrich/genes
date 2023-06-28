@@ -34,12 +34,6 @@
   margin-block-start: var(--space-xl);
 }
 
-/* Keeps first post closer to h1 */
-
-.stack > h1 + * {
-  margin-block-start: var(--space-s);
-}
-
 /*
 * Smaller stacks
 */
@@ -56,6 +50,12 @@
 }
 
 .stack-s > * + * {
+  margin-block-start: var(--space-xs);
+}
+
+/* Keeps first post closer to h1 */
+
+.stack > h1 + * {
   margin-block-start: var(--space-s);
 }
 

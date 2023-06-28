@@ -2,7 +2,7 @@
   {{ partial "photos-and-documents/breadcrumb.html" . }}
   <article class="full-post center">
     <div class="stack-s">
-      <div class="meta center">
+      <div class="meta center stack-3xs">
         <h2>
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
         </h2>
@@ -10,18 +10,20 @@
           >{{ .Date | time.Format "2006–01–02" }}
         </time>
         {{- if ne .Date .Lastmod -}}
+        <div>
           <span
-            >updated
-            <time datetime>{{- .Lastmod.Format "2006–01–02" -}}</time></span
-          >
+            >updated</span>
+            <time datetime>{{- .Lastmod.Format "2006–01–02" -}}</time></div>
         {{- end -}}
       </div>
       <div class="featured-image">
-        <figure>
+        <figure class="stack-3xs">
           {{ with .Params.attached_content }}
             <img width="600" height="600" src="{{ . }}" />
           {{ end }}
-          <figcaption class="center">{{ .Params.attached_content | replaceRE `\.jpg|\.png|\.tif|\.tiff` "" }}</figcaption>
+          <figcaption class="center">
+            {{ .Params.attached_content | replaceRE `\.jpg|\.png|\.tif|\.tiff` "" }}
+          </figcaption>
         </figure>
       </div>
     </div>

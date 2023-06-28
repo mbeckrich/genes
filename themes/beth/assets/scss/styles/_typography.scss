@@ -70,7 +70,7 @@ h5,
 h6 {
   color: oklch(var(--brown));
   font-weight: 500;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.015em;
 }
 
 h1 {
@@ -175,6 +175,7 @@ sup:hover a {
   font-size: var(--s-2);
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.015em;
 
   &:hover {
     border-radius: var(--border-r-s);

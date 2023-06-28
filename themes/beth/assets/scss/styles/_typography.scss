@@ -15,27 +15,25 @@ p a {
 }
 
 nav a:hover,
-p>a:hover {
+p > a:hover {
   background-color: var(--links-hover);
-  color: oklch(var(--brown));
+  color: oklch(var(--text));
 }
 
 nav a:active,
-p>a:active {
+p > a:active {
   background-color: var(--links-active);
-  color: oklch(var(--brown));
+  color: oklch(var(--text));
 }
 
-/* FIX:
-* This doesn't extend the underline all the way on Safari
-*/
+li:has(.is-active) {
+  align-content: center;
+  justify-content: center;
+}
 
 .is-active {
-  text-decoration-line: underline;
-  text-decoration-color: oklch(var(--brown));
-  text-decoration-thickness: .1em;
-  text-decoration-style: dotted;
-  text-underline-offset: .2ex;
+  background-color: var(--links-hover);
+  color: oklch(var(--text));
 }
 
 .found-content {
@@ -51,7 +49,7 @@ p>a:active {
 */
 
 h1[role="recent-posts"] {
-  color: oklch(var(--text) / 99%);
+  color: oklch(from oklch(30% 0.075 70) 63% .02 h);
 }
 
 h1,
@@ -71,7 +69,8 @@ h4,
 h5,
 h6 {
   color: oklch(var(--brown));
-  letter-spacing: -0.025em;
+  font-weight: 500;
+  letter-spacing: -0.04em;
 }
 
 h1 {
@@ -81,6 +80,7 @@ h1 {
 header h1 {
   margin-top: var(--space-s);
   font-size: var(--s4);
+  font-weight: 600;
 }
 
 h1 a:hover,
@@ -104,9 +104,10 @@ h6 {
 */
 
 p {
-  color: oklch(var(--text) / 99%);
+  color: oklch(var(--text));
+  font-family: Lora;
   font-size: var(--s0);
-  font-weight: 375;
+  font-weight: 425;
   hyphens: auto;
   line-height: calc(4px + 2ex + 4px);
 }
@@ -120,15 +121,16 @@ p {
 */
 
 sup {
-  font-family: "EBGaramondSC08", var(--fonts-standard);
-  font-size: var(--s-1);
+  border-radius: var(--border-r-s);
+  font-family: Lora, var(--fonts-standard);
+  font-size: var(--s-2);
+  font-weight: bold;
   line-height: 0;
   transition: var(--transition-standard);
-  vertical-align: super;
+  vertical-align: 0.558em;
 }
 
 sup:hover {
-  border-radius: var(--border-r-s);
   background-color: var(--links-hover);
   color: oklch(var(--brown));
 }
@@ -141,21 +143,11 @@ sup:hover a {
   color: oklch(var(--brown));
 }
 
-sup::before {
-  content: "[";
-  vertical-align: baseline;
-}
-
-sup::after {
-  content: "]";
-  vertical-align: baseline;
-}
-
 /*
 * Footnotes
 */
 
-.footnotes>*+* {
+.footnotes > * + * {
   margin-block-start: var(--space-s);
 }
 
@@ -200,7 +192,6 @@ blockquote p {
   margin-inline-start: var(--space-3xs);
 }
 
-
 blockquote {
   max-width: 90%;
   align-self: center;
@@ -223,7 +214,7 @@ blockquote {
 */
 
 figcaption {
-  color: oklch(var(--grey));
+  color: oklch(from oklch(30% 0.075 70) 63% .02 h);
   font-size: var(--s-1);
   font-style: italic;
 }
@@ -257,7 +248,6 @@ ol li ul li {
   margin-inline-start: 2em;
 }
 
-
 /*
 * Breadcrumb styling https://dongheenam.info/posts/breadcrumb-navigation-in-hugo/
 */
@@ -278,7 +268,7 @@ ol li ul li {
   white-space: nowrap;
 }
 
-.breadcrumb li+li::before {
+.breadcrumb li + li::before {
   padding: 0.3rem;
   content: "/";
 }

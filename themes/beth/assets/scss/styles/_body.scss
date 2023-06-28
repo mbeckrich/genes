@@ -1,14 +1,23 @@
+/*
+* Consider using hue of 50
+* text: oklch(27% 0.07 50)
+* links: oklch(51% 0.14 352)
+* headings: oklch(10% 0.07 50)
+*/ 
+
 :root {
-  --white: 98.5% 0.002 68.18;
-  --brown: 41% 0.05 68.18;
-  --grey: 72% 0.007 68.18;
-  --text: 51% 0.02 68.18;
-  --brown-dark: 30.03% 0.05 68.18;
-  --brown-light: 52.5% 0.06 68.18;
-  --brown-lightest: 75% 0.04 68.18;
-  --links: 64% 0.04 135;
-  --links-hover: oklch(from oklch(64% 0.04 135) l c h / 36%);
-  --links-active: oklch(from oklch(64% 0.04 135) l c h / 42%);
+  --hue-primary: 70;
+  --hue-secondary: 350;
+  --white: 99.5% 0.002 var(--hue-primary);
+  --brown: 40% 0.05 var(--hue-primary);
+  --grey: 72% 0.01 var(--hue-primary);
+  --text: 30% 0.075 var(--hue-primary);
+  --brown-dark: 28% 0.1 var(--hue-primary);
+  --brown-light: 52.5% 0.06 var(--hue-primary);
+  --brown-lightest: 75% 0.04 var(--hue-primary);
+  --links: 54% 0.14 var(--hue-secondary);
+  --links-hover: oklch(from oklch(54% 0.14 352) l c h / 36%);
+  --links-active: oklch(from oklch(54% 0.14 352) l c h / 42%);
   --red: 64% 0.04 359.8;
   --border-r-s: 4px;
   --border-r-l: 8px;
@@ -17,7 +26,7 @@
   --box-shadow-link: 0 0 1.5px oklch(from oklch(64% 0.04 135) 40% c h);
   --box-shadow-link-hover: 0 0 1.5px oklch(from oklch(64% 0.04 135) 20% c h);
   --transition-standard: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-  --transition-svg: stroke-width 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition-svg: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --transition-text-decoration: text-decoration-line 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   --fonts-standard:
     "Public Sans VF",
@@ -30,11 +39,11 @@
     sans-serif;
 
   background-color: oklch(var(--white));
-  color: oklch(var(--text) / 99%);
+  color: oklch(var(--text));
   font-family: var(--fonts-standard);
   font-feature-settings: "tnum" 1;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: calc(6px + 2ex + 6px);
   -webkit-tap-highlight-color: var(--links-active);
 }
 
@@ -67,7 +76,7 @@ blockquote {
 
 .meta span,
 time {
-  color: oklch(var(--grey));
+  color: oklch(from oklch(30% 0.075 70) 63% .02 h);
   font-size: var(--s-1);
 }
 
@@ -85,33 +94,49 @@ time {
 
 img {
   border-radius: var(--border-r-s);
-  filter: drop-shadow(0 0 1.2px oklch(var(--brown-dark)));
+  filter: drop-shadow(0 0 1px oklch(var(--brown-dark)));
+}
+
+.featured-image {
+  max-width: fit-content;
+
+  figcaption {
+    text-align: center;
+  }
 }
 
 .featured {
   .read-more {
-    display: flex;
-    align-items: center;
-    padding: var(--space-3xs);
+    display: inline-flex;
+    justify-content: center;
+    padding: var(--space-3xs) var(--space-xs);
     background-color: oklch(var(--links) / 27%);
     box-shadow: var(--box-shadow-link);
     font-size: var(--s-1);
+    font-weight: 500;
     margin-inline: auto;
     transition: var(--transition-standard);
+    color: oklch(var(--text));
 
     &:hover {
       background-color: var(--links-hover);
       box-shadow: var(--box-shadow-link-hover);
-      color: oklch(var(--text));
+    }
+
+    span {
+      margin-inline-end: var(--space-3xs);
     }
 
     svg {
-      margin-inline-start: var(--space-3xs);
+      color: oklch(var(--text));
+      width: var(--s0);
+      height: var(--s0);
+      align-self: center;
       transition: var(--transition-svg);
     }
 
     &:hover svg {
-      stroke-width: 3;
+      transform: scale(1.05);
     }
   }
 }

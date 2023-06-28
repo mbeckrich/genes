@@ -1,6 +1,20 @@
 /* https://github.com/uswds/public-sans */
 
 @font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400 700;
+  src: url("../fonts/Lora[wght].woff2") format("woff2-variations");
+}
+
+@font-face {
+  font-family: Lora-Italic;
+  font-style: italic;
+  font-weight: 400 700;
+  src: url("../fonts/Lora-Italic[wght].woff2") format("woff2-variations");
+}
+
+@font-face {
   font-family: "Public Sans VF";
   font-stretch: normal;
   font-style: normal;

@@ -1,23 +1,12 @@
+{{/* * TODO:
+  * Return dead link on names not in DAR.
+  * Regex name format from main-records.html?
+  * Trickier than it seems.
+*/}}
+
 {{- $dar := index .Site.Data.dar.dar -}}
 {{- $c := .Inner -}}
 {{- $i := relURL "individuals" -}}
-
-{{/* Provides superscript approach to ID 
-{{ range $k, $v := $dar }}
-  {{ if in $c (index $v.name) }}
-    {{ $name := $v.name }}
-
-    {{ $url := $k }}
-    {{ $url = printf "%s%s%s%s%s%s%s%s" "<sup class='id'><" "a href=" $i "/" $url ">:" $k "</a></sup>" }}
-    {{ $c = replace $c $name (print $name $url) }}
-    {{ if findRE (print $url ".") $c }}
-    {{ $c = replace $c (print $url ".") (print "." $url) }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-
-{{ $c }} 
-*/}}
 
 {{- range $k, $v := $dar -}}
   {{ if in $c (index $v.name) }}

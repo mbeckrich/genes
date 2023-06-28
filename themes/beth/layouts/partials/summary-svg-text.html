@@ -7,5 +7,5 @@
   </a>
 {{- else -}}
   {{- .Content | $.Page.RenderString (dict "display" "block") | truncate 512 "..." -}}
-    <a class="read-more" href="{{- .RelPermalink -}}">Read more{{- partial "chevron.html" -}} </a>
+    <a class="read-more" href="{{- .RelPermalink -}}"><span>Read more</span>{{- partial "chevron.html" -}} </a>
 {{- end -}}

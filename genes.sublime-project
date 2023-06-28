@@ -1,8 +1,26 @@
 {
-	"folders":
-	[
+	"folders": [
 		{
 			"path": "."
 		}
-	]
+	],
+
+	"settings": {
+		"js_prettier": {
+			// This enables debug information (from both the plugin and Prettier)
+			// to be written to the SublimeText Console.
+			"debug": true,
+
+			// This activates the plugin when *.gohtml files are detected.
+			// Be sure NOT to include the leading dot in the file extension.
+			"custom_file_extensions": ["gohtml"],
+
+			"additional_cli_args": {
+				// This tells the plugin (and Prettier) that options defined in
+				// Prettier config files will override options found in
+				// "*.sublime-project" and "JsPrettier.sublime-settings" files.
+				"--config-precedence": "file-override"
+			}
+		}
+	}
 }

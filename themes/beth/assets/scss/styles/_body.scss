@@ -104,13 +104,13 @@ img {
   .read-more {
     display: inline-flex;
     justify-content: center;
+    align-self: center;
     padding: var(--space-3xs) var(--space-xs);
     background-color: oklch(var(--links) / 27%);
     box-shadow: var(--box-shadow-link);
     color: oklch(var(--text));
     font-size: var(--s-1);
     font-weight: 500;
-    margin-inline: auto;
     transition: var(--transition-standard);
 
     &:hover {
@@ -119,7 +119,7 @@ img {
     }
 
     span {
-      margin-inline-end: var(--space-xs);
+      margin-inline-end: var(--space-s);
     }
 
     svg {

@@ -1,5 +1,6 @@
 {{/* https://harrycresswell.com/writing/menus-in-hugo/ */}}
 <ul class="cluster">
+  {{ if not .IsHome }}
     {{- $currentPage := . -}}
     {{- range .Site.Menus.main -}}
       <li>
@@ -23,4 +24,9 @@
         {{- end -}}
       </li>
     {{- end -}}
+  {{ else }}
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+  {{- end -}}
   </ul>

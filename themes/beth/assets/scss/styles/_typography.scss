@@ -105,7 +105,7 @@ h6 {
 
 p {
   color: oklch(var(--text));
-  font-family: Lora;
+  font-family: Lora, serif;
   font-size: var(--s0);
   font-weight: 425;
   hyphens: auto;
@@ -116,8 +116,7 @@ p {
   p,
   .footnotes hr {
   max-width: 66ch;
-  margin-inline: auto;  
-}
+  margin-inline: auto;}
 } 
 
 /*

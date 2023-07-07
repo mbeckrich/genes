@@ -22,7 +22,7 @@
 .switcher-feed {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-l) var(--space-xl);
+  gap: var(--space-xl) var(--space-2xl)
 }
 
 .switcher-feed > * {
@@ -38,15 +38,23 @@
 .switcher-feed h1[role="recent-posts"] {
   min-width: 100%;
   box-shadow: 0 0.07em oklch(var(--grey));
+  margin-block-end: calc(-1 * var(--space-s));
 }
 
 .switcher-s {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs) var(--space-s);
+  gap: var(--space-3xs) var(--space-s);
 }
 
 .switcher-s > * {
   min-width: fit-content;
   flex-basis: calc((5rem - 100%) * 999);
+}
+
+ul {
+  line-height: 1;
+}
+ul > :last-child {
+  margin-bottom: var(--space-3xs);
 }

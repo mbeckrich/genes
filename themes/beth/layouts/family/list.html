@@ -1,27 +1,29 @@
 {{ define "main" }}
-<section class="stack-2xl">
-  <article class="stack-s full-post center">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </article>
-  <div class="switcher-feed">
-    {{- range first 3 (where .Sections "Section" "family") -}}
-    <article class="stack-s space-s-last space-s-first">
-      <h1>
-        <a href="{{- .Permalink -}}">{{- .Title -}}</a>
-      </h1>
-      {{- range .RegularPagesRecursive -}} {{ partial "family/tags.html" . }}
-      <div class="meta stack-3xs">
-        <h2>
-          <a href="{{- .Permalink -}}">{{- .Title -}}</a>
-        </h2>
-        <time datetime class="post-date"
-          >{{ .Date | time.Format "2006–01–02" }}
-        </time>
-      </div>
-      {{ partial "summary-svg-no-text.html" . }} {{ end }}
+  <section class="stack-2xl">
+    <article class="stack-s full-post center">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
     </article>
-    {{ end }}
-  </div>
-</section>
+    <div class="switcher-feed">
+      {{- range first 3 (where .Sections "Section" "family") -}}
+        <article class="stack-s">
+          <h1>
+            <a href="{{- .Permalink -}}">{{- .Title -}}</a>
+          </h1>
+          {{- range .RegularPagesRecursive -}}
+            {{ partial "family/tags.html" . }}
+            <div class="meta stack-3xs">
+              <h2>
+                <a href="{{- .Permalink -}}">{{- .Title -}}</a>
+              </h2>
+              <time datetime class="post-date"
+                >{{ .Date | time.Format "2006–01–02" }}
+              </time>
+            </div>
+            {{ partial "summary-svg-no-text.html" . }}
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  </section>
 {{ end }}

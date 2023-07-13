@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://mbeckrich.github.io/genes
 theme: beth
 title: "Family History & Stories"
 languageCode: en-US
@@ -18,8 +18,8 @@ taxonomies:
 security:
   exec:
     osEnv:
-      - '(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$'
+      - "(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$"
       - ^HOME$
     allow:
-    - ^asciidoctor$
-    - ^dart-sass-embedded$
+      - ^asciidoctor$
+      - ^dart-sass-embedded$

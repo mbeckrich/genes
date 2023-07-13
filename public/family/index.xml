@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Family Bundles on Family History &amp; Stories</title>
-    <link>/family/</link>
+    <link>https://mbeckrich.github.io/genes/family/</link>
     <description>Recent content in Family Bundles on Family History &amp; Stories</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/family/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mbeckrich.github.io/genes/family/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

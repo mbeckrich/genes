@@ -1,3 +1,5 @@
+@use "library" as *;
+
 /*
 * Links
 */
@@ -11,19 +13,19 @@ a {
 nav a,
 p a {
   border-radius: var(--border-r-s);
-  color: oklch(var(--links));
+  color: $links;
 }
 
 nav a:hover,
 p > a:hover {
-  background-color: var(--links-hover);
-  color: oklch(var(--text));
+  background-color: $links-hover;
+  color: $text;
 }
 
 nav a:active,
 p > a:active {
-  background-color: var(--links-active);
-  color: oklch(var(--text));
+  background-color: $links-active;
+  color: $text;
 }
 
 li:has(.is-active) {
@@ -32,16 +34,16 @@ li:has(.is-active) {
 }
 
 .is-active {
-  background-color: var(--links-hover);
-  color: oklch(var(--text));
+  background-color: $links-hover;
+  color: $text;
 }
 
 .found-content {
-  color: oklch(var(--links));
+  color: $links;
 }
 
 .missing-content {
-  color: oklch(var(--red));
+  color: $red;
 }
 
 /*
@@ -49,7 +51,8 @@ li:has(.is-active) {
 */
 
 h1[role="recent-posts"] {
-  color: oklch(from oklch(30% 0.075 70) 63% .02 h);
+  box-shadow: 0 0.07em $grey;
+  color: $faded-text;
 }
 
 h1,
@@ -68,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: oklch(var(--brown));
+  color: $brown;
   font-weight: 500;
   letter-spacing: -0.015em;
 }
@@ -85,7 +88,7 @@ header h1 {
 
 h1 a:hover,
 h2 a:hover {
-  background-color: var(--links-hover);
+  background-color: $links-hover;
 }
 
 h2,
@@ -104,7 +107,7 @@ h6 {
 */
 
 p {
-  color: oklch(var(--text));
+  color: $text;
   font-family: Lora, serif;
   font-size: var(--s0);
   font-weight: 425;
@@ -116,8 +119,9 @@ p {
   p,
   .footnotes hr {
   max-width: 66ch;
-  margin-inline: auto;}
-} 
+  margin-inline: auto;
+  }
+}
 
 /*
 * Superscript
@@ -134,16 +138,12 @@ sup {
 }
 
 sup:hover {
-  background-color: var(--links-hover);
-  color: oklch(var(--brown));
+  background-color: $links-hover;
+  color: $brown;
 }
 
 sup:hover a {
-  color: oklch(var(--links));
-}
-
-sup:hover a {
-  color: oklch(var(--brown));
+  color: $brown;
 }
 
 /*
@@ -155,14 +155,14 @@ sup:hover a {
 }
 
 .footnotes hr {
-  margin-block-start: var(--space-xs);
   border-top-width: 0.07em;
   border-top-style: solid;
-  color: oklch(var(--grey));
+  color: $grey;
+  margin-block-start: var(--space-xs);
 }
 
 .footnote-backref {
-  color: oklch(var(--links));
+  color: $links;
   text-decoration: none;
 }
 
@@ -181,16 +181,16 @@ sup:hover a {
 */
 
 [role="hashtags"] {
-  color: oklch(var(--links));
+  color: $links;
   font-size: var(--s-2);
   font-weight: 600;
   letter-spacing: 0.015em;
   text-transform: uppercase;
 
   &:hover {
+    background-color: $links-hover;
     border-radius: var(--border-r-s);
-    background-color: var(--links-hover);
-    color: oklch(var(--brown));
+    color: $brown;
   }
 }
 
@@ -207,9 +207,9 @@ blockquote {
   max-width: 90%;
   align-self: center;
   padding: var(--space-3xs-s);
-  border-radius: var(--border-r-s);
   border-left: oklch(var(--links) / 72%) 3px solid;
-  background-color: oklch(var(--links) / 18%);
+  background-color: oklch(from $links l c h / 18%);
+  border-radius: var(--border-r-s);
 }
 
 /*
@@ -225,7 +225,7 @@ blockquote {
 */
 
 figcaption {
-  color: oklch(from oklch(30% 0.075 70) 63% .02 h);
+  color: oklch(from oklch(30% 0.075 70deg) 63% .02 h);
   font-size: var(--s-1);
   font-style: italic;
 }
@@ -252,7 +252,7 @@ ol {
 
 ol::marker,
 li::marker {
-  color: oklch(var(--links));
+  color: $links;
 }
 
 ol li ul li {
@@ -272,7 +272,7 @@ ol li ul li {
 
 .breadcrumb li {
   display: inline;
-  color: oklch(var(--text) / 99%);
+  color: oklch(from $text l c h / 99%);
   font-size: var(--s-2);
   font-weight: 600;
   text-transform: uppercase;

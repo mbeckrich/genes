@@ -1,3 +1,5 @@
+@use "library" as *;
+
 /*
 * The switcher
 */
@@ -37,7 +39,6 @@
 
 .switcher-feed h1[role="recent-posts"] {
   min-width: 100%;
-  box-shadow: 0 0.07em oklch(var(--grey));
   margin-block-end: calc(-1 * var(--space-s));
 }
 
@@ -52,9 +53,10 @@
   flex-basis: calc((5rem - 100%) * 999);
 }
 
-ul {
+ul.switcher-s {
   line-height: 1;
 }
-ul > :last-child {
+
+ul.switcher-s > :last-child {
   margin-bottom: var(--space-3xs);
 }

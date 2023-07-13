@@ -1,0 +1,14 @@
+$hue-primary: 70deg !default;
+$hue-secondary: 350deg !default;
+$white: oklch(99.5 0.002 $hue-primary) !default;
+$grey: oklch(72% 0.01 $hue-primary) !default;
+$text: oklch(30% 0.075 $hue-primary) !default;
+$faded-text: oklch(from oklch(30% 0.075 70deg) 63% .02 h) !default;
+$brown: oklch(40% 0.05 $hue-primary) !default;
+$brown-dark: oklch(28% 0.1 $hue-primary) !default;
+$brown-light: oklch(52.5% 0.06 $hue-primary) !default;
+$brown-lightest: oklch(75% 0.04 $hue-primary) !default;
+$links: oklch(54% 0.14 $hue-secondary) !default;
+$links-hover: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 36%) !default;
+$links-active: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 42%) !default;
+$red: oklch(64% 0.04 359.8deg) !default;

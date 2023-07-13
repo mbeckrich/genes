@@ -4,18 +4,26 @@
     {{- $currentPage := . -}}
     {{- range .Site.Menus.main -}}
       <li>
-        <a 
-        class="{{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}is-active{{- end -}}"
-        href="{{- .URL -}}">
-        {{- .Name -}}
+        <a
+          class="{{- if or ($currentPage.IsMenuCurrent " main" .)
+            ($currentPage.HasMenuCurrent "main" .)
+          -}}
+            is-active
+          {{- end -}}"
+          href="{{- .URL -}}"
+        >
+          {{- .Name -}}
         </a>
         {{- if .HasChildren -}}
           <ul>
             {{- range .Children -}}
               <li>
                 <a
-                class="{{- if $currentPage.IsMenuCurrent "main" . -}}is-active{{- end -}}"
-                href="{{- .URL -}}">
+                  class="{{- if $currentPage.IsMenuCurrent " main" . -}}
+                    is-active
+                  {{- end -}}"
+                  href="{{- .URL -}}"
+                >
                   {{- .Name -}}
                 </a>
               </li>
@@ -25,8 +33,8 @@
       </li>
     {{- end -}}
   {{ else }}
-      {{ range .Site.Menus.main }}
+    {{ range .Site.Menus.main }}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-      {{ end }}
+    {{ end }}
   {{- end -}}
-  </ul>
+</ul>

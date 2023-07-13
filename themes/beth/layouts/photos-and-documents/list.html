@@ -1,6 +1,6 @@
 {{ define "main" }}
   <section class="stack-2xl">
-    <article class="stack-s full-post">
+    <article class="stack-s full-post center">
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </article>
@@ -8,6 +8,7 @@
       {{- range first 3 (where .Sections "Section" "photos-and-documents") -}}
         <article class="stack-s">
           {{ partial "photos-and-documents/breadcrumb.html" . }}
+
 
           <h1>
             <a href="{{- .Permalink -}}">{{- .Title -}}</a>

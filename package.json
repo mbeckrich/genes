@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "bundle": "sass themes/beth/assets/scss/input.scss themes/beth/assets/css/output.css",
-    "lightningcss": "lightningcss --minify --bundle --targets '>= 0.25%' themes/beth/assets/css/output.css -o themes/beth/assets/css/output.css",
+    "lightningcss": "lightningcss --minify --bundle --targets '>= 0.25%' themes/beth/assets/css/output.css -o themes/beth/assets/css/style.css",
     "build": "npm run bundle && npm run lightningcss"
   },
   "repository": {
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/mbeckrich/genes#readme",
   "dependencies": {
-    "lightningcss-cli": "^1.20.0",
+    "lightningcss-cli": "^1.21.5",
     "prettier": "^2.8.8",
     "prettier-plugin-go-template": "^0.0.13",
     "stylelint": "^15.6.1",
-    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-config-standard-scss": "^9.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",

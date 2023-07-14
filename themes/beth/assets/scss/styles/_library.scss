@@ -1,6 +1,6 @@
 $hue-primary: 70deg !default;
 $hue-secondary: 350deg !default;
-$white: oklch(99.5 0.002 $hue-primary) !default;
+$white: oklch(99.5% 0.002 $hue-primary) !default;
 $grey: oklch(72% 0.01 $hue-primary) !default;
 $text: oklch(30% 0.075 $hue-primary) !default;
 $faded-text: oklch(from oklch(30% 0.075 70deg) 63% .02 h) !default;

@@ -3,8 +3,8 @@
 :root {
   --border-r-s: 4px;
   --border-r-l: 8px;
-  --box-shadow-single: 0 0 2px 0.2px $brown-dark;
-  --box-shadow-single-inset: inset 0 0 2px 0.4px $brown-dark;
+  --box-shadow-single: 0 0 2px 0.2px #{$brown-dark};
+  --box-shadow-single-inset: inset 0 0 2px 0.4px #{$brown-dark};
   --box-shadow-link: 0 0 1.5px oklch(from oklch(64% 0.04 350deg) 40% c h);
   --box-shadow-link-hover: 0 0 2px oklch(from oklch(64% 0.04 350deg) 20% c h);
   --transition-standard: background-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);

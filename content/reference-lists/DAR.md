@@ -11,9 +11,6 @@ outputs:
 <head lang="en-US">
   <meta charset="utf-8" />
   <meta name="generator" content="Gramps 5.1.5 http://gramps-project.org/" />
-  <link href="Family Tree 1_det_ancestor_report/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href="Family Tree 1_det_ancestor_report/grampstextdoc.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="Family Tree 1_det_ancestor_report/grampshtml.css" media="screen" rel="stylesheet" type="text/css" />
   <title>Ancestral Report for Beckrich, Marshall</title>
 </head>
 <body>

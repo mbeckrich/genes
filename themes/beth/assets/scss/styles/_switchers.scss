@@ -53,10 +53,6 @@
   flex-basis: calc((5rem - 100%) * 999);
 }
 
-ul.switcher-s {
-  line-height: 1;
-}
-
 ul.switcher-s > :last-child {
   margin-bottom: var(--space-3xs);
 }

@@ -55,6 +55,8 @@ h1[role="recent-posts"] {
   color: $faded-text;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -115,12 +117,9 @@ p {
   line-height: calc(4px + 2ex + 4px);
 }
 
-.full-post {
-  p,
-  .footnotes hr {
+.full-post p,
+.footnotes hr {
   max-width: 66ch;
-  margin-inline: auto;
-  }
 }
 
 /*
@@ -154,11 +153,17 @@ sup:hover a {
   margin-block-start: var(--space-s);
 }
 
+.footnotes {
+  box-shadow: 0 -0.07em $grey;
+
+  /* Prevents unwanted linebreak. */
+  p {
+    display: inline;
+  }
+}
+
 .footnotes hr {
-  border-top-width: 0.07em;
-  border-top-style: solid;
-  color: $grey;
-  margin-block-start: var(--space-xs);
+  display: none;
 }
 
 .footnote-backref {
@@ -233,6 +238,17 @@ figcaption {
 /*
 * Lists
 */
+
+.full-post > ul,
+.full-post > ol {
+  font-family: Lora, serif;
+  margin-inline-start: var(--space-3xs)
+}
+
+.full-post p + ul {
+  margin-block-start: var(--space-3xs);
+}
+
 ul,
 ol {
   padding-inline-start: 0;
@@ -246,7 +262,7 @@ ol {
   list-style-type: lower-alpha;
 }
 
-:is(.meta) :is(ul li) {
+:is(.meta, .full-post) :is(ul li) {
   list-style-type: disc;
 }
 
@@ -255,8 +271,9 @@ li::marker {
   color: $links;
 }
 
-ol li ul li {
-  margin-inline-start: 2em;
+:is(article) ol:not(.switcher-s, .breadcrumb) li,
+:is(article) ul:not(.switcher-s, .breadcrumb) li {
+  margin-inline-start: var(--space-s);
 }
 
 /*

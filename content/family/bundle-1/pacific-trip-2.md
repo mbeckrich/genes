@@ -2,7 +2,7 @@
 title: Another Trip to the West Coast
 date: "2023-05-17"
 summary: |
-  A return to the West Coast.
+  A return to the West Coast to better preview line-length in the post feed!
 individuals:
 # Me
 - id-00-001
@@ -20,5 +20,8 @@ Beckrich, Marshall took a second childhood trip to the Pacific with Beckrich, Ke
 
 Animal sightings:
 + Seals
+  + Cute, furry
+    + Furry?
+      + I think that's right...
 + Orcas
 {{</ individual >}}

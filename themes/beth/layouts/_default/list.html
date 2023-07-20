@@ -1,8 +1,7 @@
 {{ define "main" }}
-{{/* shows all posts not part of the "family" section — aka the blog */}}
-<div class="switcher-feed">
-  {{ range (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-    {{ if (not (in .Params.tags "featured")) }}
+  {{/* shows all posts not part of the "family" section — aka the blog */}}
+  <div class="switcher-feed">
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections) }}
       <article class="stack-s">
         <div class="meta">
           <h2>
@@ -15,6 +14,5 @@
         {{ partial "summary-svg-no-text.html" . }}
       </article>
     {{ end }}
-  {{ end }}
-</div>
+  </div>
 {{ end }}

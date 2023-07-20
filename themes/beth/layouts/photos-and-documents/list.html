@@ -8,8 +8,6 @@
       {{- range first 3 (where .Sections "Section" "photos-and-documents") -}}
         <article class="stack-s">
           {{ partial "photos-and-documents/breadcrumb.html" . }}
-
-
           <h1>
             <a href="{{- .Permalink -}}">{{- .Title -}}</a>
           </h1>
@@ -29,7 +27,6 @@
           </div>
         </article>
       {{ end }}
-
     </div>
   </section>
 {{ end }}

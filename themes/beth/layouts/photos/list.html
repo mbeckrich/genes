@@ -1,0 +1,31 @@
+{{/* Modified from: https://github.com/nicokaiser/hugo-theme-gallery/ */}}
+
+{{ define "main" }}
+  {{ if .Title }}
+    <div>
+      <h1>
+        {{ .Title }}
+      </h1>
+      <p>
+        {{ .Params.Description }}
+      </p>
+    </div>
+  {{ end }}
+  <div class="stack">
+    {{ range where .Pages.ByDate.Reverse "Params.private" "ne" true }}
+      {{ $images := .Resources.ByType "image" }}
+      {{ if gt (len $images) 0 }}
+        {{ $featured := ($images.GetMatch (.Params.featured_image)) | default (index $images 0) }}
+        {{ $thumbnail := $featured.Fill "600x300" }}
+        <div class="stack-s">
+          <h2>
+            <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          </h2>
+          <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+            <img src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}" />
+          </a>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

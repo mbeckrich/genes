@@ -12,10 +12,10 @@
           </h1>
           {{ partial "family/tags.html" . }}
         </div>
-        <div class="stack-s">
+        <div class="stack">
           {{ range .RegularPagesRecursive }}
-            <article class="stack-s">
-              <div class="meta">
+            <article class="stack-s double-s">
+              <div class="meta stack-3xs">
                 <h2>
                   <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
                 </h2>

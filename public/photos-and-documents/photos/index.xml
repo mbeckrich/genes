@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photographs on Family History &amp; Stories</title>
+    <title>Photos on Family History &amp; Stories</title>
     <link>/photos-and-documents/photos/</link>
-    <description>Recent content in Photographs on Family History &amp; Stories</description>
+    <description>Recent content in Photos on Family History &amp; Stories</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/photos-and-documents/photos/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/photos-and-documents/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Events</title>
+      <link>/photos-and-documents/photos/events/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/photos-and-documents/photos/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portraits</title>
+      <link>/photos-and-documents/photos/portraits/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/photos-and-documents/photos/portraits/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

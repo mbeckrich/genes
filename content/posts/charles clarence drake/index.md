@@ -1,7 +1,7 @@
 ---
 title: Charles Clarence Drake
 date: 2023-06-21
-image: "charles_clarence_drake.jpeg"
+image: "charles_clarence_drake.jpg"
 caption: Charles Clarence Drake & Dogs
 tags:
   - featured

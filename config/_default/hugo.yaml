@@ -8,6 +8,13 @@ enableEmoji: true
 enableRobotsTXT: true
 paginate: 5
 disablePathToLower: true
+imaging:
+  resampleFilter: catmullRom
+  quality: 75
+  exif:
+    disableDate: false
+    disableLatLong: true
+    includeFields: ImageDescription
 permalinks:
   posts: /posts/:slug
   individuals: /individuals/:slug

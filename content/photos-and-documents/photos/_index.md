@@ -1,4 +1,4 @@
 ---
-title: "Photographs"
+title: Photos
+type: photos
 ---
-Photos.

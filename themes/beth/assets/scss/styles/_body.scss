@@ -119,6 +119,14 @@ img {
   }
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-s);
+}
+
 .space-s-last> :last-child {
   margin-block-end: var(--space-l);
 }

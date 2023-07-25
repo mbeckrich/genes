@@ -32,8 +32,8 @@
   flex-grow: 1;
 }
 
-.switcher-feed > :nth-last-child(n + 8),
-.switcher-feed > :nth-last-child(n + 8) ~ * {
+.switcher-feed > :nth-last-child(n + 3),
+.switcher-feed > :nth-last-child(n + 3) ~ * {
   flex-basis: 100%;
 }
 

@@ -9,7 +9,7 @@ enableRobotsTXT: true
 paginate: 5
 disablePathToLower: true
 imaging:
-  resampleFilter: catmullRom
+  resampleFilter: CatmullRom
   quality: 75
   exif:
     disableDate: false

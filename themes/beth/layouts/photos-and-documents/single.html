@@ -1,19 +1,19 @@
 {{ define "main" }}
-  {{ partial "photos-and-documents/breadcrumb.html" . }}
   <article class="full-post">
-    <div class="stack-s">
+    {{ partial "photos-and-documents/breadcrumb.html" . }}
+    <div class="stack-s center">
       <div class="meta center stack-3xs">
-        <h2>
+        <h1>
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
-        </h2>
+        </h1>
         <time datetime
           >{{ .Date | time.Format "2006–01–02" }}
         </time>
         {{- if ne .Date .Lastmod -}}
-        <div>
-          <span
-            >updated</span>
-            <time datetime>{{- .Lastmod.Format "2006–01–02" -}}</time></div>
+          <div>
+            <span>updated</span>
+            <time datetime>{{- .Lastmod.Format "2006–01–02" -}}</time>
+          </div>
         {{- end -}}
       </div>
       <div class="featured-image">

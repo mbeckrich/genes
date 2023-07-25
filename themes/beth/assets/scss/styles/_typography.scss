@@ -16,12 +16,6 @@ p a {
   color: $links;
 }
 
-nav a:hover,
-p > a:hover {
-  background-color: $links-hover;
-  color: $text;
-}
-
 nav a:active,
 p > a:active {
   background-color: $links-active;
@@ -33,9 +27,14 @@ li:has(.is-active) {
   justify-content: center;
 }
 
-.is-active {
+.is-active,
+:is(a:hover){
   background-color: $links-hover;
   color: $text;
+}
+
+.is-active:hover {
+    background-color: $links-active-hover;
 }
 
 .found-content {
@@ -99,6 +98,17 @@ h4,
 h5,
 h6 {
   font-size: var(--s0);
+}
+
+/*
+* Posts
+* TODO: Get opinions on this left-align vs. centering.
+*/
+
+.full-post {
+  display: flex;
+  justify-content: flex-start;
+  margin-inline: auto;
 }
 
 /*
@@ -250,15 +260,11 @@ ol {
   padding-inline-start: 0;
 }
 
-:is(.meta) :is(ol, ul) {
-  list-style-position: inside;
-}
-
-:is(.meta) :is(ol li) {
+:is(article) ol:not(.switcher-s, .breadcrumb) li {
   list-style-type: lower-alpha;
 }
 
-:is(.meta, .full-post) :is(ul li) {
+:is(article) ul:not(.switcher-s, .breadcrumb) li {
   list-style-type: disc;
 }
 
@@ -284,12 +290,14 @@ li::marker {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  line-height: 1.1;
   list-style: none;
 }
 
 .breadcrumb li {
   display: inline;
-  color: oklch(from $text l c h / 99%);
+  color: $text;
+  font-family: var(--fonts-standard);
   font-size: var(--s-2);
   font-weight: 600;
   text-transform: uppercase;

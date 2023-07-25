@@ -1,0 +1,6 @@
+<a href="{{- .Permalink -}}">{{- .Title -}}</a
+>{{ range .RegularPagesRecursive }}
+  <ul>
+    <li><a href="{{- .Permalink -}}">{{- .Title -}}</a></li>
+  </ul>
+{{ end }}

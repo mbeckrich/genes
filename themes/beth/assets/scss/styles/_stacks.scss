@@ -44,10 +44,6 @@
   justify-content: flex-start;
 }
 
-.stack-s ul {
-  margin-block-start: 0;
-}
-
 .stack-s > * + * {
   margin-block-start: var(--space-s);
 }

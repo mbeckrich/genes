@@ -11,6 +11,7 @@ $brown-lightest: oklch(75% 0.04 $hue-primary) !default;
 $links: oklch(54% 0.14 $hue-secondary) !default;
 $links-hover: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 36%) !default;
 $links-active: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 42%) !default;
+$links-active-hover: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 48%) !default;
 $red: oklch(64% 0.04 359.8deg) !default;
 
 /* :: A missing percent sign in $white caused Safari

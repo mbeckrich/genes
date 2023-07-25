@@ -5,7 +5,7 @@
     {{- range .Site.Menus.main -}}
       <li>
         <a
-          class="{{- if or ($currentPage.IsMenuCurrent " main" .)
+          class="{{- if or ($currentPage.IsMenuCurrent "main" .)
             ($currentPage.HasMenuCurrent "main" .)
           -}}
             is-active
@@ -19,7 +19,7 @@
             {{- range .Children -}}
               <li>
                 <a
-                  class="{{- if $currentPage.IsMenuCurrent " main" . -}}
+                  class="{{- if $currentPage.IsMenuCurrent "main" . -}}
                     is-active
                   {{- end -}}"
                   href="{{- .URL -}}"

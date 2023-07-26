@@ -1,13 +1,15 @@
 /* https://github.com/uswds/public-sans */
 
 @font-face {
+  font-display: swap;
   font-family: Lora;
   font-style: normal;
   font-weight: 400 700;
-  src: url("../fonts/Lora[wght].woff2") format("woff2-variations");
+  src:url("../fonts/Lora[wght].woff2") format("woff2-variations");
 }
 
 @font-face {
+  font-display: swap;
   font-family: Lora-Italic;
   font-style: italic;
   font-weight: 400 700;
@@ -15,14 +17,15 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Public Sans VF";
-  font-stretch: normal;
   font-style: normal;
   font-weight: 100 900;
   src: url("../fonts/PublicSans[wght].ttf") format("truetype-variations");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Public Sans VF";
   font-style: italic;
   font-weight: 100 900;

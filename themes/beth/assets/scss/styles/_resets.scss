@@ -3,18 +3,11 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-ul,
-ol {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  color:inherit;
+  word-break:break-word
 }
 
 html:focus-within {
@@ -23,7 +16,11 @@ html:focus-within {
 
 body {
   min-height: 100vh;
-  text-rendering: optimizespeed;
+  overflow-x: hidden;
+}
+ol, ul {
+  margin: 0;
+  padding: 0;
 }
 
 img,
@@ -32,7 +29,8 @@ video,
 canvas,
 svg {
   display: block;
-  max-width: 100%;
+  max-block-size: 100%;
+  max-inline-size: 100%;
 }
 
 input,
@@ -40,16 +38,6 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

@@ -19,9 +19,7 @@
           </div>
           <ol>
             {{- range .Pages -}}
-              <li>
-                {{ partial "photos-and-documents/recursive.html" . }}
-              </li>
+              <li>{{ partial "photos-and-documents/recursive.html" . }}</li>
             {{ end }}
           </ol>
           {{ if eq .Page.BundleType (printf "%s" "leaf") }}

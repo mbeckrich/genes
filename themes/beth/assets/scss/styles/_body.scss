@@ -23,10 +23,9 @@
   background-color: $white;
   color: $text;
   font-family: var(--fonts-standard);
-  font-feature-settings: "tnum" 1;
   font-weight: 400;
   line-height: calc(6px + 2ex + 6px);
-  -webkit-tap-highlight-color: $links-active;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* modified from andy bell */
@@ -59,11 +58,10 @@ blockquote {
 .meta {
   color: $faded-text;
   font-size: var(--s-1);
-  line-height: 1.1;
 }
 
-.meta ol a:hover,
-.breadcrumb a:hover {
+.breadcrumb a:hover,
+.meta ol a:hover{
   background-color: $links-hover;
   color: $brown;
 }

@@ -12,7 +12,6 @@ a {
 
 nav a,
 p a {
-  border-radius: var(--border-r-s);
   color: $links;
 }
 
@@ -22,19 +21,14 @@ p > a:active {
   color: $text;
 }
 
-li:has(.is-active) {
-  align-content: center;
-  justify-content: center;
-}
-
 .is-active,
-:is(a:hover){
+:is(a:hover) {
   background-color: $links-hover;
   color: $text;
 }
 
 .is-active:hover {
-    background-color: $links-active-hover;
+  background-color: $links-active-hover;
 }
 
 .found-content {
@@ -59,9 +53,8 @@ h2,
 h3,
 h4,
 h5,
-h6,
-nav li {
-  line-height: 1.1;
+h6 {
+  line-height: 1;
 }
 
 h1,
@@ -104,6 +97,11 @@ h6 {
 * Posts
 * TODO: Get opinions on this left-align vs. centering.
 */
+
+.meta {
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
 
 .full-post {
   display: flex;
@@ -193,14 +191,15 @@ sup:hover a {
 
 [role="hashtags"] {
   color: $links;
+  font-family: var(--fonts-standard);
   font-size: var(--s-2);
+  font-variant-numeric: tabular-nums;
   font-weight: 600;
   letter-spacing: 0.015em;
   text-transform: uppercase;
 
   &:hover {
     background-color: $links-hover;
-    border-radius: var(--border-r-s);
     color: $brown;
   }
 }
@@ -236,7 +235,7 @@ blockquote {
 */
 
 figcaption {
-  color: oklch(from oklch(30% 0.075 70deg) 63% .02 h);
+  color: oklch(from oklch(30% 0.075 70deg) 63% 0.02 h);
   font-size: var(--s-1);
   font-style: italic;
 }
@@ -245,41 +244,47 @@ figcaption {
 * Lists
 */
 
-.full-post > ul,
-.full-post > ol {
-  font-family: Lora, serif;
-  margin-inline-start: var(--space-3xs)
+/* Navbar link list */
+
+:is(nav ul.cluster, ul.switcher-s) {
+  line-height: 1;
+  list-style: none !important;
+  margin-inline-start: unset;
 }
 
-.full-post p + ul {
+/* Tighten lists under paragraphs */
+
+.stack-s :is(p + ul, p + ol) {
   margin-block-start: var(--space-3xs);
 }
 
-ul,
-ol {
-  padding-inline-start: 0;
+main :is(ul, ol) {
+  @include main-list;
 }
 
-:is(article) ol:not(.switcher-s, .breadcrumb) li {
-  list-style-type: lower-alpha;
+main :is(li li) {
+  @include nested-list;
 }
 
-:is(article) ul:not(.switcher-s, .breadcrumb) li {
-  list-style-type: disc;
+main ol {
+  counter-reset: rules;
 }
 
-ol::marker,
-li::marker {
-  color: $links;
+main ol li {
+  counter-increment: rules;
 }
 
-:is(article) ol:not(.switcher-s, .breadcrumb) li,
-:is(article) ul:not(.switcher-s, .breadcrumb) li {
-  margin-inline-start: var(--space-s);
+main ol li::marker {
+  content: counters(rules, ".") ". ";
+  font-size: var(--s-1);
+
+  @include list-marker;
 }
 
-.switcher-s {
-  line-height: 1.1;
+main ul:not(.switcher-s) li::marker {
+  content: "∘ ";
+
+  @include list-marker;
 }
 
 /*
@@ -289,8 +294,8 @@ li::marker {
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
   list-style: none;
 }
 
@@ -305,8 +310,12 @@ li::marker {
 }
 
 .breadcrumb li + li::before {
-  padding: 0.3rem;
+  padding: 0.36rem;
   content: "/";
+}
+
+.breadcrumb + article {
+  margin-block-start: var(--space-s);
 }
 
 /*

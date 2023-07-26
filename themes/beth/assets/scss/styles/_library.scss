@@ -13,8 +13,23 @@ $links-hover: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 36%) !default;
 $links-active: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 42%) !default;
 $links-active-hover: oklch(from oklch(54% 0.14 $hue-secondary) l c h / 48%) !default;
 $red: oklch(64% 0.04 359.8deg) !default;
+$serifs: lora, charter, 'Bitstream Charter', 'Sitka Text', cambria, serif;
 
 /* :: A missing percent sign in $white caused Safari
 * to refuse to load the page. Other browsers were fine. Spent two hours on this
 * lol.
 */
+
+@mixin main-list {
+  font-family: $serifs;
+  list-style: inside;
+}
+
+@mixin nested-list {
+  padding-left: var(--space-s);
+}
+
+@mixin list-marker {
+  color: $links;
+  font-weight: 600;
+}

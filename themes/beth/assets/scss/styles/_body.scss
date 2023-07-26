@@ -125,6 +125,10 @@ img {
   gap: var(--space-s);
 }
 
+.gallery-preview {
+  max-width: fit-content;
+}
+
 .space-s-last> :last-child {
   margin-block-end: var(--space-l);
 }

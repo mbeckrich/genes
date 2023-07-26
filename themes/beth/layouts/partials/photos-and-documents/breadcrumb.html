@@ -1,8 +1,8 @@
 {{/* https://dongheenam.info/posts/breadcrumb-navigation-in-hugo/ */}}
+{{ $rellink := "" }}
 
 
 <ol class="breadcrumb">
-  {{ $rellink := "" }}
   {{ range (split .RelPermalink "/") }}
     {{ if gt (len . ) 0 -}}
       {{ $rellink = printf "%s/%s" $rellink . }}

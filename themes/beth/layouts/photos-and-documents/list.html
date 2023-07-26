@@ -1,32 +1,36 @@
 {{ define "main" }}
   {{ $union := union .Pages .Sections }}
-  <section class="stack">
-    <article class="full-post">
-      {{ if ne .RelPermalink (printf "/%s/" .Section) }}
-        {{ partial "photos-and-documents/breadcrumb.html" . }}
-      {{ else }}
-        <div class="stack-s center">
-          <h1>{{ .Title }}</h1>
-          {{ .Content }}
-        </div>
-      {{ end }}
-    </article>
-    <div class="switcher-feed">
-      {{ range $union }}
-        <article class="stack-s">
-          <div class="meta stack-3xs">
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          </div>
-          <ol>
-            {{- range .Pages -}}
-              <li>{{ partial "photos-and-documents/recursive.html" . }}</li>
-            {{ end }}
-          </ol>
-          {{ if eq .Page.BundleType (printf "%s" "leaf") }}
-            {{ .Content }}
-          {{ end }}
-        </article>
-      {{ end }}
+
+
+  <article class="full-post">
+    <div class="stack-s center">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
     </div>
-  </section>
+  </article>
+
+  {{ if ne .FirstSection .Page }}
+    <span>
+      {{ partial "photos-and-documents/breadcrumb.html" . }}
+    </span>
+  {{ end }}
+
+
+  <div class="switcher-feed">
+    {{ range $union }}
+      <article class="stack-s">
+        <div class="meta stack-3xs">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </div>
+        {{ if eq .Page.BundleType (printf "%s" "leaf") }}
+          {{ partial "summary-svg-no-text.html" . }}
+        {{ end }}
+        <ol>
+          {{- range .Pages -}}
+            <li>{{ partial "photos-and-documents/recursive.html" . }}</li>
+          {{ end }}
+        </ol>
+      </article>
+    {{ end }}
+  </div>
 {{ end }}

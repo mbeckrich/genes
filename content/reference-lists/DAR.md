@@ -1,23 +1,15 @@
 ---
-title: DAR
+title: Detailed Ancestral Report
 date: 2023-05-16
-type: dar
+type: reference-list
+description: |
+  An export from Gramps containing family records.
 outputs:
-- HTML
-- JSON
+  - HTML
+  - JSON
 ---
-<!DOCTYPE html>
-<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<head lang="en-US">
-  <meta charset="utf-8" />
-  <meta name="generator" content="Gramps 5.1.5 http://gramps-project.org/" />
-  <title>Ancestral Report for Beckrich, Marshall</title>
-</head>
-<body>
-  <div id="grampstextdoc">
-    <div id="header">
-      <h1 class="DAR-Title" id="SiteTitle">Ancestral Report for Beckrich, Marshall</h1>
-    </div>
+
+ <h2 class="DAR-Title">Ancestral Report for Beckrich, Marshall</h2>
     <h3 class="DAR-Generation">Generation 1</h3>
     <p class="DAR-First-Entry">1. <strong>Beckrich, Marshall. </strong>(I0001) Son of Beckrich, Ken and Van Horn, Lisa. Born 1990-03-02.  </p>
     <h3 class="DAR-Generation">Generation 2</h3>
@@ -112,6 +104,3 @@ outputs:
     <p class="DAR-First-Entry">63. <strong>Pickett, Happy Philena. </strong>(I0037) Daughter of Pickett, William H and Scott, Sarah. Born 1855-05-14 in Harrison, Grant, Wisconsin, United States.  Died 1933-06-02 in Mount Zion, Crawford, Wisconsin, United States (78 years, 19 days).  Buried 1933-06-05 in Mount Zion, Crawford, Wisconsin, United States. </p>
     <p class="DAR-ChildTitle">Children of Pickett, Happy Philena and Culver, Hiram Lorenzo</p>
     <p class="DAR-ChildList">i. Culver Drake, Edna Philena [31]. (I0021) Born 1892-11-17 in Scott, Crawford, Wisconsin, United States.  Died 1959-02-15 in Beloit, Rock, Wisconsin, United States.  </p>
-  </div>
-</body>
-</html>

@@ -43,7 +43,7 @@ p > a:active {
 * Headings
 */
 
-h1[role="recent-posts"] {
+[role="recent-posts"] {
   box-shadow: 0 0.07em $grey;
   color: $faded-text;
 }
@@ -55,20 +55,12 @@ h4,
 h5,
 h6 {
   line-height: 1;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   color: $brown;
-  font-weight: 500;
 }
 
 h1 {
   font-size: var(--s2);
+  font-weight: 550;
 }
 
 header h1 {
@@ -85,12 +77,26 @@ h2 a:hover {
 h2,
 h3 {
   font-size: var(--s1);
+  font-weight: 500;
 }
 
 h4,
 h5,
 h6 {
+  font-weight: 500;
   font-size: var(--s0);
+}
+
+.full-post :is(pre,
+     pre+*,
+     figure,
+     figure+*,
+     img,
+     img+*,
+     h2,
+     h3,
+     h4){
+  margin-top: var(--space-l);
 }
 
 /*
@@ -108,13 +114,17 @@ h6 {
   margin-inline: auto;
 }
 
+.full-post .meta + p {
+  margin-block-start: var(--space-l);
+}
+
 /*
 * Paragraphs
 */
 
 p {
   color: $text;
-  font-family: Lora, serif;
+  font-family: $serifs;
   font-size: var(--s0);
   font-weight: 425;
   hyphens: auto;
@@ -234,9 +244,10 @@ blockquote {
 */
 
 figcaption {
-  color: oklch(from oklch(30% 0.075 70deg) 63% 0.02 h);
+  color: $grey;
   font-size: var(--s-1);
   font-style: italic;
+  font-weight: 400;
 }
 
 /*
@@ -254,7 +265,7 @@ figcaption {
 /* Tighten lists under paragraphs */
 
 .stack-s :is(p + ul, p + ol) {
-  margin-block-start: var(--space-3xs);
+  margin-block-start: var(--space-2xs);
 }
 
 main :is(ul, ol) {
@@ -315,6 +326,17 @@ main ul:not(.switcher-s) li::marker {
 
 .breadcrumb + article {
   margin-block-start: var(--space-s);
+}
+
+/*
+* Codeblocks
+* Not sure what this would be used for, but just in case.
+*/
+
+code {
+  font-size: 0.9em;
+  background-color: $links-active;
+  padding-inline: var(--space-3xs);
 }
 
 /*

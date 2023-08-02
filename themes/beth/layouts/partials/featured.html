@@ -2,11 +2,13 @@
   {{ range first 1 .Site.Taxonomies.tags.featured }}
     <div class="stack-s">
       {{/* remove tags for now partial "tags.html" . */}}
-      <div class="meta stack-3xs">
+      <div class="meta stack-2xs">
         <h1>
           <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
         </h1>
-        <time datetime class="post-date"
+        <time
+          datetime="{{ .Date | time.Format "2006–01–02" }}"
+          class="post-date"
           >{{ .Date | time.Format "2006–01–02" }}
         </time>
       </div>

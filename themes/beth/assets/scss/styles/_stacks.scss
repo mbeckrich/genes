@@ -51,32 +51,23 @@
 /* Keeps first post closer to h1 */
 
 .stack > h1 + * {
-  margin-block-start: var(--space-s);
+  margin-block-start: var(--space-m);
 }
 
 /*
 * Smallest stacks
 */
 
-.stack-3xs {
+.stack-2xs {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.stack-3xs > * {
+.stack-2xs > * {
   margin-block: 0;
 }
 
-.stack-3xs > * + * {
+.stack-2xs > * + * {
   margin-block-start: var(--space-3xs);
-}
-
-.stack-ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.stack-ul * + * {
-  margin-block-start: var(--space-s);
 }

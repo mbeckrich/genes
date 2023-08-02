@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="stack-s full-post">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+  <div class="switcher-feed">
+    {{- range first 5 (where site.RegularPages "Type" "in"
+      "reference-list")
+    -}}
+      <article class="stack-s">
+        <div class="meta stack-2xs">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </div>
+
+        {{- if .Params.Summary -}}
+          {{- .Summary | $.Page.RenderString (dict "display" "block") -}}
+        {{- else -}}
+          {{- .Description | $.Page.RenderString (dict "display" "block") | truncate 256 "..." -}}
+        {{- end -}}
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

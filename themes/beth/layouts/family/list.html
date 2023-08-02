@@ -6,7 +6,7 @@
   <div class="switcher-feed">
     {{- range first 3 (where .Sections "Section" "family") -}}
       <article class="stack-s">
-        <div class="stack-3xs">
+        <div class="stack-2xs">
           <h1>
             <a href="{{- .Permalink -}}">{{- .Title -}}</a>
           </h1>
@@ -15,7 +15,7 @@
         <div class="stack">
           {{ range .RegularPagesRecursive }}
             <article class="stack-s double-s">
-              <div class="meta stack-3xs">
+              <div class="meta stack-2xs">
                 <h2>
                   <a href="{{- .Permalink -}}">{{- .Title | markdownify -}}</a>
                 </h2>

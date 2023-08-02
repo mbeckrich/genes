@@ -22,7 +22,7 @@
 }
 
 .single-posts p {
-  margin-bottom: var(--space-2xs);
+  margin-bottom: var(--space-3xs);
 }
 
 .single-posts .headshot {
@@ -30,7 +30,7 @@
   height: auto;
   border: 2px solid oklch(var(--brown));
   border-radius: 4px;
-  margin-bottom: var(--space-2xs);
+  margin-bottom: var(--space-3xs);
   box-shadow: 0 0 0.4px 0.4px oklch(var(--brown-lightest));
 }
 
@@ -40,7 +40,7 @@
 }
 
 .bio li {
-  margin-left: var(--space-2xs);
+  margin-left: var(--space-3xs);
 }
 
 :where(.bio ol) {

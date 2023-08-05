@@ -23,8 +23,8 @@
   background-color: $white;
   color: $text;
   font-family: var(--fonts-standard);
-  font-weight: 400;
-  line-height: calc(6px + 2ex + 6px);
+  font-weight: 425;
+  line-height: 1.4;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -91,12 +91,13 @@ img {
     display: inline-flex;
     align-self: center;
     justify-content: center;
-    padding: var(--space-3xs) var(--space-xs);
+    padding: var(--space-3xs) var(--space-2xs);
     background-color: oklch(from $links l c h / 27%);
     box-shadow: var(--box-shadow-link);
     color: $text;
     font-size: var(--s-1);
-    font-weight: 500;
+    font-variant-caps: all-small-caps;
+    font-weight: 525;
     transition: var(--transition-standard);
 
     &:hover {
@@ -105,14 +106,19 @@ img {
     }
 
     span {
-      margin-inline-end: var(--space-s);
+      margin-inline-end: var(--space-2xs);
     }
 
     svg {
-      width: var(--s0);
-      height: var(--s0);
+      width: 1em;
+      height: 1em;
       align-self: center;
       color: $text;
+
+      path {
+        stroke: currentcolor;
+        stroke-width: 0.02em;
+      }
     }
   }
 }
